@@ -1,0 +1,68 @@
+# lcudrive animals (round 3, 2026-11-19; Notes 64-animals.md, animals_model.h). Re-read with the ini (Ctrl+Alt+R / the menu).
+# herd, <name>, <class>, <type>, <count>, <x>, <y>, <z>, <radius>, <behaviour>
+# class: Creature | RideableCreature (AITypes.txt).  Types: Rabbit Frog Bear Owl Crow Bat Cow Goat Chicken Duck Seagull Pigeon
+#        Crab Cat Dog Canary | Pig Horse Horse_Brown.  A type the game has no AITypes line for (Stag, Squirrel, Badger) is skipped.
+# behaviour: graze graze_shy dash peck scuttle hop_shore idle_paddock swim_lake perch_flyoff perch_night wander_night sleep_wake_flee
+# y = the ground the herd stands on (swim_lake: the water level).
+
+# --- the Wilds (World/wilds/out/wilds_animals.txt, Notes 60 section 6). Deer, squirrels and the badger have no AITypes line: left out.
+herd, Kingswood rabbits, Creature, Rabbit, 4, -430.0, 32.16, 400.0, 14, graze
+herd, Rivermouth gulls, Creature, Seagull, 5, -562.0, 1.43, 368.0, 8, perch_flyoff
+herd, Rivermouth crabs, Creature, Crab, 3, -570.0, -0.60, 362.0, 5, scuttle
+herd, Kestrel ducks, Creature, Duck, 4, -736.0, 13.45, 637.0, 2.5, swim_lake      # wildsfix1: duck shallows ring round Heron Island
+herd, Kestrel frogs, Creature, Frog, 3, -760.0, 13.60, 612.0, 4, hop_shore
+herd, Ranger horses, RideableCreature, Horse_Brown, 2, -660.0, 11.80, 588.0, 6, idle_paddock
+herd, Beaver Pond frogs, Creature, Frog, 4, -602.0, 12.99, 589.0, 5, hop_shore
+herd, Highmoor bear, Creature, Bear, 1, -540.0, 25.93, 600.0, 6, sleep_wake_flee
+herd, Highmoor owls, Creature, Owl, 2, -500.0, 24.67, 660.0, 3, perch_night
+herd, Lookout goats, Creature, Goat, 4, -345.0, 30.65, 610.0, 14, graze
+herd, Eastwood rabbits, Creature, Rabbit, 4, -220.0, 41.35, 600.0, 14, graze
+herd, Cove gulls, Creature, Seagull, 6, -88.0, 1.94, 690.0, 8, perch_flyoff
+herd, Cove crabs, Creature, Crab, 3, -82.0, -0.64, 700.0, 5, scuttle
+herd, Moor goats, Creature, Goat, 5, -380.0, 39.82, 770.0, 18, graze
+herd, Moor crows, Creature, Crow, 3, -352.0, 45.60, 800.0, 4, perch_flyoff
+herd, Cabin chickens, Creature, Chicken, 4, -176.0, 26.63, 652.0, 4, peck
+herd, Eastwood bats, Creature, Bat, 2, -182.0, 25.06, 655.0, 4, perch_night     # over the cabins after dark
+
+# --- Saltwind Downs farm (World/southwest/out/sites.json: farmyard x -361..-345, z -108.5..-95, y 12.88)
+herd, Saltwind chickens, Creature, Chicken, 4, -353.0, 12.88, -104.5, 3, peck
+herd, Saltwind pigs, RideableCreature, Pig, 2, -358.5, 12.88, -98.5, 2, idle_paddock
+herd, Saltwind cows, Creature, Cow, 2, -347.5, 12.88, -105.5, 2, idle_paddock
+herd, Windmill goats, Creature, Goat, 3, -404.0, 13.88, -103.0, 4, graze
+# --- Woods West (the treehouse meadow)
+herd, Woods West rabbits, Creature, Rabbit, 3, -381.5, 21.56, 239.0, 4, graze
+# --- beaches
+herd, Long Strand gulls, Creature, Seagull, 4, -431.0, 1.70, -119.0, 5, perch_flyoff
+herd, Strand Huts crabs, Creature, Crab, 3, -385.0, 1.35, -193.0, 4, scuttle
+herd, Lighthouse beach gulls, Creature, Seagull, 3, -348.3, 2.15, 126.9, 3, perch_flyoff
+herd, Brick Beach crabs, Creature, Crab, 3, 527.0, 1.18, -141.5, 5, scuttle
+# --- Port Atlas quays and square
+herd, Seaport quay gulls, Creature, Seagull, 4, 401.0, 1.25, -97.0, 3, perch_flyoff
+herd, Atlas Marina gulls, Creature, Seagull, 4, 406.0, 1.25, -132.0, 6, perch_flyoff
+herd, Harbour square pigeons, Creature, Pigeon, 6, 408.0, 2.04, -75.0, 7, perch_flyoff
+# Highmoor Farm (wildsfix1, 2026-11-19)
+herd, Highmoor Farm cows, Creature, Cow, 4, -518.0, 13.78, 777.5, 5, idle_paddock
+herd, Highmoor Farm pigs, RideableCreature, Pig, 3, -527.5, 13.83, 779.0, 2.5, graze
+herd, Highmoor Farm chickens, Creature, Chicken, 5, -512.0, 13.87, 791.0, 4, peck
+herd, Highmoor Farm crows, Creature, Crow, 3, -560.0, 13.81, 812.0, 7, perch_flyoff
+herd, Highmoor Farm rabbits, Creature, Rabbit, 3, -600.0, 14.37, 780.0, 10, graze_shy
+
+# --- link1 villages (World/link/villages/out/villages_animals.txt)
+herd, Kingswood Green pigeons, Creature, Pigeon, 4, -426.0, 34.55, 436.0, 2.5, perch_flyoff
+herd, Kingswood Green chickens, Creature, Chicken, 3, -421.0, 34.55, 436.9, 1.6, peck
+herd, Kingswood Green cat, Creature, Cat, 1, -431.0, 34.55, 437.1, 1.5, graze
+herd, Crossways dog, Creature, Dog, 1, -556.0, 31.52, 556.8, 1.5, idle_paddock
+herd, Crossways pigeons, Creature, Pigeon, 3, -548.0, 31.55, 552.0, 2.0, perch_flyoff
+herd, Kestrel Water ducks, Creature, Duck, 3, -667.0, 17.30, 630.0, 2.0, graze
+herd, Kestrel Water cat, Creature, Cat, 1, -661.5, 17.30, 622.9, 1.5, graze
+herd, Sawyers Rest chickens, Creature, Chicken, 4, -467.0, 29.16, 673.9, 1.8, peck
+herd, Sawyers Rest dog, Creature, Dog, 1, -477.1, 29.16, 666.1, 1.5, idle_paddock
+herd, Sawyers Rest horse, RideableCreature, Horse_Brown, 1, -475.0, 29.16, 666.5, 1.6, idle_paddock
+herd, Eastwood Haven gulls, Creature, Seagull, 4, -81.0, 6.20, 658.5, 2.0, perch_flyoff
+herd, Eastwood Haven cat, Creature, Cat, 1, -92.3, 6.20, 651.9, 1.5, graze
+herd, Eastwood Haven crabs, Creature, Crab, 2, -80.7, 6.20, 651.7, 1.0, scuttle
+# --- the West Docks (World/docks/love1, Notes 73)
+herd, West Docks pier gulls, Creature, Seagull, 5, -782.7, 1.09, 209.0, 2.0, perch_flyoff
+herd, West Docks long pier gulls, Creature, Seagull, 4, -826.5, 1.04, 240.5, 2.5, perch_flyoff
+herd, West Docks shore gulls, Creature, Seagull, 3, -800.5, 1.17, 277.0, 3.0, perch_flyoff
+herd, West Docks pigeons, Creature, Pigeon, 4, -776.5, 1.85, 343.5, 2.5, perch_flyoff

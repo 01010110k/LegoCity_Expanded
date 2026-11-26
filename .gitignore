@@ -1,0 +1,18 @@
+# never commit game files, builds or payloads
+*.DAT
+*.dat
+*.lcupak
+*.lcupak.*
+*.recipe
+*.exe
+*.dll
+*.obj
+*.lib
+*.exp
+*.res
+*.pdb
+out/
+pool/
+*.log
+*.csv
+__pycache__/

@@ -1,0 +1,24 @@
+#include <winver.h>
+1 VERSIONINFO
+FILEVERSION 0,1,0,0
+PRODUCTVERSION 0,1,0,0
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "FileDescription", "Mod installer for LEGO City Undercover (unofficial, free)"
+      VALUE "ProductName", "LCUMod Setup"
+      VALUE "FileVersion", "0.1.0"
+      VALUE "ProductVersion", "0.1.0"
+      VALUE "OriginalFilename", "Setup.exe"
+      VALUE "LegalCopyright", "MIT licence. Not affiliated with the LEGO Group, TT Games or Warner Bros."
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1200
+  END
+END

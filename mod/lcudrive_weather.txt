@@ -1,0 +1,21 @@
+# lcudrive_weather.txt - the weather zones (Notes 53; the format is explained in lcudrive_weather.default.txt)
+# Outport pass 2 (World/outport/out/sites.json, 2026-11-19); sub-zone kinds from the json's zones
+# zone, <name>, <x>, <z>, <radius>, <falloff>, <fog off|light|heavy>, <rain off|drizzle|rain|storm>, <overcast 0..1> [, <r>, <g>, <b> [, <duty>]]
+# sub,  <name>, <x>, <z>, <radius>, <falloff>, <kind normal|odd|weird>
+zone, Outport, -128, 845, 55, 40, heavy, drizzle, 0.45, 0.60, 0.67, 0.70
+sub,  harbour, -124, 851, 13, 6.5, normal
+sub,  lot, -132, 806, 13, 6.5, normal
+sub,  north cluster, -135, 861.5, 6.5, 4, odd
+sub,  face, -132.5, 850.5, 4.5, 4, odd
+sub,  south cluster, -131.5, 832, 9, 4.5, odd
+sub,  knoll, -143, 832, 5.5, 4, odd
+sub,  pass, -141.5, 850, 4, 4, odd
+sub,  church top, -149.2, 848.5, 9, 4.5, weird
+sub,  tall house, -139.3, 848.6, 2, 4, weird
+sub,  lone door, -146.2, 831.6, 4, 4, weird
+sub,  head, -126, 878, 7, 4, weird
+sub,  lamp room, -100.1, 844.3, 2.5, 4, weird
+sub,  water house, -113.2, 841.4, 3, 4, weird
+sub,  playground, -117.9, 836.9, 3, 4, weird
+sub,  chairs, -126.35, 803.35, 3.5, 4, weird
+sub,  phone box, -98.6, 858, 2, 4, weird

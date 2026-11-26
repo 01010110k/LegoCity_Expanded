@@ -1,0 +1,906 @@
+# lengths: 904 measured from audio, 0 still estimated
+id	manifest	conversation	voice	gender	category	topic	tags	exchange	turn	ms	gesture	weight	text
+beach_any_04	NPC_Beach_01	NPC_Beach_01_001	BEN	m	beach	-	beach	-	0	4240	Sunbathing	1.0	Ice cream for everyone! Not from me, I'm on holiday.
+beach_any_03	NPC_Beach_01	NPC_Beach_01_002	DEB	f	beach	-	beach	-	0	2160	Sunbathing	1.0	Beach volleyball! Who's in?
+beach_any_05	NPC_Beach_01	NPC_Beach_01_003	DEN	m	beach	-	beach	-	0	4000	Sunbathing	1.0	I think I'm getting sunburned. I'm definitely getting sunburned.
+beach_any_02	NPC_Beach_01	NPC_Beach_01_004	DOR	f	beach	-	beach	-	0	3600	Sunbathing	1.0	Ah, sea air. Good for the lungs.
+beach_any_07	NPC_Beach_01	NPC_Beach_01_005	EAR	m	beach	-	beach	-	0	3840	Sunbathing	1.0	Water's mighty cold. Best stay on the towel.
+beach_any_09	NPC_Beach_01	NPC_Beach_01_006	HYP	m	beach	-	beach	-	0	4000	Sunbathing	1.0	Sunscreen! Get your sunscreen! Factor a lot!
+beach_any_01	NPC_Beach_01	NPC_Beach_01_007	JOJ	m	beach	-	beach	-	0	2720	Sunbathing	1.0	Surf's up! Well, a little bit up.
+beach_any_06	NPC_Beach_01	NPC_Beach_01_008	STA	f	beach	-	beach	-	0	3200	Sunbathing	1.0	Lovely beach. Far too much sand.
+beach_any_10	NPC_Beach_01	NPC_Beach_01_009	TED	m	beach	-	beach	-	0	4400	Sunbathing	1.0	First day off in a year. Don't call me. Nobody call me.
+beach_any_08	NPC_Beach_01	NPC_Beach_01_010	WRM	f	beach	-	beach	-	0	2000	Sunbathing	1.0	Don't go too deep, sweetie!
+bench_any_06	NPC_Bench_01	NPC_Bench_01_001	DEN	m	bench	-	-	-	0	3600	Sit_Idle	1.0	Nice bench. Good bench. Solid bench.
+bench_any_01	NPC_Bench_01	NPC_Bench_01_002	DOR	f	bench	-	-	-	0	3440	Sit_Idle	1.0	Ah, a little sit-down. Lovely.
+bench_any_03	NPC_Bench_01	NPC_Bench_01_003	EAR	m	bench	-	-	-	0	2560	Sit_Idle	1.0	My knees ain't what they used to be.
+bench_any_09	NPC_Bench_01	NPC_Bench_01_004	STA	f	bench	-	-	-	0	3600	Sit_Idle	1.0	Ah. Somewhere to sit. Wonderful.
+bench_any_05	NPC_Bench_01	NPC_Bench_01_005	TED	m	bench	-	-	-	0	3600	Sit_Idle	1.0	Five minutes. Just five minutes of peace.
+bench_any_07	NPC_Bench_01	NPC_Bench_01_006	THI	f	bench	-	-	-	0	2400	Sit_Idle	1.0	A fine spot for reading, this.
+bench_any_04	NPC_Bench_01	NPC_Bench_01_007	TRL	m	bench	-	-	-	0	2640	Sit_Idle	1.0	One must rest the legs occasionally.
+bench_any_08	NPC_Bench_01	NPC_Bench_01_008	WEN	m	bench	-	-	-	0	2240	Sit_Idle	1.0	Break time! Best time!
+bench_any_02	NPC_Bench_01	NPC_Bench_01_009	DOR	f	bench	-	-	-	0	4350	Sit_Idle	1.0	Shoo, pigeons! Oh, all right, have a crumb.
+bench_any_10	NPC_Bench_01	NPC_Bench_01_010	DOR	f	bench	-	-	-	0	2390	Sit_Idle	1.0	I used to come here with my Harold.
+busker_any_09	NPC_Busker_01	NPC_Busker_01_001	BEN	m	busker	-	-	-	0	3020	Cheer_Clap	1.0	This guy plays better than my oven sings!
+busker_any_07	NPC_Busker_01	NPC_Busker_01_002	DEN	m	busker	-	-	-	0	3520	Cheer_Clap	1.0	I'll just... tap my foot. Quietly.
+busker_any_01	NPC_Busker_01	NPC_Busker_01_003	DOR	f	busker	-	-	-	0	3360	Cheer_Clap	1.0	Ooh, I love this song! Play another!
+busker_any_04	NPC_Busker_01	NPC_Busker_01_004	EAR	m	busker	-	-	-	0	3680	Cheer_Clap	1.0	Now that's real music! Play some country!
+busker_any_05	NPC_Busker_01	NPC_Busker_01_005	HYP	m	busker	-	-	-	0	3680	Cheer_Clap	1.0	Hey, this guy's good! Folks, gather round!
+busker_any_02	NPC_Busker_01	NPC_Busker_01_006	JOJ	m	busker	-	-	-	0	2400	Cheer_Clap	1.0	That's sick! Do you take requests?
+busker_any_03	NPC_Busker_01	NPC_Busker_01_007	STA	f	busker	-	-	-	0	2300	Cheer_Clap	1.0	Not bad at all. Have a stud.
+busker_any_10	NPC_Busker_01	NPC_Busker_01_008	THI	f	busker	-	-	-	0	3680	Cheer_Clap	1.0	A troubadour! How wonderfully medieval!
+busker_any_06	NPC_Busker_01	NPC_Busker_01_009	TRL	m	busker	-	-	-	0	3200	Cheer_Clap	1.0	Bravo! Encore! Encore!
+busker_any_08	NPC_Busker_01	NPC_Busker_01_010	WRM	f	busker	-	-	-	0	3350	Cheer_Clap	1.0	Oh, that's lovely. Really lovely.
+closing_any_03	NPC_Closing_01	NPC_Closing_01_001	BEN	m	closing	-	evening	-	0	5280	Wave	1.0	Last buns of the day! Half price! Okay, full price, but tasty!
+closing_any_08	NPC_Closing_01	NPC_Closing_01_002	DOR	f	closing	-	evening	-	0	3990	Wave	1.0	Oh, I missed the shop again. Silly me.
+closing_any_05	NPC_Closing_01	NPC_Closing_01_003	HYP	m	closing	-	evening	-	0	3680	Wave	1.0	Closing time! Last chance, folks! Last chance!
+closing_any_07	NPC_Closing_01	NPC_Closing_01_004	TED	m	closing	-	evening	-	0	3680	Wave	1.0	Oh, they're closing. Of course they're closing.
+closing_any_01	NPC_Closing_01	NPC_Closing_01_005	WRM	f	closing	-	evening	-	0	3040	Wave	1.0	Sorry, we're closing! Come back tomorrow!
+closing_any_04	NPC_Closing_01	NPC_Closing_01_006	BEN	m	closing	-	evening	-	0	2480	Wave	1.0	Closing up! See you all tomorrow!
+closing_any_06	NPC_Closing_01	NPC_Closing_01_007	HYP	m	closing	-	evening	-	0	3520	Wave	1.0	Everything must go! Well, until tomorrow.
+closing_any_02	NPC_Closing_01	NPC_Closing_01_008	WRM	f	closing	-	evening	-	0	2720	Wave	1.0	That's us done for the day. Night, everyone!
+cop_beat_any_01	NPC_CopBeat_01	NPC_CopBeat_01_001	OFF	m	cop_beat	-	-	-	0	2560	CopIdle	1.0	Mornin', folks. Nice and orderly now.
+cop_beat_any_03	NPC_CopBeat_01	NPC_CopBeat_01_002	OFF	m	cop_beat	-	-	-	0	2150	CopIdle	1.0	Keep it under the speed limit, buddy!
+cop_beat_any_05	NPC_CopBeat_01	NPC_CopBeat_01_003	OFF	m	cop_beat	-	-	-	0	2880	CopIdle	1.0	Donut break in ten. Don't tell the chief.
+cop_beat_any_07	NPC_CopBeat_01	NPC_CopBeat_01_004	OFF	m	cop_beat	-	-	-	0	2880	CopIdle	1.0	Hey kid, look both ways before you cross!
+cop_beat_any_09	NPC_CopBeat_01	NPC_CopBeat_01_005	OFF	m	cop_beat	-	-	-	0	3520	CopIdle	1.0	You seen a guy with a striped shirt? No? Good.
+cop_beat_any_11	NPC_CopBeat_01	NPC_CopBeat_01_006	OFF	m	cop_beat	-	-	-	0	3360	CopIdle	1.0	Nice day for it. For what? For anything.
+cop_beat_any_13	NPC_CopBeat_01	NPC_CopBeat_01_007	OFF	m	cop_beat	-	-	-	0	2050	CopIdle	1.0	Evening, ma'am. Watch your step.
+cop_beat_any_02	NPC_CopBeat_02	NPC_CopBeat_02_001	OFF	m	cop_beat	-	-	-	0	3760	CopIdle	1.0	Move along, nothing to see. Unless you like pigeons.
+cop_beat_any_04	NPC_CopBeat_02	NPC_CopBeat_02_002	OFF	m	cop_beat	-	-	-	0	4240	CopIdle	1.0	Lost? The station's that way. Everything's that way, really.
+cop_beat_any_06	NPC_CopBeat_02	NPC_CopBeat_02_003	OFF	m	cop_beat	-	-	-	0	4240	CopIdle	1.0	Ain't nothin' gets past me. Except that guy. And him.
+cop_beat_any_08	NPC_CopBeat_02	NPC_CopBeat_02_004	OFF	m	cop_beat	-	-	-	0	3650	CopIdle	1.0	Another quiet day in LEGO City. Knock on wood.
+cop_beat_any_10	NPC_CopBeat_02	NPC_CopBeat_02_005	OFF	m	cop_beat	-	-	-	0	4640	CopIdle	1.0	I walk this beat every day. Twelve thousand steps. I counted.
+cop_beat_any_12	NPC_CopBeat_02	NPC_CopBeat_02_006	OFF	m	cop_beat	-	-	-	0	2780	CopIdle	1.0	Helmet on that bike, pal! Thank you!
+cop_beat_any_14	NPC_CopBeat_02	NPC_CopBeat_02_007	OFF	m	cop_beat	-	-	-	0	3280	CopIdle	1.0	If you see somethin', say somethin'. Nicely.
+crowd_disperse_any_07	NPC_CrowdDisperse_01	NPC_CrowdDisperse_01_001	BEN	m	crowd_disperse	-	-	-	0	2030	Wave	1.0	Well, back to the ovens!
+crowd_disperse_any_09	NPC_CrowdDisperse_01	NPC_CrowdDisperse_01_002	DEN	m	crowd_disperse	-	-	-	0	2800	Wave	1.0	That was something. Something happened.
+crowd_disperse_any_05	NPC_CrowdDisperse_01	NPC_CrowdDisperse_01_003	EAR	m	crowd_disperse	-	-	-	0	2080	Wave	1.0	Nothin' more to see here, folks.
+crowd_disperse_any_03	NPC_CrowdDisperse_01	NPC_CrowdDisperse_01_004	JOJ	m	crowd_disperse	-	-	-	0	2080	Wave	1.0	Aw, is it over already?
+crowd_disperse_any_02	NPC_CrowdDisperse_01	NPC_CrowdDisperse_01_005	TED	m	crowd_disperse	-	-	-	0	3280	Wave	1.0	Okay. Back to work. Back to work.
+crowd_disperse_any_12	NPC_CrowdDisperse_01	NPC_CrowdDisperse_01_006	TRL	m	crowd_disperse	-	-	-	0	2880	Wave	1.0	Well. Back to the business of the day.
+crowd_disperse_any_06	NPC_CrowdDisperse_02	NPC_CrowdDisperse_02_001	DEB	f	crowd_disperse	-	-	-	0	2320	Wave	1.0	All right, people! Keep it moving!
+crowd_disperse_any_01	NPC_CrowdDisperse_02	NPC_CrowdDisperse_02_002	DOR	f	crowd_disperse	-	-	-	0	3120	Wave	1.0	Well, that's enough excitement for one day.
+crowd_disperse_any_11	NPC_CrowdDisperse_02	NPC_CrowdDisperse_02_003	HYP	m	crowd_disperse	-	-	-	0	2320	Wave	1.0	Show's over, folks! Come again!
+crowd_disperse_any_04	NPC_CrowdDisperse_02	NPC_CrowdDisperse_02_004	STA	f	crowd_disperse	-	-	-	0	2960	Wave	1.0	Right. Show's over, I suppose.
+crowd_disperse_any_08	NPC_CrowdDisperse_02	NPC_CrowdDisperse_02_005	THI	f	crowd_disperse	-	-	-	0	2560	Wave	1.0	Oh, I must write this down!
+crowd_disperse_any_10	NPC_CrowdDisperse_02	NPC_CrowdDisperse_02_006	WEN	m	crowd_disperse	-	-	-	0	3440	Wave	1.0	Okay. Somebody's gotta clean that up. Bye!
+crowd_gather_any_07	NPC_CrowdGather_01	NPC_CrowdGather_01_001	BEN	m	crowd_gather	-	-	-	0	2110	point	1.0	Hey, what's everybody looking at?
+crowd_gather_any_09	NPC_CrowdGather_01	NPC_CrowdGather_01_002	DEN	m	crowd_gather	-	-	-	0	2640	point	1.0	Is this a queue? What are we queuing for?
+crowd_gather_any_05	NPC_CrowdGather_01	NPC_CrowdGather_01_003	EAR	m	crowd_gather	-	-	-	0	1980	point	1.0	What's all the fuss about?
+crowd_gather_any_03	NPC_CrowdGather_01	NPC_CrowdGather_01_004	JOJ	m	crowd_gather	-	-	-	0	2400	point	1.0	Ooh, what's happening? Let me see!
+crowd_gather_any_02	NPC_CrowdGather_01	NPC_CrowdGather_01_005	TED	m	crowd_gather	-	-	-	0	2320	point	1.0	What happened? Is everyone okay?
+crowd_gather_any_13	NPC_CrowdGather_01	NPC_CrowdGather_01_006	TRL	m	crowd_gather	-	-	-	0	2400	point	1.0	What the devil is going on here?
+crowd_gather_any_12	NPC_CrowdGather_01	NPC_CrowdGather_01_007	WRM	f	crowd_gather	-	-	-	0	2480	point	1.0	Oh, I do hope nobody's hurt.
+crowd_gather_any_15	NPC_CrowdGather_01	NPC_CrowdGather_01_008	DOR	f	crowd_gather	-	-	-	0	2220	point	1.0	I only popped out for milk!
+crowd_gather_any_06	NPC_CrowdGather_02	NPC_CrowdGather_02_001	DEB	f	crowd_gather	-	-	-	0	2640	point	1.0	Make some room! What're we looking at?
+crowd_gather_any_01	NPC_CrowdGather_02	NPC_CrowdGather_02_002	DOR	f	crowd_gather	-	-	-	0	1720	point	1.0	What's going on over there?
+crowd_gather_any_11	NPC_CrowdGather_02	NPC_CrowdGather_02_003	HYP	m	crowd_gather	-	-	-	0	2880	point	1.0	Step right up, folks! Whatever it is!
+crowd_gather_any_04	NPC_CrowdGather_02	NPC_CrowdGather_02_004	STA	f	crowd_gather	-	-	-	0	3040	point	1.0	Ah, a commotion. Let's have a look.
+crowd_gather_any_08	NPC_CrowdGather_02	NPC_CrowdGather_02_005	THI	f	crowd_gather	-	-	-	0	3440	point	1.0	Oh, something's happened! How exciting!
+crowd_gather_any_10	NPC_CrowdGather_02	NPC_CrowdGather_02_006	WEN	m	crowd_gather	-	-	-	0	1440	point	1.0	Hey, what'd I miss?
+crowd_gather_any_16	NPC_CrowdGather_02	NPC_CrowdGather_02_007	DEN	m	crowd_gather	-	-	-	0	3520	point	1.0	I'm not nosy. I'm just... standing near.
+crowd_gather_any_14	NPC_CrowdGather_02	NPC_CrowdGather_02_008	JOJ	m	crowd_gather	-	-	-	0	2880	point	1.0	Did someone see what happened? Who's got it on video?
+dance_any_07	NPC_Dance_01	NPC_Dance_01_001	BEN	m	dance	-	-	-	0	3920	Dance_01	1.0	Dance like nobody's watching! Everybody's watching!
+dance_any_02	NPC_Dance_01	NPC_Dance_01_002	DEB	f	dance	-	-	-	0	3040	Dance_01	1.0	Move those feet! It's basically cardio!
+dance_any_05	NPC_Dance_01	NPC_Dance_01_003	DEN	m	dance	-	-	-	0	3510	Dance_01	1.0	I don't really dance. Okay. A little.
+dance_any_03	NPC_Dance_01	NPC_Dance_01_004	DOR	f	dance	-	-	-	0	2640	Dance_01	1.0	Ooh, I've still got it!
+dance_any_04	NPC_Dance_01	NPC_Dance_01_005	HYP	m	dance	-	-	-	0	2800	Dance_01	1.0	Let's go, let's go! Show me your moves!
+dance_any_01	NPC_Dance_01	NPC_Dance_01_006	JOJ	m	dance	-	-	-	0	2080	Dance_01	1.0	Yeah! Everybody dance!
+dance_any_08	NPC_Dance_01	NPC_Dance_01_007	TRL	m	dance	-	-	-	0	2560	Dance_01	1.0	Ha! Just like the old days!
+dance_any_06	NPC_Dance_01	NPC_Dance_01_008	WRM	f	dance	-	-	-	0	2720	Dance_01	1.0	Oh, this is fun!
+fan_player_any_13	NPC_FanPlayer_01	NPC_FanPlayer_01_001	BEN	m	fan_player	-	onfoot	-	0	5280	Wave	1.0	Chase McCain! Hey, I've got a pastry named after you. It's a McCain-oli!
+fan_player_any_05	NPC_FanPlayer_01	NPC_FanPlayer_01_002	DOR	f	fan_player	-	onfoot	-	0	5280	Wave	1.0	Oh, my! Chase McCain! My grandson has your poster!
+fan_player_any_01	NPC_FanPlayer_01	NPC_FanPlayer_01_003	JOJ	m	fan_player	-	onfoot	-	0	3840	Wave	1.0	No way! You're Chase McCain! Can I get a selfie?
+fan_player_any_14	NPC_FanPlayer_01	NPC_FanPlayer_01_004	THI	f	fan_player	-	onfoot	-	0	4880	Wave	1.0	Oh, Detective McCain! You'll be in the history books one day, you know!
+fan_player_any_11	NPC_FanPlayer_01	NPC_FanPlayer_01_005	WRM	f	fan_player	-	onfoot	-	0	4400	Wave	1.0	Oh, you're Chase McCain! Thank you for everything you do.
+fan_player_any_06	NPC_FanPlayer_01	NPC_FanPlayer_01_006	DOR	f	fan_player	-	onfoot	-	0	3120	Wave	1.0	Aren't you that nice detective from the newspaper?
+fan_player_any_22	NPC_FanPlayer_01	NPC_FanPlayer_01_007	TED	m	fan_player	-	onfoot	-	0	4800	Wave	1.0	Mr. McCain! Could I... no, never mind. Have a great day!
+fan_player_coop_06	NPC_FanPlayer_01	NPC_FanPlayer_01_008	DEN	m	fan_player	coop	onfoot+coop	-	0	2960	Wave	1.0	Wait, there's two of you? Is that allowed?
+fan_player_any_03	NPC_FanPlayer_01	NPC_FanPlayer_01_009	JOJ	m	fan_player	-	onfoot	-	0	4800	Wave	1.0	It's him! It's actually him! Okay, be cool, be cool...
+fan_player_any_04	NPC_FanPlayer_01	NPC_FanPlayer_01_010	JOJ	m	fan_player	-	onfoot	-	0	2880	Wave	1.0	Chase! Sign my skateboard! Please?
+fan_player_any_12	NPC_FanPlayer_02	NPC_FanPlayer_02_001	DEB	f	fan_player	-	onfoot	-	0	5120	Wave	1.0	McCain! Saw you on the news. Not bad, kid. Not bad at all.
+fan_player_any_16	NPC_FanPlayer_02	NPC_FanPlayer_02_002	EAR	m	fan_player	-	onfoot	-	0	5440	Wave	1.0	Chase McCain, as I live and breathe. Shake my hand, son.
+fan_player_any_15	NPC_FanPlayer_02	NPC_FanPlayer_02_003	STA	f	fan_player	-	onfoot	-	0	3840	Wave	1.0	You're that detective, aren't you? Everyone keeps going on about you.
+fan_player_any_18	NPC_FanPlayer_02	NPC_FanPlayer_02_004	TRL	m	fan_player	-	onfoot	-	0	5120	Wave	1.0	Detective McCain. An honour, sir. A genuine honour.
+fan_player_coop_04	NPC_FanPlayer_02	NPC_FanPlayer_02_005	DEB	f	fan_player	coop	onfoot+coop	-	0	3760	Wave	1.0	A team! That's what I like to see. Teamwork!
+fan_player_any_10	NPC_FanPlayer_02	NPC_FanPlayer_02_006	HYP	m	fan_player	-	onfoot	-	0	4880	Wave	1.0	Chase! Buddy! Remember me? No? That's fine, that's fine!
+fan_player_coop_05	NPC_FanPlayer_02	NPC_FanPlayer_02_007	THI	f	fan_player	coop	onfoot+coop	-	0	4000	Wave	1.0	A matching pair of detectives! How delightful!
+fan_player_any_20	NPC_FanPlayer_02	NPC_FanPlayer_02_008	DOR	f	fan_player	-	onfoot	-	0	5200	Wave	1.0	Chase McCain! Wait till I tell the girls at bingo!
+fan_player_coop_02	NPC_FanPlayer_02	NPC_FanPlayer_02_009	DOR	f	fan_player	coop	onfoot+coop	-	0	4880	Wave	1.0	Oh, look, a pair of you! Partners, how lovely!
+fan_player_any_19	NPC_FanPlayer_02	NPC_FanPlayer_02_010	JOJ	m	fan_player	-	onfoot	-	0	2960	Wave	1.0	Dude! Can you do the thing? The jumpy thing?
+fan_player_any_08	NPC_FanPlayer_03	NPC_FanPlayer_03_001	DEN	m	fan_player	-	onfoot	-	0	5600	Wave	1.0	Wait. Chase McCain? The Chase McCain? Huh. Taller than I thought.
+fan_player_any_09	NPC_FanPlayer_03	NPC_FanPlayer_03_002	HYP	m	fan_player	-	onfoot	-	0	4990	Wave	1.0	Everybody look! It's Chase McCain! Right here, folks! In person!
+fan_player_any_07	NPC_FanPlayer_03	NPC_FanPlayer_03_003	TED	m	fan_player	-	onfoot	-	0	4800	Wave	1.0	Oh gosh, you're Chase McCain. I saw you on the news. Hi.
+fan_player_any_17	NPC_FanPlayer_03	NPC_FanPlayer_03_004	WEN	m	fan_player	-	onfoot	-	0	4880	Wave	1.0	Chase McCain! I cleaned the floor you ran across once! Big fan!
+fan_player_any_21	NPC_FanPlayer_03	NPC_FanPlayer_03_005	DEN	m	fan_player	-	onfoot	-	0	4400	Wave	1.0	My wife is not going to believe this. I barely believe this.
+fan_player_any_02	NPC_FanPlayer_03	NPC_FanPlayer_03_006	JOJ	m	fan_player	-	onfoot	-	0	4320	Wave	1.0	Chase McCain! I'm your biggest fan! Like, the biggest!
+fan_player_any_24	NPC_FanPlayer_03	NPC_FanPlayer_03_007	WRM	f	fan_player	-	onfoot	-	0	3360	Wave	1.0	My kids would love an autograph, if you have a second!
+fan_player_any_23	NPC_FanPlayer_03	NPC_FanPlayer_03_008	HYP	m	fan_player	-	onfoot	-	0	3440	Wave	1.0	Chase! You need a manager? I could be your manager!
+fan_player_coop_03	NPC_FanPlayer_03	NPC_FanPlayer_03_009	HYP	m	fan_player	coop	onfoot+coop	-	0	4160	Wave	1.0	Double the heroes, double the fun! Folks, look at this!
+fan_player_coop_01	NPC_FanPlayer_03	NPC_FanPlayer_03_010	JOJ	m	fan_player	coop	onfoot+coop	-	0	3280	Wave	1.0	Two of you?! This is the best day of my life!
+forgive_any_06	NPC_Forgive_01	NPC_Forgive_01_001	BEN	m	forgive	-	-	-	0	2960	Wave	1.0	Ah, forget it. Here, have a bun.
+forgive_any_05	NPC_Forgive_01	NPC_Forgive_01_002	DEB	f	forgive	-	-	-	0	2870	Wave	1.0	All right, all right. You're forgiven.
+forgive_any_08	NPC_Forgive_01	NPC_Forgive_01_003	DEN	m	forgive	-	-	-	0	2960	Wave	1.0	It's fine. I bump into things all the time.
+forgive_any_01	NPC_Forgive_01	NPC_Forgive_01_004	DOR	f	forgive	-	-	-	0	4150	Wave	1.0	Oh, I can't stay cross with you. Off you go.
+forgive_any_04	NPC_Forgive_01	NPC_Forgive_01_005	EAR	m	forgive	-	-	-	0	2000	Wave	1.0	Water under the bridge, son.
+forgive_any_03	NPC_Forgive_01	NPC_Forgive_01_006	JOJ	m	forgive	-	-	-	0	2320	Wave	1.0	Eh, we're cool. We're cool.
+forgive_any_02	NPC_Forgive_01	NPC_Forgive_01_007	TED	m	forgive	-	-	-	0	2880	Wave	1.0	No hard feelings. Honestly. None.
+forgive_any_07	NPC_Forgive_01	NPC_Forgive_01_008	WRM	f	forgive	-	-	-	0	2380	Wave	1.0	That's all right. Accidents happen.
+glare_again_any_08	NPC_GlareAgain_01	NPC_GlareAgain_01_001	BEN	m	glare_again	-	-	-	0	2640	Talk_Angry	1.0	Hey, again? I'm starting a tab for you.
+glare_again_any_10	NPC_GlareAgain_01	NPC_GlareAgain_01_002	DEN	m	glare_again	-	-	-	0	4540	Talk_Angry	1.0	Oh. Hi. You're the bumper. I'll just... stand over here.
+glare_again_any_06	NPC_GlareAgain_01	NPC_GlareAgain_01_003	EAR	m	glare_again	-	-	-	0	3760	Talk_Angry	1.0	Twice in one day? You owe me a lemonade.
+glare_again_any_04	NPC_GlareAgain_01	NPC_GlareAgain_01_004	JOJ	m	glare_again	-	-	-	0	2720	Talk_Angry	1.0	Dude. Seriously? Again?
+glare_again_any_05	NPC_GlareAgain_01	NPC_GlareAgain_01_005	STA	f	glare_again	-	-	-	0	3520	Talk_Angry	1.0	Ah. My favourite pedestrian. Again.
+glare_again_any_09	NPC_GlareAgain_01	NPC_GlareAgain_01_006	THI	f	glare_again	-	-	-	0	3340	Talk_Angry	1.0	You! The bumping detective! Hmph.
+glare_again_any_11	NPC_GlareAgain_01	NPC_GlareAgain_01_007	WEN	m	glare_again	-	-	-	0	3360	Talk_Angry	1.0	Not you again! Keep your elbows to yourself!
+glare_again_any_02	NPC_GlareAgain_01	NPC_GlareAgain_01_008	DOR	f	glare_again	-	-	-	0	3040	Talk_Angry	1.0	Don't you dare bump me twice, young man.
+glare_again_any_07	NPC_GlareAgain_02	NPC_GlareAgain_02_001	DEB	f	glare_again	-	-	-	0	3040	Talk_Angry	1.0	Hey! Bumper car! I remember you!
+glare_again_any_01	NPC_GlareAgain_02	NPC_GlareAgain_02_002	DOR	f	glare_again	-	-	-	0	3120	Talk_Angry	1.0	You again! I've got my eye on you.
+glare_again_any_12	NPC_GlareAgain_02	NPC_GlareAgain_02_003	HYP	m	glare_again	-	-	-	0	3120	Talk_Angry	1.0	You again! You're bad for business, buddy!
+glare_again_any_15	NPC_GlareAgain_02	NPC_GlareAgain_02_004	OFF	m	glare_again	-	-	-	0	2480	Talk_Angry	1.0	You again? Strike two, pal.
+glare_again_any_03	NPC_GlareAgain_02	NPC_GlareAgain_02_005	TED	m	glare_again	-	-	-	0	4960	Talk_Angry	1.0	Oh, it's you. Please don't... okay. Just walk past.
+glare_again_any_14	NPC_GlareAgain_02	NPC_GlareAgain_02_006	TRL	m	glare_again	-	-	-	0	2400	Talk_Angry	1.0	Back for another collision, are we?
+glare_again_any_13	NPC_GlareAgain_02	NPC_GlareAgain_02_007	WRM	f	glare_again	-	-	-	0	2160	Talk_Angry	1.0	Please be more careful this time.
+glare_again_any_16	NPC_GlareAgain_02	NPC_GlareAgain_02_008	DOR	f	glare_again	-	-	-	0	4150	Talk_Angry	1.0	Kids these days. And grown-ups.
+gs_chase1_1	NPC_Gossip_01	NPC_Gossip_01_001	DOR	f	gossip	chase	afterchase	gs_chase1	0	2770	Talk	1.0	Did you see that police chase earlier?
+gs_chase1_2	NPC_Gossip_01	NPC_Gossip_01_002	BEN	m	gossip	chase	afterchase	gs_chase1	1	4720	Talk2	1.0	Saw it? It went right past my stall! Flour everywhere!
+gs_chase4_1	NPC_Gossip_01	NPC_Gossip_01_003	WRM	f	gossip	chase	afterchase	gs_chase4	0	3000	Talk	1.0	I hope they caught him, whoever he was.
+gs_chase4_2	NPC_Gossip_01	NPC_Gossip_01_004	OFF	m	gossip	chase	afterchase	gs_chase4	1	3200	CopTalk	1.0	Don't you worry, ma'am. McCain always gets 'em.
+gs_crash1_1	NPC_Gossip_01	NPC_Gossip_01_005	DOR	f	gossip	crash	-	gs_crash1	0	2370	Talk	1.0	Did you hear that bang earlier?
+gs_crash1_2	NPC_Gossip_01	NPC_Gossip_01_006	WEN	m	gossip	crash	-	gs_crash1	1	2560	Talk2	1.0	Hear it? I'm still sweeping it up!
+gs_stunt2_1	NPC_Gossip_01	NPC_Gossip_01_007	EAR	m	gossip	stunt	-	gs_stunt2	0	3200	Talk	1.0	Some feller just flew a car over a building.
+gs_stunt2_2	NPC_Gossip_01	NPC_Gossip_01_008	STA	f	gossip	stunt	-	gs_stunt2	1	3280	Talk2	1.0	Over? Not through? How refreshing.
+gs_chase2_1	NPC_Gossip_02	NPC_Gossip_02_001	JOJ	m	gossip	chase	afterchase	gs_chase2	0	3120	Talk	1.0	That chase was SO fast! Like a movie!
+gs_chase2_2	NPC_Gossip_02	NPC_Gossip_02_002	TED	m	gossip	chase	afterchase	gs_chase2	1	2400	Shrug	1.0	I was trying to cross the road at the time.
+gs_chase2_3	NPC_Gossip_02	NPC_Gossip_02_003	JOJ	m	gossip	chase	afterchase	gs_chase2	2	1840	Talk3	1.0	Best day ever, right?
+gs_chase6_1	NPC_Gossip_02	NPC_Gossip_02_004	THI	f	gossip	chase	afterchase	gs_chase6	0	4560	Talk	1.0	Sirens, screeching tyres! Like a radio drama!
+gs_chase6_2	NPC_Gossip_02	NPC_Gossip_02_005	TRL	m	gossip	chase	afterchase	gs_chase6	1	3040	Talk2	1.0	Better. One could actually see it.
+gs_stunt1_1	NPC_Gossip_02	NPC_Gossip_02_006	JOJ	m	gossip	stunt	-	gs_stunt1	0	2080	Talk	1.0	Did you see that jump over the bridge?
+gs_stunt1_2	NPC_Gossip_02	NPC_Gossip_02_007	DEN	m	gossip	stunt	-	gs_stunt1	1	3340	Talk2	1.0	I saw it. I didn't believe it, but I saw it.
+gs_build2_1	NPC_Gossip_02	NPC_Gossip_02_008	DOR	f	gossip	superbuild	-	gs_build2	0	3920	Talk	1.0	Someone built a whole tower while I was buying stamps!
+gs_build2_2	NPC_Gossip_02	NPC_Gossip_02_009	TRL	m	gossip	superbuild	-	gs_build2	1	2640	Talk2	1.0	The pace of modern life, madam.
+gs_chase3_1	NPC_Gossip_03	NPC_Gossip_03_001	STA	f	gossip	chase	afterchase	gs_chase3	0	2960	Talk	1.0	Another car chase. Third one this week.
+gs_chase3_2	NPC_Gossip_03	NPC_Gossip_03_002	EAR	m	gossip	chase	afterchase	gs_chase3	1	3680	Talk2	1.0	Busy city. Back home we chase cows.
+gs_chase5_1	NPC_Gossip_03	NPC_Gossip_03_003	DEN	m	gossip	chase	afterchase	gs_chase5	0	2560	Talk	1.0	I think I was in the background of that chase.
+gs_chase5_2	NPC_Gossip_03	NPC_Gossip_03_004	HYP	m	gossip	chase	afterchase	gs_chase5	1	2800	Talk2	1.0	You should charge 'em for it! Appearance fee!
+gs_crash2_1	NPC_Gossip_03	NPC_Gossip_03_005	TED	m	gossip	crash	-	gs_crash2	0	2240	Talk	1.0	Someone drove into the fountain again.
+gs_crash2_2	NPC_Gossip_03	NPC_Gossip_03_006	DEB	f	gossip	crash	-	gs_crash2	1	3040	Talk2	1.0	Again? They should just make it a car wash!
+gs_build1_1	NPC_Gossip_03	NPC_Gossip_03_007	THI	f	gossip	superbuild	-	gs_build1	0	3920	Talk	1.0	Did you see that super build go up? In seconds!
+gs_build1_2	NPC_Gossip_03	NPC_Gossip_03_008	BEN	m	gossip	superbuild	-	gs_build1	1	2720	Talk2	1.0	Took me three days to put up my stall!
+gf_long_1	NPC_GreetFriend_01	NPC_GreetFriend_01_001	DOR	f	greet_friend	-	-	gf_long	0	3520	Wave	1.0	Ted! Is that you? You've grown!
+gf_long_2	NPC_GreetFriend_01	NPC_GreetFriend_01_002	TED	m	greet_friend	-	-	gf_long	1	1920	Shrug	1.0	I'm forty-two, Doris.
+gf_long_3	NPC_GreetFriend_01	NPC_GreetFriend_01_003	DOR	f	greet_friend	-	-	gf_long	2	2320	Talk2	1.0	Well, you've grown on me!
+gf_late_1	NPC_GreetFriend_01	NPC_GreetFriend_01_004	WRM	f	greet_friend	-	-	gf_late	0	2960	Wave	1.0	There you are! I've been waiting ages.
+gf_late_2	NPC_GreetFriend_01	NPC_GreetFriend_01_005	STA	f	greet_friend	-	-	gf_late	1	3520	Shrug	1.0	Sorry. I stopped to look at a very interesting bin.
+gf_gym_1	NPC_GreetFriend_01	NPC_GreetFriend_01_006	DEB	f	greet_friend	-	morning	gf_gym	0	1530	Wave	1.0	Ready for the morning run?
+gf_gym_2	NPC_GreetFriend_01	NPC_GreetFriend_01_007	BEN	m	greet_friend	-	morning	gf_gym	1	2800	Talk2	1.0	I brought muffins instead. Is that okay?
+gf_gym_3	NPC_GreetFriend_01	NPC_GreetFriend_01_008	DEB	f	greet_friend	-	morning	gf_gym	2	1070	Ponder	1.0	...What flavour?
+gf_bump_1	NPC_GreetFriend_02	NPC_GreetFriend_02_001	JOJ	m	greet_friend	-	-	gf_bump	0	2240	Wave	1.0	Dude! Fancy seeing you here!
+gf_bump_2	NPC_GreetFriend_02	NPC_GreetFriend_02_002	DEN	m	greet_friend	-	-	gf_bump	1	2190	Talk2	1.0	I live here. On this street.
+gf_bump_3	NPC_GreetFriend_02	NPC_GreetFriend_02_003	JOJ	m	greet_friend	-	-	gf_bump	2	2080	Talk3	1.0	Still! Fancy that!
+gf_old_1	NPC_GreetFriend_02	NPC_GreetFriend_02_004	EAR	m	greet_friend	-	-	gf_old	0	2950	Wave	1.0	Well, if it ain't my old pal!
+gf_old_2	NPC_GreetFriend_02	NPC_GreetFriend_02_005	TRL	m	greet_friend	-	-	gf_old	1	3280	Talk2	1.0	Earl! Still wearing the same hat, I see.
+gf_old_3	NPC_GreetFriend_02	NPC_GreetFriend_02_006	EAR	m	greet_friend	-	-	gf_old	2	2000	Talk3	1.0	Why fix what ain't broke?
+gf_ted_1	NPC_GreetFriend_02	NPC_GreetFriend_02_007	WEN	m	greet_friend	-	-	gf_ted	0	1600	Wave	1.0	Hey, there he is!
+gf_ted_2	NPC_GreetFriend_02	NPC_GreetFriend_02_008	TED	m	greet_friend	-	-	gf_ted	1	2640	Talk2	1.0	Here I am! Late, but here.
+greet_player_any_13	NPC_GreetPlayer_01	NPC_GreetPlayer_01_001	BEN	m	greet_player	-	onfoot	-	0	4330	Wave	1.0	Hey there, officer! Smells like fresh bread, right? That's me.
+greet_player_any_05	NPC_GreetPlayer_01	NPC_GreetPlayer_01_002	JOJ	m	greet_player	-	onfoot	-	0	1760	Wave	1.0	Yo! What's up, officer?
+greet_player_any_23	NPC_GreetPlayer_01	NPC_GreetPlayer_01_003	WRM	f	greet_player	-	onfoot	-	0	3120	Wave	1.0	Hello, officer. Thank you for keeping us safe.
+greet_player_any_22	NPC_GreetPlayer_01	NPC_GreetPlayer_01_004	HYP	m	greet_player	-	onfoot	-	0	5280	Wave	1.0	Hey, it's the law! Nice, nice, keep it moving, I love it!
+greet_player_any_20	NPC_GreetPlayer_01	NPC_GreetPlayer_01_005	WEN	m	greet_player	-	onfoot	-	0	4080	Wave	1.0	Evenin'! Well, it feels like evenin' to me. Night shift.
+greet_player_any_29	NPC_GreetPlayer_01	NPC_GreetPlayer_01_006	EAR	m	greet_player	-	onfoot	-	0	3840	Wave	1.0	You catch any crooks today? Good. Keep at it.
+greet_player_any_36	NPC_GreetPlayer_01	NPC_GreetPlayer_01_007	WEN	m	greet_player	-	onfoot	-	0	4960	Wave	1.0	Watch your step, officer, I just mopped round here. Kidding! It's a street.
+greet_player_rain_03	NPC_GreetPlayer_01	NPC_GreetPlayer_01_008	EAR	m	greet_player	rain	onfoot+rain	-	0	4000	Wave	1.0	Good for the crops, this. Not so good for the hat.
+greet_player_night_04	NPC_GreetPlayer_01	NPC_GreetPlayer_01_009	DEN	m	greet_player	night	onfoot+night	-	0	2480	Wave	1.0	Oh! Didn't see you there. Evening.
+greet_player_any_11	NPC_GreetPlayer_02	NPC_GreetPlayer_02_001	DEB	f	greet_player	-	onfoot	-	0	3360	Wave	1.0	Hey! Nice to see a cop who walks for a change!
+greet_player_any_07	NPC_GreetPlayer_02	NPC_GreetPlayer_02_002	STA	f	greet_player	-	onfoot	-	0	2400	Wave	1.0	Afternoon, constable. Carry on.
+greet_player_any_14	NPC_GreetPlayer_02	NPC_GreetPlayer_02_003	BEN	m	greet_player	-	onfoot	-	0	3600	Wave	1.0	Morning! Stop by the stall later, first bun's on me.
+greet_player_any_06	NPC_GreetPlayer_02	NPC_GreetPlayer_02_004	JOJ	m	greet_player	-	onfoot	-	0	2560	Wave	1.0	Hey hey! Looking heroic today!
+greet_player_any_24	NPC_GreetPlayer_02	NPC_GreetPlayer_02_005	WRM	f	greet_player	-	onfoot	-	0	3360	Wave	1.0	Oh, hello there! Do drop by the shop sometime.
+greet_player_any_28	NPC_GreetPlayer_02	NPC_GreetPlayer_02_006	JOJ	m	greet_player	-	onfoot	-	0	3920	Wave	1.0	Officer! High five! No? Okay. Air five.
+greet_player_any_31	NPC_GreetPlayer_02	NPC_GreetPlayer_02_007	WRM	f	greet_player	-	onfoot	-	0	3120	Wave	1.0	Lovely to see you on foot. Much friendlier.
+greet_player_night_03	NPC_GreetPlayer_02	NPC_GreetPlayer_02_008	STA	f	greet_player	night	onfoot+night	-	0	4240	Wave	1.0	Lovely night for it. Clear skies. Well, mostly.
+greet_player_morning_02	NPC_GreetPlayer_02	NPC_GreetPlayer_02_009	DOR	f	greet_player	morning	onfoot+morning	-	0	3350	Wave	1.0	Good morning, dear! Up with the birds, are we?
+greet_player_any_17	NPC_GreetPlayer_03	NPC_GreetPlayer_03_001	DEN	m	greet_player	-	onfoot	-	0	3520	Wave	1.0	Hey. Nice day. For, uh, policing.
+greet_player_any_03	NPC_GreetPlayer_03	NPC_GreetPlayer_03_002	TED	m	greet_player	-	onfoot	-	0	4880	Wave	1.0	Oh! H-hello, officer. Just walking. Totally normal walking.
+greet_player_any_12	NPC_GreetPlayer_03	NPC_GreetPlayer_03_003	DEB	f	greet_player	-	onfoot	-	0	3200	Wave	1.0	Officer! Keep those knees up, it's good for ya!
+greet_player_any_08	NPC_GreetPlayer_03	NPC_GreetPlayer_03_004	STA	f	greet_player	-	onfoot	-	0	3520	Wave	1.0	Ah, the long arm of the law. Hello.
+greet_player_any_32	NPC_GreetPlayer_03	NPC_GreetPlayer_03_005	BEN	m	greet_player	-	onfoot	-	0	4080	Wave	1.0	Officer! You look hungry. Cops are always hungry.
+greet_player_any_35	NPC_GreetPlayer_03	NPC_GreetPlayer_03_006	STA	f	greet_player	-	onfoot	-	0	3360	Wave	1.0	Hello. I promise I've done nothing interesting.
+greet_player_rain_06	NPC_GreetPlayer_03	NPC_GreetPlayer_03_007	BEN	m	greet_player	rain	onfoot+rain	-	0	3360	Wave	1.0	Rainy days sell the most soup. Just saying.
+greet_player_rain_02	NPC_GreetPlayer_03	NPC_GreetPlayer_03_008	TED	m	greet_player	rain	onfoot+rain	-	0	4240	Wave	1.0	Wet one today, officer. Very wet. Okay, bye.
+greet_player_morning_05	NPC_GreetPlayer_03	NPC_GreetPlayer_03_009	EAR	m	greet_player	morning	onfoot+morning	-	0	3440	Wave	1.0	Mornin'. Been up since four. Habit.
+greet_player_any_01	NPC_GreetPlayer_04	NPC_GreetPlayer_04_001	DOR	f	greet_player	-	onfoot	-	0	3920	Wave	1.0	Hello, officer! You're looking very smart today.
+greet_player_any_15	NPC_GreetPlayer_04	NPC_GreetPlayer_04_002	THI	f	greet_player	-	onfoot	-	0	3680	Wave	1.0	Oh, good day to you, officer! Splendid hat.
+greet_player_any_18	NPC_GreetPlayer_04	NPC_GreetPlayer_04_003	DEN	m	greet_player	-	onfoot	-	0	3960	Wave	1.0	Oh, hi. Sorry. I don't know why I said sorry.
+greet_player_any_04	NPC_GreetPlayer_04	NPC_GreetPlayer_04_004	TED	m	greet_player	-	onfoot	-	0	3120	Wave	1.0	Afternoon. Keep up the good work, I suppose.
+greet_player_night_06	NPC_GreetPlayer_04	NPC_GreetPlayer_04_005	DEB	f	greet_player	night	onfoot+night	-	0	4790	Wave	1.0	Out late, huh? Me too. Night walk. Gotta get the steps in!
+greet_player_any_33	NPC_GreetPlayer_04	NPC_GreetPlayer_04_006	TED	m	greet_player	-	onfoot	-	0	3920	Wave	1.0	Is everything all right? It's all right, isn't it? Good.
+greet_player_morning_04	NPC_GreetPlayer_04	NPC_GreetPlayer_04_007	DEB	f	greet_player	morning	onfoot+morning	-	0	3200	Wave	1.0	Rise and shine, officer! Best part of the day!
+greet_player_night_01	NPC_GreetPlayer_04	NPC_GreetPlayer_04_008	WEN	m	greet_player	night	onfoot+night	-	0	3520	Wave	1.0	Hey, a fellow night owl! Quiet out tonight, huh?
+greet_player_morning_01	NPC_GreetPlayer_04	NPC_GreetPlayer_04_009	TED	m	greet_player	morning	onfoot+morning	-	0	3680	Wave	1.0	Morning! Running late. Always running late.
+greet_player_any_09	NPC_GreetPlayer_15	NPC_GreetPlayer_15_001	EAR	m	greet_player	-	onfoot	-	0	3680	Wave	1.0	Howdy, son. Fine day for keepin' the peace.
+greet_player_any_25	NPC_GreetPlayer_15	NPC_GreetPlayer_15_002	TRL	m	greet_player	-	onfoot	-	0	4160	Wave	1.0	Good day, officer. Splendid work, splendid.
+greet_player_any_02	NPC_GreetPlayer_15	NPC_GreetPlayer_15_003	DOR	f	greet_player	-	onfoot	-	0	3840	Wave	1.0	Oh, it's that nice policeman. Morning, dear!
+greet_player_any_16	NPC_GreetPlayer_15	NPC_GreetPlayer_15_004	THI	f	greet_player	-	onfoot	-	0	3840	Wave	1.0	Hello, hello! Mind the cobbles, they're historic.
+greet_player_any_30	NPC_GreetPlayer_15	NPC_GreetPlayer_15_005	DEN	m	greet_player	-	onfoot	-	0	3600	Wave	1.0	Hi! I'm Dennis. You probably didn't need to know that.
+greet_player_any_34	NPC_GreetPlayer_15	NPC_GreetPlayer_15_006	THI	f	greet_player	-	onfoot	-	0	5660	Wave	1.0	Did you know this street is a hundred and twelve years old? Well, it is!
+greet_player_rain_05	NPC_GreetPlayer_15	NPC_GreetPlayer_15_007	DEN	m	greet_player	rain	onfoot+rain	-	0	4240	Wave	1.0	Hi. Raining. You've noticed. Of course you've noticed.
+greet_player_rain_04	NPC_GreetPlayer_15	NPC_GreetPlayer_15_008	WRM	f	greet_player	rain	onfoot+rain	-	0	4000	Wave	1.0	Oh, you're soaked! Pop inside and dry off if you like.
+greet_player_morning_06	NPC_GreetPlayer_15	NPC_GreetPlayer_15_009	WRM	f	greet_player	morning	onfoot+morning	-	0	2960	Wave	1.0	Good morning! Shop opens in five minutes.
+greet_player_any_21	NPC_GreetPlayer_06	NPC_GreetPlayer_06_001	HYP	m	greet_player	-	onfoot	-	0	4240	Wave	1.0	Officer! My man! Looking sharp, looking sharp!
+greet_player_any_19	NPC_GreetPlayer_06	NPC_GreetPlayer_06_002	WEN	m	greet_player	-	onfoot	-	0	4140	Wave	1.0	Hiya, officer! Floors are clean, streets are safe, all good!
+greet_player_any_10	NPC_GreetPlayer_06	NPC_GreetPlayer_06_003	EAR	m	greet_player	-	onfoot	-	0	3200	Wave	1.0	Well, look who it is. Mornin'.
+greet_player_any_26	NPC_GreetPlayer_06	NPC_GreetPlayer_06_004	TRL	m	greet_player	-	onfoot	-	0	4240	Wave	1.0	Ah. The constabulary. Most reassuring.
+greet_player_any_27	NPC_GreetPlayer_06	NPC_GreetPlayer_06_005	DOR	f	greet_player	-	onfoot	-	0	3600	Wave	1.0	Don't you work too hard now, sweetheart.
+greet_player_night_05	NPC_GreetPlayer_06	NPC_GreetPlayer_06_006	TRL	m	greet_player	night	onfoot+night	-	0	4720	Wave	1.0	Good evening, officer. The city sleeps soundly with you about.
+greet_player_rain_01	NPC_GreetPlayer_06	NPC_GreetPlayer_06_007	DOR	f	greet_player	rain	onfoot+rain	-	0	3520	Wave	1.0	You'll catch a chill out here, dear! Get an umbrella!
+greet_player_night_02	NPC_GreetPlayer_06	NPC_GreetPlayer_06_008	BEN	m	greet_player	night	onfoot+night	-	0	4270	Wave	1.0	Evening, officer! Ovens are warming up. Big night for bread.
+greet_player_morning_03	NPC_GreetPlayer_06	NPC_GreetPlayer_06_009	BEN	m	greet_player	morning	onfoot+morning	-	0	4640	Wave	1.0	Morning! Hot rolls, just out of the oven. Well, my oven.
+jogger_any_07	NPC_Jogger_01	NPC_Jogger_01_001	BEN	m	jogger	-	-	-	0	3120	CatchBreath	1.0	Burning off... the croissants...
+jogger_any_03	NPC_Jogger_01	NPC_Jogger_01_002	DEN	m	jogger	-	-	-	0	4560	CatchBreath	1.0	Why did I... sign up... for this?
+jogger_any_09	NPC_Jogger_01	NPC_Jogger_01_003	STA	f	jogger	-	-	-	0	4460	CatchBreath	1.0	Lovely day for it. Dreadful pace.
+jogger_any_08	NPC_Jogger_01	NPC_Jogger_01_004	WRM	f	jogger	-	-	-	0	3680	CatchBreath	1.0	Just to the corner, then a little rest.
+jogger_any_04	NPC_Jogger_01	NPC_Jogger_01_005	DEN	m	jogger	-	-	-	0	4080	CatchBreath	1.0	Is it lunch yet? It feels like lunch.
+jogger_any_14	NPC_Jogger_01	NPC_Jogger_01_006	TED	m	jogger	-	-	-	0	5120	CatchBreath	1.0	Okay. Okay. One more minute. Then I'm done.
+jogger_any_11	NPC_Jogger_01	NPC_Jogger_01_007	DEN	m	jogger	-	-	-	0	3420	CatchBreath	1.0	My legs have stopped talking to me.
+jogger_any_01	NPC_Jogger_02	NPC_Jogger_02_001	DEB	f	jogger	-	-	-	0	4240	CatchBreath	1.0	Come on! One more lap! You can do it!
+jogger_any_05	NPC_Jogger_02	NPC_Jogger_02_002	JOJ	m	jogger	-	-	-	0	2790	CatchBreath	1.0	Race you to the fountain!
+jogger_any_06	NPC_Jogger_02	NPC_Jogger_02_003	TED	m	jogger	-	-	-	0	5040	CatchBreath	1.0	I'm... fine. Totally... fine.
+jogger_any_02	NPC_Jogger_02	NPC_Jogger_02_004	DEB	f	jogger	-	-	-	0	4640	CatchBreath	1.0	No walking! Jogging is just fast walking with feelings!
+jogger_any_12	NPC_Jogger_02	NPC_Jogger_02_005	JOJ	m	jogger	-	-	-	0	3680	CatchBreath	1.0	Personal best! Probably!
+jogger_any_10	NPC_Jogger_02	NPC_Jogger_02_006	DEB	f	jogger	-	-	-	0	3360	CatchBreath	1.0	Stretch! Stretch! Reach for the sky!
+jogger_any_13	NPC_Jogger_02	NPC_Jogger_02_007	DEB	f	jogger	-	-	-	0	2480	CatchBreath	1.0	Hydrate, people! Hydrate!
+np_atlas1_1	NPC_NewplaceTalk_01	NPC_NewplaceTalk_01_001	TED	m	newplace_talk	portatlas	-	np_atlas1	0	1920	Talk	1.0	Have you been out to Port Atlas yet?
+np_atlas1_2	NPC_NewplaceTalk_01	NPC_NewplaceTalk_01_002	DOR	f	newplace_talk	portatlas	-	np_atlas1	1	4000	Talk2	1.0	Oh yes! The fish and chips are wonderful.
+np_dino2_1	NPC_NewplaceTalk_01	NPC_NewplaceTalk_01_003	TED	m	newplace_talk	dinos	dino	np_dino2	0	2480	Talk	1.0	Is it safe to be near the dinosaurs?
+np_dino2_2	NPC_NewplaceTalk_01	NPC_NewplaceTalk_01_004	DEB	f	newplace_talk	dinos	dino	np_dino2	1	4160	Talk2	1.0	Sure! Just don't run. Or do run. Fast.
+np_castle1_1	NPC_NewplaceTalk_01	NPC_NewplaceTalk_01_005	DOR	f	newplace_talk	castles	-	np_castle1	0	2720	Talk	1.0	There's a castle out in the woods now, you know.
+np_castle1_2	NPC_NewplaceTalk_01	NPC_NewplaceTalk_01_006	THI	f	newplace_talk	castles	-	np_castle1	1	3900	Talk2	1.0	A castle! I must go this very afternoon!
+np_woods2_1	NPC_NewplaceTalk_01	NPC_NewplaceTalk_01_007	EAR	m	newplace_talk	woods	woods	np_woods2	0	2000	Talk	1.0	Smell them pines.
+np_woods2_2	NPC_NewplaceTalk_01	NPC_NewplaceTalk_01_008	STA	f	newplace_talk	woods	woods	np_woods2	1	2720	Talk2	1.0	Smells like a very expensive candle.
+np_atlas2_1	NPC_NewplaceTalk_02	NPC_NewplaceTalk_02_001	JOJ	m	newplace_talk	portatlas	portatlas	np_atlas2	0	2390	Talk	1.0	The Atlas Eye goes SO high!
+np_atlas2_2	NPC_NewplaceTalk_02	NPC_NewplaceTalk_02_002	STA	f	newplace_talk	portatlas	portatlas	np_atlas2	1	1740	Talk2	1.0	I'll take your word for it.
+np_train1_1	NPC_NewplaceTalk_02	NPC_NewplaceTalk_02_003	DEN	m	newplace_talk	trains	-	np_train1	0	2140	Talk	1.0	They've got a steam train running again!
+np_train1_2	NPC_NewplaceTalk_02	NPC_NewplaceTalk_02_004	TRL	m	newplace_talk	trains	-	np_train1	1	4000	Talk2	1.0	Splendid. Proper travel, at last.
+np_castle2_1	NPC_NewplaceTalk_02	NPC_NewplaceTalk_02_005	JOJ	m	newplace_talk	castles	castle	np_castle2	0	1760	Talk	1.0	Do you think a king lives here?
+np_castle2_2	NPC_NewplaceTalk_02	NPC_NewplaceTalk_02_006	TRL	m	newplace_talk	castles	castle	np_castle2	1	3040	Talk2	1.0	If he does, he needs a better gardener.
+np_sky1_1	NPC_NewplaceTalk_02	NPC_NewplaceTalk_02_007	WEN	m	newplace_talk	skyrail	-	np_sky1	0	1920	Talk	1.0	Rode the sky rail to work today.
+np_sky1_2	NPC_NewplaceTalk_02	NPC_NewplaceTalk_02_008	BEN	m	newplace_talk	skyrail	-	np_sky1	1	880	Talk2	1.0	How was it?
+np_sky1_3	NPC_NewplaceTalk_02	NPC_NewplaceTalk_02_009	WEN	m	newplace_talk	skyrail	-	np_sky1	2	3260	Shrug	1.0	I kept my eyes closed. Very relaxing.
+np_dino1_1	NPC_NewplaceTalk_03	NPC_NewplaceTalk_03_001	THI	f	newplace_talk	dinos	-	np_dino1	0	3520	Talk	1.0	They say there are real dinosaurs out by the lookout!
+np_dino1_2	NPC_NewplaceTalk_03	NPC_NewplaceTalk_03_002	EAR	m	newplace_talk	dinos	-	np_dino1	1	3040	Talk2	1.0	Saw one myself. Ate my lunch.
+np_dino1_3	NPC_NewplaceTalk_03	NPC_NewplaceTalk_03_003	THI	f	newplace_talk	dinos	-	np_dino1	2	2720	Talk3	1.0	Fascinating! What did it eat?
+np_train2_1	NPC_NewplaceTalk_03	NPC_NewplaceTalk_03_004	WRM	f	newplace_talk	trains	station	np_train2	0	1920	Talk	1.0	Which platform for the coast?
+np_train2_2	NPC_NewplaceTalk_03	NPC_NewplaceTalk_03_005	TED	m	newplace_talk	trains	station	np_train2	1	3200	Shrug	1.0	I've no idea. I've been here two hours.
+np_woods1_1	NPC_NewplaceTalk_03	NPC_NewplaceTalk_03_006	DEB	f	newplace_talk	woods	-	np_woods1	0	3440	Talk	1.0	New trails out at Woods West. Ten miles!
+np_woods1_2	NPC_NewplaceTalk_03	NPC_NewplaceTalk_03_007	DEN	m	newplace_talk	woods	-	np_woods1	1	1040	Talk2	1.0	Is there a bus?
+np_sky2_1	NPC_NewplaceTalk_03	NPC_NewplaceTalk_03_008	DOR	f	newplace_talk	skyrail	skyrail	np_sky2	0	1680	Talk	1.0	Is this thing safe?
+np_sky2_2	NPC_NewplaceTalk_03	NPC_NewplaceTalk_03_009	JOJ	m	newplace_talk	skyrail	skyrail	np_sky2	1	2640	Talk2	1.0	Totally! Probably! Hold on!
+newplace_portatlas_06	NPC_Newplace_01	NPC_Newplace_01_001	BEN	m	newplace	portatlas	portatlas	-	0	3520	LookAtObject	1.0	Thinking of opening a second stall here. Fish rolls!
+newplace_portatlas_01	NPC_Newplace_01	NPC_Newplace_01_002	STA	f	newplace	portatlas	portatlas	-	0	4320	LookAtObject	1.0	So this is Port Atlas. Rather charming, actually.
+newplace_woods_02	NPC_Newplace_01	NPC_Newplace_01_003	DEB	f	newplace	woods	woods	-	0	2480	LookAtObject	1.0	Trail's this way! Watch for roots!
+newplace_trains_05	NPC_Newplace_01	NPC_Newplace_01_004	THI	f	newplace	trains	station	-	0	4870	CheckTime	1.0	Did you know the first railway here was laid in a single weekend?
+newplace_dinos_03	NPC_Newplace_01	NPC_Newplace_01_005	EAR	m	newplace	dinos	dino	-	0	1980	point	1.0	Don't you go feedin' it now.
+newplace_castles_10	NPC_Newplace_01	NPC_Newplace_01_006	BEN	m	newplace	castles	castle	-	0	2480	LookAtObject	1.0	Imagine the size of the kitchen in there!
+newplace_dinos_01	NPC_Newplace_01	NPC_Newplace_01_007	THI	f	newplace	dinos	dino	-	0	4560	point	1.0	Real dinosaurs! I've waited my whole life for this!
+newplace_castles_06	NPC_Newplace_01	NPC_Newplace_01_008	STA	f	newplace	castles	castle	-	0	3280	LookAtObject	1.0	Bit of a fixer-upper, but lovely bones.
+newplace_castles_03	NPC_Newplace_01	NPC_Newplace_01_009	JOJ	m	newplace	castles	castle	-	0	1760	LookAtObject	1.0	I'm the king of the castle!
+newplace_harbour_03	NPC_Newplace_01	NPC_Newplace_01_010	JOJ	m	newplace	harbour	harbour	-	0	2960	LookAtObject	1.0	Seagull! Seagull! It's got my chips!
+newplace_dinos_06	NPC_Newplace_02	NPC_Newplace_02_001	DEB	f	newplace	dinos	dino	-	0	2800	point	1.0	Can you imagine taking that for a walk?
+newplace_portatlas_11	NPC_Newplace_02	NPC_Newplace_02_002	TED	m	newplace	portatlas	portatlas	-	0	3520	LookAtObject	1.0	I took the wrong train and ended up here. I like it.
+newplace_trains_07	NPC_Newplace_02	NPC_Newplace_02_003	DEN	m	newplace	trains	station	-	0	4400	CheckTime	1.0	Mind the gap. Wait, is there a gap? There's always a gap.
+newplace_trains_09	NPC_Newplace_02	NPC_Newplace_02_004	TRL	m	newplace	trains	station	-	0	3440	CheckTime	1.0	Ah, the romance of the railways.
+newplace_trains_03	NPC_Newplace_02	NPC_Newplace_02_005	JOJ	m	newplace	trains	station	-	0	2240	CheckTime	1.0	Choo choo! Here it comes!
+newplace_dinos_07	NPC_Newplace_02	NPC_Newplace_02_006	DEN	m	newplace	dinos	dino	-	0	2880	point	1.0	It's looking at me. Is it looking at me?
+newplace_dinos_10	NPC_Newplace_02	NPC_Newplace_02_007	TRL	m	newplace	dinos	dino	-	0	4310	point	1.0	Magnificent beasts. Simply magnificent.
+newplace_woods_07	NPC_Newplace_02	NPC_Newplace_02_008	TED	m	newplace	woods	woods	-	0	2880	LookAtObject	1.0	No phone signal out here. I love it.
+newplace_woods_06	NPC_Newplace_02	NPC_Newplace_02_009	STA	f	newplace	woods	woods	-	0	4240	LookAtObject	1.0	Fresh air. Proper fresh air. Marvellous.
+newplace_portatlas_07	NPC_Newplace_03	NPC_Newplace_03_001	DEN	m	newplace	portatlas	portatlas	-	0	3120	LookAtObject	1.0	Whole new town. When did they build all this?
+newplace_portatlas_02	NPC_Newplace_03	NPC_Newplace_03_002	THI	f	newplace	portatlas	portatlas	-	0	5600	LookAtObject	1.0	Port Atlas! Founded by sailors, they say. Or was it builders?
+newplace_trains_02	NPC_Newplace_03	NPC_Newplace_03_003	DOR	f	newplace	trains	station	-	0	3840	CheckTime	1.0	I do love a train ride. So relaxing.
+newplace_harbour_06	NPC_Newplace_03	NPC_Newplace_03_004	WEN	m	newplace	harbour	harbour	-	0	4000	LookAtObject	1.0	Who cleans all these docks? Not me. Thank goodness.
+newplace_skyrail_04	NPC_Newplace_03	NPC_Newplace_03_005	STA	f	newplace	skyrail	skyrail	-	0	1990	LookAtObject	1.0	Is it meant to sway like that?
+newplace_dinos_04	NPC_Newplace_03	NPC_Newplace_03_006	DOR	f	newplace	dinos	dino	-	0	3200	point	1.0	Do they bite? It looks like they bite.
+newplace_harbour_01	NPC_Newplace_03	NPC_Newplace_03_007	BEN	m	newplace	harbour	harbour	-	0	4480	LookAtObject	1.0	Smell that sea air! And the fish. Mostly the fish.
+newplace_castles_01	NPC_Newplace_03	NPC_Newplace_03_008	THI	f	newplace	castles	castle	-	0	4000	LookAtObject	1.0	A real castle! Look at those battlements!
+newplace_castles_09	NPC_Newplace_03	NPC_Newplace_03_009	THI	f	newplace	castles	castle	-	0	3920	LookAtObject	1.0	The drawbridge mechanism! Oh, how clever!
+newplace_portatlas_04	NPC_Newplace_04	NPC_Newplace_04_001	DOR	f	newplace	portatlas	portatlas	-	0	4780	LookAtObject	1.0	I came over for the market. Everything smells of the sea!
+newplace_portatlas_08	NPC_Newplace_04	NPC_Newplace_04_002	TRL	m	newplace	portatlas	portatlas	-	0	4150	LookAtObject	1.0	The harbour light at dusk. Quite unforgettable.
+newplace_trains_04	NPC_Newplace_04	NPC_Newplace_04_003	EAR	m	newplace	trains	station	-	0	4640	CheckTime	1.0	Now that's a proper steam engine. Smell that coal!
+newplace_trains_08	NPC_Newplace_04	NPC_Newplace_04_004	WRM	f	newplace	trains	station	-	0	2240	CheckTime	1.0	Hold my hand on the platform, sweetie.
+newplace_skyrail_06	NPC_Newplace_04	NPC_Newplace_04_005	TED	m	newplace	skyrail	skyrail	-	0	2960	LookAtObject	1.0	Twelve minutes faster than the bus. I timed it.
+newplace_castles_05	NPC_Newplace_04	NPC_Newplace_04_006	EAR	m	newplace	castles	castle	-	0	2920	LookAtObject	1.0	Reckon it's drafty in there come winter.
+newplace_castles_07	NPC_Newplace_04	NPC_Newplace_04_007	DEN	m	newplace	castles	castle	-	0	1840	LookAtObject	1.0	I wonder if they have a gift shop.
+newplace_castles_02	NPC_Newplace_04	NPC_Newplace_04_008	TRL	m	newplace	castles	castle	-	0	5440	LookAtObject	1.0	Every man's home is his castle. This man's home IS a castle.
+newplace_harbour_05	NPC_Newplace_04	NPC_Newplace_04_009	DOR	f	newplace	harbour	harbour	-	0	2480	LookAtObject	1.0	Mind the edge, it's slippery.
+newplace_portatlas_05	NPC_Newplace_05	NPC_Newplace_05_001	EAR	m	newplace	portatlas	portatlas	-	0	3360	LookAtObject	1.0	Never been this far out. Big water.
+newplace_skyrail_07	NPC_Newplace_05	NPC_Newplace_05_002	WEN	m	newplace	skyrail	skyrail	-	0	2880	LookAtObject	1.0	I hear the window cleaners up there get danger money.
+newplace_portatlas_12	NPC_Newplace_05	NPC_Newplace_05_003	JOJ	m	newplace	portatlas	portatlas	-	0	3360	LookAtObject	1.0	Have you been up to the Atlas Eye? You can see the whole city!
+newplace_dinos_09	NPC_Newplace_05	NPC_Newplace_05_004	BEN	m	newplace	dinos	dino	-	0	2150	point	1.0	I bet it eats a LOT of bread.
+newplace_skyrail_05	NPC_Newplace_05	NPC_Newplace_05_005	THI	f	newplace	skyrail	skyrail	-	0	4160	LookAtObject	1.0	A monorail in the sky! Splendid engineering!
+newplace_skyrail_02	NPC_Newplace_05	NPC_Newplace_05_006	JOJ	m	newplace	skyrail	skyrail	-	0	3040	LookAtObject	1.0	Front seat on the sky rail! Best view in town!
+newplace_castles_04	NPC_Newplace_05	NPC_Newplace_05_007	DOR	f	newplace	castles	castle	-	0	5680	LookAtObject	1.0	Ooh, I feel like a princess. A very old princess.
+newplace_woods_05	NPC_Newplace_05	NPC_Newplace_05_008	DEN	m	newplace	woods	woods	-	0	4300	LookAtObject	1.0	Was that a bear? It was a squirrel. A big squirrel.
+newplace_woods_03	NPC_Newplace_05	NPC_Newplace_05_009	JOJ	m	newplace	woods	woods	-	0	3360	LookAtObject	1.0	Is that a treehouse? I need to climb that treehouse!
+newplace_portatlas_10	NPC_Newplace_06	NPC_Newplace_06_001	HYP	m	newplace	portatlas	portatlas	-	0	3200	LookAtObject	1.0	Port Atlas souvenirs! Get 'em while they're new!
+newplace_portatlas_09	NPC_Newplace_06	NPC_Newplace_06_002	WRM	f	newplace	portatlas	portatlas	-	0	2000	LookAtObject	1.0	We're having a day out at the harbour!
+newplace_trains_06	NPC_Newplace_06	NPC_Newplace_06_003	STA	f	newplace	trains	station	-	0	3520	CheckTime	1.0	Platform two. Of course it's platform two.
+newplace_skyrail_01	NPC_Newplace_06	NPC_Newplace_06_004	DEN	m	newplace	skyrail	skyrail	-	0	3510	LookAtObject	1.0	The sky rail. I'll take the stairs. Forever.
+newplace_skyrail_08	NPC_Newplace_06	NPC_Newplace_06_005	TRL	m	newplace	skyrail	skyrail	-	0	2720	LookAtObject	1.0	Like flying, but with seats.
+newplace_dinos_08	NPC_Newplace_06	NPC_Newplace_06_006	STA	f	newplace	dinos	dino	-	0	3350	point	1.0	Well. That's certainly something to write home about.
+newplace_woods_01	NPC_Newplace_06	NPC_Newplace_06_007	EAR	m	newplace	woods	woods	-	0	4240	LookAtObject	1.0	Now this is more like it. Trees! Quiet!
+newplace_woods_04	NPC_Newplace_06	NPC_Newplace_06_008	DOR	f	newplace	woods	woods	-	0	3760	LookAtObject	1.0	Ooh, a picnic spot. I brought sandwiches!
+newplace_harbour_04	NPC_Newplace_06	NPC_Newplace_06_009	STA	f	newplace	harbour	harbour	-	0	3920	LookAtObject	1.0	Ah, a proper harbour. Ropes and everything.
+newplace_portatlas_03	NPC_Newplace_07	NPC_Newplace_07_001	JOJ	m	newplace	portatlas	portatlas	-	0	3840	LookAtObject	1.0	Port Atlas is so cool! There's a beach AND a station!
+newplace_trains_10	NPC_Newplace_07	NPC_Newplace_07_002	BEN	m	newplace	trains	station	-	0	3360	CheckTime	1.0	I always buy a pastry for the journey. Always.
+newplace_trains_01	NPC_Newplace_07	NPC_Newplace_07_003	TED	m	newplace	trains	station	-	0	4000	CheckTime	1.0	Is the train late? The train's late. I'm late.
+newplace_skyrail_03	NPC_Newplace_07	NPC_Newplace_07_004	DOR	f	newplace	skyrail	skyrail	-	0	4400	LookAtObject	1.0	Ooh, it's ever so high. I'll watch from down here.
+newplace_castles_08	NPC_Newplace_07	NPC_Newplace_07_005	WRM	f	newplace	castles	castle	-	0	3180	LookAtObject	1.0	The kids want to storm the castle. Again.
+newplace_dinos_05	NPC_Newplace_07	NPC_Newplace_07_006	TED	m	newplace	dinos	dino	-	0	4320	point	1.0	Should we be this close? I feel like we shouldn't be this close.
+newplace_dinos_02	NPC_Newplace_07	NPC_Newplace_07_007	JOJ	m	newplace	dinos	dino	-	0	3840	point	1.0	The T-Rex! It's huge! It's SO huge!
+newplace_harbour_02	NPC_Newplace_07	NPC_Newplace_07_008	EAR	m	newplace	harbour	harbour	-	0	2560	LookAtObject	1.0	Look at the size of that boat!
+newplace_woods_08	NPC_Newplace_07	NPC_Newplace_07_009	THI	f	newplace	woods	woods	-	0	3920	LookAtObject	1.0	These woods are very old, you know. Older than the city!
+night_any_02	NPC_Night_01	NPC_Night_01_001	BEN	m	night	-	night	-	0	2560	Lamppost	1.0	Smell that? That's tomorrow's bread.
+night_any_07	NPC_Night_01	NPC_Night_01_002	DEB	f	night	-	night	-	0	2480	Lamppost	1.0	Night run! Hi-vis on, people!
+night_any_04	NPC_Night_01	NPC_Night_01_003	DEN	m	night	-	night	-	0	3590	Lamppost	1.0	Was that a noise? It was nothing. Probably nothing.
+night_any_09	NPC_Night_01	NPC_Night_01_004	HYP	m	night	-	night	-	0	2880	Lamppost	1.0	Night owls! Late snacks for night owls!
+night_any_03	NPC_Night_01	NPC_Night_01_005	JOJ	m	night	-	night	-	0	2480	Lamppost	1.0	City lights! So pretty!
+night_any_10	NPC_Night_01	NPC_Night_01_006	OFF	m	night	-	night	-	0	2640	Lamppost	1.0	All quiet. Just how I like it.
+night_any_05	NPC_Night_01	NPC_Night_01_007	STA	f	night	-	night	-	0	2720	Lamppost	1.0	Clear sky tonight. Perfect.
+night_any_06	NPC_Night_01	NPC_Night_01_008	TED	m	night	-	night	-	0	2080	Lamppost	1.0	Should've gone home hours ago.
+night_any_08	NPC_Night_01	NPC_Night_01_009	TRL	m	night	-	night	-	0	2550	Lamppost	1.0	A splendid moon this evening.
+night_any_01	NPC_Night_01	NPC_Night_01_010	WEN	m	night	-	night	-	0	3520	Lamppost	1.0	Ah, the night. Nobody to make a mess.
+phone_any_13	NPC_Phone_01	NPC_Phone_01_001	BEN	m	phone	-	-	-	0	5360	Phone_Idle	1.0	Honey? Yeah, I'll grab milk. And bread. Wait, I MAKE bread.
+phone_any_09	NPC_Phone_01	NPC_Phone_01_002	DOR	f	phone	-	-	-	0	5040	Phone_Idle	1.0	Hello, Margaret? It's Doris. Can you hear me? I'm on the mobile!
+phone_any_11	NPC_Phone_01	NPC_Phone_01_003	JOJ	m	phone	-	-	-	0	4320	Phone_Idle	1.0	Dude, you will not believe what I just saw! Okay, so...
+phone_any_22	NPC_Phone_01	NPC_Phone_01_004	THI	f	phone	-	-	-	0	5520	Phone_Idle	1.0	Yes, Dean, I'll have the paper done by Friday. Probably. Possibly.
+phone_any_17	NPC_Phone_01	NPC_Phone_01_005	WRM	f	phone	-	-	-	0	3920	Phone_Idle	1.0	Hi, sweetie! Did you finish your homework? Good girl!
+phone_any_05	NPC_Phone_01	NPC_Phone_01_006	DEN	m	phone	-	-	-	0	4640	Phone_Idle	1.0	No, the other Dennis. No, the OTHER other Dennis.
+phone_any_08	NPC_Phone_01	NPC_Phone_01_007	STA	f	phone	-	-	-	0	5200	Phone_Idle	1.0	Yes, I saw the comet. No, I didn't wake you. You'd have grumbled.
+phone_any_30	NPC_Phone_01	NPC_Phone_01_008	BEN	m	phone	-	-	-	0	4640	Phone_Idle	1.0	Mom, the sourdough is fine. It's thriving. It's like a pet.
+phone_any_28	NPC_Phone_01	NPC_Phone_01_009	JOJ	m	phone	-	-	-	0	3680	Phone_Idle	1.0	Wait, Chase McCain is HERE? Where? Oh, there!
+phone_any_29	NPC_Phone_01	NPC_Phone_01_010	WRM	f	phone	-	-	-	0	3040	Phone_Idle	1.0	Can you pick up the kids? I'm stuck at the shop.
+phone_any_15	NPC_Phone_02	NPC_Phone_02_001	DEB	f	phone	-	-	-	0	4720	Phone_Idle	1.0	I said ten laps, not two! Ten! Okay, bye!
+phone_any_21	NPC_Phone_02	NPC_Phone_02_002	EAR	m	phone	-	-	-	0	5440	Phone_Idle	1.0	Hello? This thing on? Martha, it's me. I'm in the big city.
+phone_any_07	NPC_Phone_02	NPC_Phone_02_003	STA	f	phone	-	-	-	0	5520	Phone_Idle	1.0	Darling, I'm on the high street. No, there's no tea here. I know.
+phone_any_23	NPC_Phone_02	NPC_Phone_02_004	TRL	m	phone	-	-	-	0	3760	Phone_Idle	1.0	Yes, yes, put the kettle on. I shan't be long.
+phone_any_14	NPC_Phone_02	NPC_Phone_02_005	BEN	m	phone	-	-	-	0	5040	Phone_Idle	1.0	Yes, two hundred rolls by morning. No problem. Big problem.
+phone_any_10	NPC_Phone_02	NPC_Phone_02_006	DOR	f	phone	-	-	-	0	4400	Phone_Idle	1.0	No, dear, I pressed the button. The green one. Hello?
+phone_any_02	NPC_Phone_02	NPC_Phone_02_007	TED	m	phone	-	-	-	0	4960	Phone_Idle	1.0	Hello? Hello? I think I'm in a tunnel. I'm not in a tunnel.
+phone_any_06	NPC_Phone_02	NPC_Phone_02_008	DEN	m	phone	-	-	-	0	5600	Phone_Idle	1.0	Uh-huh. Yeah. No. Yeah. Okay. Bye. Love you. Bye.
+phone_any_26	NPC_Phone_02	NPC_Phone_02_009	STA	f	phone	-	-	-	0	4240	Phone_Idle	1.0	No, I'm not lost. I'm exploring. It's different.
+phone_any_25	NPC_Phone_02	NPC_Phone_02_010	DEN	m	phone	-	-	-	0	3040	Phone_Idle	1.0	Yeah, I found my keys. They were in my hand.
+phone_any_04	NPC_Phone_03	NPC_Phone_03_001	DEN	m	phone	-	-	-	0	3840	Phone_Idle	1.0	Hi, Mom. Yes, I'm eating properly. Mostly toast.
+phone_any_20	NPC_Phone_03	NPC_Phone_03_002	HYP	m	phone	-	-	-	0	5120	Phone_Idle	1.0	Tony! Tony, listen to me. Three crates by Tuesday. Trust me.
+phone_any_01	NPC_Phone_03	NPC_Phone_03_003	TED	m	phone	-	-	-	0	5520	Phone_Idle	1.0	Yes, I'm on my way. No, I'm not late. I'm... slightly late.
+phone_any_19	NPC_Phone_03	NPC_Phone_03_004	WEN	m	phone	-	-	-	0	4240	Phone_Idle	1.0	Yeah, boss. Mop's in the cupboard. No, the OTHER cupboard.
+phone_any_16	NPC_Phone_03	NPC_Phone_03_005	DEB	f	phone	-	-	-	0	5600	Phone_Idle	1.0	Hello? Yeah, it's Deb. No, I'm not shouting. THIS is my normal voice.
+phone_any_12	NPC_Phone_03	NPC_Phone_03_006	JOJ	m	phone	-	-	-	0	2880	Phone_Idle	1.0	Yeah, meet at the skate park! Bring snacks!
+phone_any_18	NPC_Phone_03	NPC_Phone_03_007	WRM	f	phone	-	-	-	0	3680	Phone_Idle	1.0	Yes, the parcel came. Thank you so much!
+phone_any_27	NPC_Phone_03	NPC_Phone_03_008	DOR	f	phone	-	-	-	0	4720	Phone_Idle	1.0	And then she said... oh, you'll never guess what she said!
+phone_any_03	NPC_Phone_03	NPC_Phone_03_009	TED	m	phone	-	-	-	0	4560	Phone_Idle	1.0	Uh-huh. Uh-huh. No, the blue folder. The BLUE one.
+phone_any_24	NPC_Phone_03	NPC_Phone_03_010	TED	m	phone	-	-	-	0	4240	Phone_Idle	1.0	Of course I can work this weekend. I didn't have plans. Ever.
+play_any_03	NPC_Play_01	NPC_Play_01_001	BEN	m	play	-	-	-	0	3200	KeepyUppy	1.0	I used to be good at this. Twenty years ago.
+play_any_02	NPC_Play_01	NPC_Play_01_002	DEB	f	play	-	-	-	0	2640	KeepyUppy	1.0	Pass it! Pass it! I'm open!
+play_any_04	NPC_Play_01	NPC_Play_01_003	DEN	m	play	-	-	-	0	2800	KeepyUppy	1.0	Who's it? I'm not it. Am I it?
+play_any_01	NPC_Play_01	NPC_Play_01_004	JOJ	m	play	-	-	-	0	3920	KeepyUppy	1.0	Twenty-one, twenty-two... ah! Nearly!
+play_any_05	NPC_Play_01	NPC_Play_01_005	WRM	f	play	-	-	-	0	2240	KeepyUppy	1.0	Ready or not, here I come!
+play_any_06	NPC_Play_01	NPC_Play_01_006	JOJ	m	play	-	-	-	0	2240	KeepyUppy	1.0	One more go! Just one more!
+queue_any_09	NPC_Queue_01	NPC_Queue_01_001	DEB	f	queue	-	-	-	0	3360	QueueShuffle	1.0	Move it along up there! Some of us have laps to do!
+queue_any_02	NPC_Queue_01	NPC_Queue_01_002	DOR	f	queue	-	-	-	0	3360	QueueShuffle	1.0	Ooh, I hope they've still got the jam ones.
+queue_any_04	NPC_Queue_01	NPC_Queue_01_003	JOJ	m	queue	-	-	-	0	3120	QueueShuffle	1.0	Come on, come on, I'm so hungry.
+queue_any_01	NPC_Queue_01	NPC_Queue_01_004	TED	m	queue	-	-	-	0	3280	QueueShuffle	1.0	Is this the queue? This is the queue. Okay.
+queue_any_10	NPC_Queue_01	NPC_Queue_01_005	WEN	m	queue	-	-	-	0	2400	QueueShuffle	1.0	Gonna get the biggest sandwich they got.
+queue_any_12	NPC_Queue_01	NPC_Queue_01_006	DOR	f	queue	-	-	-	0	3600	QueueShuffle	1.0	Mind the line, young man. I was here first.
+queue_any_03	NPC_Queue_02	NPC_Queue_02_001	DEN	m	queue	-	-	-	0	3830	QueueShuffle	1.0	Excuse me, is this the end of the line? I'm the end now.
+queue_any_06	NPC_Queue_02	NPC_Queue_02_002	EAR	m	queue	-	-	-	0	3440	QueueShuffle	1.0	Back home we just knock on the door and ask.
+queue_any_05	NPC_Queue_02	NPC_Queue_02_003	STA	f	queue	-	-	-	0	3600	QueueShuffle	1.0	Ah, a proper queue. How civilised.
+queue_any_11	NPC_Queue_02	NPC_Queue_02_004	THI	f	queue	-	-	-	0	5340	QueueShuffle	1.0	Did you know the queue was invented in... oh, no idea, actually.
+queue_any_07	NPC_Queue_02	NPC_Queue_02_005	WRM	f	queue	-	-	-	0	2640	QueueShuffle	1.0	It's worth the wait, I promise.
+queue_any_08	NPC_Queue_02	NPC_Queue_02_006	TED	m	queue	-	-	-	0	3680	QueueShuffle	1.0	I've been in this line so long, I've forgotten what I wanted.
+react_bumped_any_13	NPC_ReactBumped_01	NPC_ReactBumped_01_001	BEN	m	react_bumped	-	-	-	0	2080	Talk_Angry	1.0	Oof! Hey, careful!
+react_bumped_any_01	NPC_ReactBumped_01	NPC_ReactBumped_01_002	DOR	f	react_bumped	-	-	-	0	2880	Talk_Angry	1.0	Ooh! Watch where you're going, dear!
+react_bumped_any_05	NPC_ReactBumped_01	NPC_ReactBumped_01_003	JOJ	m	react_bumped	-	-	-	0	1680	Talk_Angry	1.0	Hey! Watch it, dude!
+react_bumped_any_03	NPC_ReactBumped_01	NPC_ReactBumped_01_004	TED	m	react_bumped	-	-	-	0	4080	Talk_Angry	1.0	Oof! Sorry! Was that me? I think that was you.
+react_bumped_any_19	NPC_ReactBumped_01	NPC_ReactBumped_01_005	WEN	m	react_bumped	-	-	-	0	1920	Talk_Angry	1.0	Hey! Watch the mop!
+react_bumped_any_12	NPC_ReactBumped_01	NPC_ReactBumped_01_006	DEB	f	react_bumped	-	-	-	0	2640	Talk_Angry	1.0	Whoa! I'm not a tackling dummy!
+react_bumped_any_10	NPC_ReactBumped_01	NPC_ReactBumped_01_007	EAR	m	react_bumped	-	-	-	0	1680	Talk_Angry	1.0	Easy there, son!
+react_bumped_any_28	NPC_ReactBumped_01	NPC_ReactBumped_01_008	OFF	m	react_bumped	-	-	-	0	4560	Talk_Angry	1.0	Watch it, pal! Oh. It's you. Still, watch it!
+react_bumped_any_16	NPC_ReactBumped_01	NPC_ReactBumped_01_009	THI	f	react_bumped	-	-	-	0	1870	Talk_Angry	1.0	I beg your pardon!
+react_bumped_any_24	NPC_ReactBumped_01	NPC_ReactBumped_01_010	WRM	f	react_bumped	-	-	-	0	3280	Talk_Angry	1.0	Ooh! Goodness, you gave me a fright.
+react_bumped_any_11	NPC_ReactBumped_02	NPC_ReactBumped_02_001	DEB	f	react_bumped	-	-	-	0	1680	Talk_Angry	1.0	Hey! Eyes up!
+react_bumped_any_09	NPC_ReactBumped_02	NPC_ReactBumped_02_002	EAR	m	react_bumped	-	-	-	0	2800	Talk_Angry	1.0	Hey now! I ain't a fence post!
+react_bumped_any_27	NPC_ReactBumped_02	NPC_ReactBumped_02_003	OFF	m	react_bumped	-	-	-	0	2240	Talk_Angry	1.0	Hey! I'm walkin' here!
+react_bumped_any_15	NPC_ReactBumped_02	NPC_ReactBumped_02_004	THI	f	react_bumped	-	-	-	0	3350	Talk_Angry	1.0	Oh! Oh, goodness, my spectacles!
+react_bumped_any_23	NPC_ReactBumped_02	NPC_ReactBumped_02_005	WRM	f	react_bumped	-	-	-	0	2320	Talk_Angry	1.0	Oh! Careful, please!
+react_bumped_any_18	NPC_ReactBumped_02	NPC_ReactBumped_02_006	DEN	m	react_bumped	-	-	-	0	2800	Talk_Angry	1.0	Ow. Okay. That happened.
+react_bumped_any_22	NPC_ReactBumped_02	NPC_ReactBumped_02_007	HYP	m	react_bumped	-	-	-	0	2640	Talk_Angry	1.0	Whoa, whoa! What's the rush, buddy?
+react_bumped_any_08	NPC_ReactBumped_02	NPC_ReactBumped_02_008	STA	f	react_bumped	-	-	-	0	4000	Talk_Angry	1.0	Do you always walk into people, or is it a special occasion?
+react_bumped_any_26	NPC_ReactBumped_02	NPC_ReactBumped_02_009	TRL	m	react_bumped	-	-	-	0	1920	Talk_Angry	1.0	Do look where you're going.
+react_bumped_any_17	NPC_ReactBumped_03	NPC_ReactBumped_03_001	DEN	m	react_bumped	-	-	-	0	3840	Talk_Angry	1.0	Oh! Sorry. Sorry. Wait, you bumped me.
+react_bumped_any_21	NPC_ReactBumped_03	NPC_ReactBumped_03_002	HYP	m	react_bumped	-	-	-	0	3120	Talk_Angry	1.0	Hey! Easy! I bruise like a peach!
+react_bumped_any_07	NPC_ReactBumped_03	NPC_ReactBumped_03_003	STA	f	react_bumped	-	-	-	0	1200	Talk_Angry	1.0	Excuse you.
+react_bumped_any_25	NPC_ReactBumped_03	NPC_ReactBumped_03_004	TRL	m	react_bumped	-	-	-	0	2480	Talk_Angry	1.0	I say! Manners, sir!
+react_bumped_any_14	NPC_ReactBumped_03	NPC_ReactBumped_03_005	BEN	m	react_bumped	-	-	-	0	2850	Talk_Angry	1.0	Whoa! Nearly squished my croissants!
+react_bumped_any_02	NPC_ReactBumped_03	NPC_ReactBumped_03_006	DOR	f	react_bumped	-	-	-	0	2240	Talk_Angry	1.0	Mind my hip, young man!
+react_bumped_any_06	NPC_ReactBumped_03	NPC_ReactBumped_03_007	JOJ	m	react_bumped	-	-	-	0	2000	Talk_Angry	1.0	Whoa! Personal space!
+react_bumped_any_04	NPC_ReactBumped_03	NPC_ReactBumped_03_008	TED	m	react_bumped	-	-	-	0	3840	Talk_Angry	1.0	Ow. No, it's fine. It's totally fine.
+react_bumped_any_20	NPC_ReactBumped_03	NPC_ReactBumped_03_009	WEN	m	react_bumped	-	-	-	0	2000	Talk_Angry	1.0	Whoa! Easy, pal!
+react_chase_any_09	NPC_ReactChase_01	NPC_ReactChase_01_001	BEN	m	react_chase	-	wanted	-	0	2640	point	1.0	Whoa! Hold onto your hats, folks!
+react_chase_any_03	NPC_ReactChase_01	NPC_ReactChase_01_002	DOR	f	react_chase	-	wanted	-	0	3980	point	1.0	Oh my! Sirens! Everybody inside!
+react_chase_any_01	NPC_ReactChase_01	NPC_ReactChase_01_003	JOJ	m	react_chase	-	wanted	-	0	3200	point	1.0	Whoa! Police chase! This is like a movie!
+react_chase_any_05	NPC_ReactChase_01	NPC_ReactChase_01_004	TED	m	react_chase	-	wanted	-	0	4800	point	1.0	Oh no. Oh no, oh no. I'll just wait over here.
+react_chase_any_12	NPC_ReactChase_01	NPC_ReactChase_01_005	WEN	m	react_chase	-	wanted	-	0	2960	point	1.0	Hey! Slow down! I just swept there!
+react_chase_any_21	NPC_ReactChase_01	NPC_ReactChase_01_006	DEN	m	react_chase	-	wanted	-	0	3360	point	1.0	And there they go. Wow. Okay.
+react_chase_any_22	NPC_ReactChase_01	NPC_ReactChase_01_007	HYP	m	react_chase	-	wanted	-	0	3040	point	1.0	Somebody's in trouble! Big trouble!
+react_chase_any_24	NPC_ReactChase_01	NPC_ReactChase_01_008	THI	f	react_chase	-	wanted	-	0	3120	point	1.0	History in the making! Probably!
+react_chase_any_08	NPC_ReactChase_02	NPC_ReactChase_02_001	DEB	f	react_chase	-	wanted	-	0	3280	point	1.0	Get off the road, people! Chase coming through!
+react_chase_any_07	NPC_ReactChase_02	NPC_ReactChase_02_002	EAR	m	react_chase	-	wanted	-	0	2800	point	1.0	Run, ya varmint! They'll catch ya!
+react_chase_any_16	NPC_ReactChase_02	NPC_ReactChase_02_003	OFF	m	react_chase	-	wanted	-	0	3520	point	1.0	Go get 'em, McCain! I'll... direct traffic!
+react_chase_any_10	NPC_ReactChase_02	NPC_ReactChase_02_004	THI	f	react_chase	-	wanted	-	0	4880	point	1.0	Goodness! Is it a bank robber? I do hope it's a bank robber!
+react_chase_any_14	NPC_ReactChase_02	NPC_ReactChase_02_005	WRM	f	react_chase	-	wanted	-	0	3190	point	1.0	Oh! Please, everyone, stay back!
+react_chase_any_04	NPC_ReactChase_02	NPC_ReactChase_02_006	DOR	f	react_chase	-	wanted	-	0	3760	point	1.0	Not again! That's the third time this week!
+react_chase_any_02	NPC_ReactChase_02	NPC_ReactChase_02_007	JOJ	m	react_chase	-	wanted	-	0	1840	point	1.0	Go, go, go! Get 'em!
+react_chase_any_23	NPC_ReactChase_02	NPC_ReactChase_02_008	WRM	f	react_chase	-	wanted	-	0	2560	point	1.0	Oh, I hope nobody gets hurt.
+react_chase_any_11	NPC_ReactChase_03	NPC_ReactChase_03_001	DEN	m	react_chase	-	wanted	-	0	4390	point	1.0	Is that... a chase? Should I be filming? I should be filming.
+react_chase_any_13	NPC_ReactChase_03	NPC_ReactChase_03_002	HYP	m	react_chase	-	wanted	-	0	3760	point	1.0	Ooh! Front row seats, folks! Front row seats!
+react_chase_any_06	NPC_ReactChase_03	NPC_ReactChase_03_003	STA	f	react_chase	-	wanted	-	0	3760	point	1.0	Ah. The weekly car chase. Right on schedule.
+react_chase_any_15	NPC_ReactChase_03	NPC_ReactChase_03_004	TRL	m	react_chase	-	wanted	-	0	2720	point	1.0	A pursuit! How thrilling!
+react_chase_any_20	NPC_ReactChase_03	NPC_ReactChase_03_005	DEB	f	react_chase	-	wanted	-	0	3280	point	1.0	Wow, those guys need to work on their cardio!
+react_chase_any_19	NPC_ReactChase_03	NPC_ReactChase_03_006	EAR	m	react_chase	-	wanted	-	0	3440	point	1.0	Back in my day, we chased 'em on horseback!
+react_chase_any_18	NPC_ReactChase_03	NPC_ReactChase_03_007	TED	m	react_chase	-	wanted	-	0	2560	point	1.0	I'm going to be so late for work.
+react_chase_any_17	NPC_ReactChase_03	NPC_ReactChase_03_008	JOJ	m	react_chase	-	wanted	-	0	3040	point	1.0	That was so fast my hat almost flew off!
+react_crash_any_13	NPC_ReactCrash_01	NPC_ReactCrash_01_001	BEN	m	react_crash	-	-	-	0	2560	point	1.0	Whoa! Everybody okay over there?
+react_crash_any_09	NPC_ReactCrash_01	NPC_ReactCrash_01_002	EAR	m	react_crash	-	-	-	0	3120	point	1.0	Whoa there! Easy on the brakes, son!
+react_crash_any_07	NPC_ReactCrash_01	NPC_ReactCrash_01_003	STA	f	react_crash	-	-	-	0	3520	point	1.0	Oh, marvellous. Bricks everywhere.
+react_crash_any_19	NPC_ReactCrash_01	NPC_ReactCrash_01_004	WEN	m	react_crash	-	-	-	0	4620	point	1.0	Aw, man. Who's cleaning that up? Oh. Me.
+react_crash_any_18	NPC_ReactCrash_01	NPC_ReactCrash_01_005	DEN	m	react_crash	-	-	-	0	3200	point	1.0	That's... not where cars usually go.
+react_crash_any_06	NPC_ReactCrash_01	NPC_ReactCrash_01_006	JOJ	m	react_crash	-	-	-	0	2400	point	1.0	Crunch! Did you hear that crunch?
+react_crash_any_16	NPC_ReactCrash_01	NPC_ReactCrash_01_007	THI	f	react_crash	-	-	-	0	2270	point	1.0	Goodness, what a clatter!
+react_crash_wreck_07	NPC_ReactCrash_01	NPC_ReactCrash_01_008	BEN	m	react_crash	wreck	-	-	0	3760	point	1.0	Whoa. That car's toast. Burnt toast.
+react_crash_wreck_05	NPC_ReactCrash_01	NPC_ReactCrash_01_009	HYP	m	react_crash	wreck	-	-	0	3040	point	1.0	Spare parts! Get your spare parts here!
+react_crash_wreck_08	NPC_ReactCrash_01	NPC_ReactCrash_01_010	WRM	f	react_crash	wreck	-	-	0	4400	point	1.0	Oh! Oh, is anyone in there? Oh, thank goodness.
+react_crash_any_11	NPC_ReactCrash_02	NPC_ReactCrash_02_001	DEB	f	react_crash	-	-	-	0	2080	point	1.0	Hey! Watch where you're going!
+react_crash_any_21	NPC_ReactCrash_02	NPC_ReactCrash_02_002	HYP	m	react_crash	-	-	-	0	4720	point	1.0	Whoa-ho! Car for sale! Slightly used! Very slightly!
+react_crash_any_03	NPC_ReactCrash_02	NPC_ReactCrash_02_003	TED	m	react_crash	-	-	-	0	4320	point	1.0	Oh! Oh no. That's going to be a lot of paperwork.
+react_crash_any_23	NPC_ReactCrash_02	NPC_ReactCrash_02_004	WRM	f	react_crash	-	-	-	0	2640	point	1.0	Oh, my goodness! Are you hurt?
+react_crash_any_02	NPC_ReactCrash_02	NPC_ReactCrash_02_005	DOR	f	react_crash	-	-	-	0	3040	point	1.0	Goodness! That's going to need some glue.
+react_crash_any_28	NPC_ReactCrash_02	NPC_ReactCrash_02_006	OFF	m	react_crash	-	-	-	0	2900	point	1.0	I'm gonna need a bigger notepad.
+react_crash_any_26	NPC_ReactCrash_02	NPC_ReactCrash_02_007	TRL	m	react_crash	-	-	-	0	2480	point	1.0	Steady on, steady on!
+react_crash_wreck_04	NPC_ReactCrash_02	NPC_ReactCrash_02_008	DEB	f	react_crash	wreck	-	-	0	2640	point	1.0	And THAT'S why we wear seat belts, people!
+react_crash_any_29	NPC_ReactCrash_02	NPC_ReactCrash_02_009	JOJ	m	react_crash	-	-	-	0	2160	point	1.0	Insurance is gonna LOVE this.
+react_crash_wreck_01	NPC_ReactCrash_02	NPC_ReactCrash_02_010	JOJ	m	react_crash	wreck	-	-	0	3830	point	1.0	It's in pieces! It's literally in pieces!
+react_crash_any_17	NPC_ReactCrash_03	NPC_ReactCrash_03_001	DEN	m	react_crash	-	-	-	0	3840	point	1.0	Ooh. Yikes. Okay. Yikes.
+react_crash_any_05	NPC_ReactCrash_03	NPC_ReactCrash_03_002	JOJ	m	react_crash	-	-	-	0	4160	point	1.0	Ooh! That's gotta hurt. Well, the car, anyway.
+react_crash_any_15	NPC_ReactCrash_03	NPC_ReactCrash_03_003	THI	f	react_crash	-	-	-	0	4320	point	1.0	Oh! Oh my! Mind the lamp post! Too late.
+react_crash_any_14	NPC_ReactCrash_03	NPC_ReactCrash_03_004	BEN	m	react_crash	-	-	-	0	2720	point	1.0	Oof. That's a lot of loose bricks.
+react_crash_any_10	NPC_ReactCrash_03	NPC_ReactCrash_03_005	EAR	m	react_crash	-	-	-	0	2560	point	1.0	That'll buff out. Probably.
+react_crash_any_08	NPC_ReactCrash_03	NPC_ReactCrash_03_006	STA	f	react_crash	-	-	-	0	2240	point	1.0	Well, that's one way to park.
+react_crash_any_20	NPC_ReactCrash_03	NPC_ReactCrash_03_007	WEN	m	react_crash	-	-	-	0	2400	point	1.0	I'll get the big broom.
+react_crash_any_30	NPC_ReactCrash_03	NPC_ReactCrash_03_008	DOR	f	react_crash	-	-	-	0	3510	point	1.0	In my day, cars went round things!
+react_crash_wreck_02	NPC_ReactCrash_03	NPC_ReactCrash_03_009	TED	m	react_crash	wreck	-	-	0	2960	point	1.0	Is... is it supposed to come apart like that?
+react_crash_any_01	NPC_ReactCrash_04	NPC_ReactCrash_04_001	DOR	f	react_crash	-	-	-	0	3680	point	1.0	Oh dear, oh dear! Is everybody all right?
+react_crash_any_27	NPC_ReactCrash_04	NPC_ReactCrash_04_002	OFF	m	react_crash	-	-	-	0	3680	point	1.0	Hey, hey! Easy! This ain't a demolition derby!
+react_crash_any_25	NPC_ReactCrash_04	NPC_ReactCrash_04_003	TRL	m	react_crash	-	-	-	0	3040	point	1.0	Good heavens. What a calamity.
+react_crash_any_12	NPC_ReactCrash_04	NPC_ReactCrash_04_004	DEB	f	react_crash	-	-	-	0	3120	point	1.0	Yikes! Somebody needs driving lessons!
+react_crash_any_22	NPC_ReactCrash_04	NPC_ReactCrash_04_005	HYP	m	react_crash	-	-	-	0	3120	point	1.0	Ooh! You need a new car? I know a guy!
+react_crash_any_04	NPC_ReactCrash_04	NPC_ReactCrash_04_006	TED	m	react_crash	-	-	-	0	3680	point	1.0	Is that insured? I hope that's insured.
+react_crash_any_24	NPC_ReactCrash_04	NPC_ReactCrash_04_007	WRM	f	react_crash	-	-	-	0	2880	point	1.0	Oh, that poor car.
+react_crash_wreck_03	NPC_ReactCrash_04	NPC_ReactCrash_04_008	EAR	m	react_crash	wreck	-	-	0	3280	point	1.0	Well, that car's been plumb taken apart.
+react_crash_wreck_06	NPC_ReactCrash_04	NPC_ReactCrash_04_009	THI	f	react_crash	wreck	-	-	0	3520	point	1.0	Deconstructed! Like a museum exhibit!
+react_disguise_farmer_03	NPC_ReactDisguise_01	NPC_ReactDisguise_01_001	BEN	m	react_disguise	farmer	disguise	-	0	2320	Wave	1.0	Hey, farmer! Got any flour?
+react_disguise_robber_01	NPC_ReactDisguise_01	NPC_ReactDisguise_01_002	DOR	f	react_disguise	robber	disguise	-	0	6230	point	1.0	Oh! A burglar! Oh. No, it's the policeman. Dressed up.
+react_disguise_robber_03	NPC_ReactDisguise_01	NPC_ReactDisguise_01_003	JOJ	m	react_disguise	robber	disguise	-	0	3120	point	1.0	Nice robber costume! Very convincing!
+react_disguise_robber_02	NPC_ReactDisguise_01	NPC_ReactDisguise_01_004	TED	m	react_disguise	robber	disguise	-	0	3920	point	1.0	Is that a robber? He's waving. Robbers don't wave.
+react_disguise_astronaut_04	NPC_ReactDisguise_01	NPC_ReactDisguise_01_005	WRM	f	react_disguise	astronaut	disguise	-	0	2960	point	1.0	Oh, my son wants to be an astronaut!
+react_disguise_miner_01	NPC_ReactDisguise_01	NPC_ReactDisguise_01_006	EAR	m	react_disguise	miner	disguise	-	0	1760	point	1.0	Struck gold yet, son?
+react_disguise_fireman_02	NPC_ReactDisguise_01	NPC_ReactDisguise_01_007	TED	m	react_disguise	fireman	disguise	-	0	4080	Wave	1.0	Is there a fire? There's no fire? Okay. Good.
+react_disguise_miner_02	NPC_ReactDisguise_01	NPC_ReactDisguise_01_008	JOJ	m	react_disguise	miner	disguise	-	0	2400	point	1.0	Cool helmet light! Can you turn it on?
+react_disguise_police_02	NPC_ReactDisguise_01	NPC_ReactDisguise_01_009	JOJ	m	react_disguise	police	disguise	-	0	2560	Wave	1.0	Classic look! Very official.
+react_disguise_construction_02	NPC_ReactDisguise_02	NPC_ReactDisguise_02_001	DEB	f	react_disguise	construction	disguise	-	0	2720	point	1.0	Oh great, more roadworks.
+react_disguise_farmer_01	NPC_ReactDisguise_02	NPC_ReactDisguise_02_002	EAR	m	react_disguise	farmer	disguise	-	0	3360	Wave	1.0	A fellow farmer! How's the corn, friend?
+react_disguise_robber_04	NPC_ReactDisguise_02	NPC_ReactDisguise_02_003	OFF	m	react_disguise	robber	disguise	-	0	3840	point	1.0	Hey you! Oh, it's McCain. Fooled me.
+react_disguise_astronaut_02	NPC_ReactDisguise_02	NPC_ReactDisguise_02_004	THI	f	react_disguise	astronaut	disguise	-	0	3600	point	1.0	Back from the stars, are we? How marvellous!
+react_disguise_miner_04	NPC_ReactDisguise_02	NPC_ReactDisguise_02_005	BEN	m	react_disguise	miner	disguise	-	0	2400	point	1.0	You look like you need a big breakfast.
+react_disguise_astronaut_01	NPC_ReactDisguise_02	NPC_ReactDisguise_02_006	JOJ	m	react_disguise	astronaut	disguise	-	0	3040	point	1.0	An astronaut! Did you just come from space?
+react_disguise_fireman_03	NPC_ReactDisguise_02	NPC_ReactDisguise_02_007	WRM	f	react_disguise	fireman	disguise	-	0	2080	Wave	1.0	Thank you for all you do!
+react_disguise_construction_03	NPC_ReactDisguise_02	NPC_ReactDisguise_02_008	TED	m	react_disguise	construction	disguise	-	0	3670	point	1.0	Is this road closed? Please say it's not closed.
+react_disguise_police_01	NPC_ReactDisguise_02	NPC_ReactDisguise_02_009	DOR	f	react_disguise	police	disguise	-	0	3680	Wave	1.0	Oh, back in uniform! Much smarter.
+react_disguise_astronaut_03	NPC_ReactDisguise_03	NPC_ReactDisguise_03_001	DEN	m	react_disguise	astronaut	disguise	-	0	2930	point	1.0	Is it hard to walk in that? It looks hard.
+react_disguise_fireman_04	NPC_ReactDisguise_03	NPC_ReactDisguise_03_002	HYP	m	react_disguise	fireman	disguise	-	0	3440	Wave	1.0	Hey, fire guy! Need a hot dog? Not too hot!
+react_disguise_farmer_04	NPC_ReactDisguise_03	NPC_ReactDisguise_03_003	STA	f	react_disguise	farmer	disguise	-	0	2450	Wave	1.0	Bit far from the fields, aren't you?
+react_disguise_construction_01	NPC_ReactDisguise_03	NPC_ReactDisguise_03_004	WEN	m	react_disguise	construction	disguise	-	0	2470	point	1.0	Hey, builder! You fixing the road again?
+react_disguise_farmer_02	NPC_ReactDisguise_03	NPC_ReactDisguise_03_005	DOR	f	react_disguise	farmer	disguise	-	0	2560	Wave	1.0	Ooh, are you selling eggs today?
+react_disguise_miner_03	NPC_ReactDisguise_03	NPC_ReactDisguise_03_006	STA	f	react_disguise	miner	disguise	-	0	2160	point	1.0	Mind you don't dig up the high street.
+react_disguise_fireman_01	NPC_ReactDisguise_03	NPC_ReactDisguise_03_007	DOR	f	react_disguise	fireman	disguise	-	0	4000	Wave	1.0	Oh, a fireman! My cat's in a tree again!
+react_disguise_construction_04	NPC_ReactDisguise_03	NPC_ReactDisguise_03_008	DOR	f	react_disguise	construction	disguise	-	0	3920	point	1.0	Ooh, a builder. Could you fix my garden gate?
+react_near_miss_any_13	NPC_ReactNearMiss_01	NPC_ReactNearMiss_01_001	BEN	m	react_near_miss	-	-	-	0	2320	Shrug	1.0	Whoa! Hey! Careful!
+react_near_miss_any_01	NPC_ReactNearMiss_01	NPC_ReactNearMiss_01_002	DOR	f	react_near_miss	-	-	-	0	3120	Shrug	1.0	Whoa! Mind the pavement, young man!
+react_near_miss_any_05	NPC_ReactNearMiss_01	NPC_ReactNearMiss_01_003	JOJ	m	react_near_miss	-	-	-	0	3680	Shrug	1.0	Whoa! Watch it! Okay, that was kinda cool though.
+react_near_miss_any_03	NPC_ReactNearMiss_01	NPC_ReactNearMiss_01_004	TED	m	react_near_miss	-	-	-	0	3200	Shrug	1.0	Ah! Okay! Moving! I'm moving!
+react_near_miss_any_19	NPC_ReactNearMiss_01	NPC_ReactNearMiss_01_005	WEN	m	react_near_miss	-	-	-	0	2560	Shrug	1.0	Hey! I just cleaned that sidewalk!
+react_near_miss_any_12	NPC_ReactNearMiss_01	NPC_ReactNearMiss_01_006	DEB	f	react_near_miss	-	-	-	0	2140	Shrug	1.0	Slow it down, speedy!
+react_near_miss_any_10	NPC_ReactNearMiss_01	NPC_ReactNearMiss_01_007	EAR	m	react_near_miss	-	-	-	0	4000	Shrug	1.0	Easy, partner! You nearly turned me into a pancake!
+react_near_miss_any_08	NPC_ReactNearMiss_01	NPC_ReactNearMiss_01_008	STA	f	react_near_miss	-	-	-	0	2960	Shrug	1.0	Charming. Absolutely charming.
+react_near_miss_any_26	NPC_ReactNearMiss_01	NPC_ReactNearMiss_01_009	TRL	m	react_near_miss	-	-	-	0	2960	Shrug	1.0	Good grief! Use the road, man!
+react_near_miss_any_28	NPC_ReactNearMiss_01	NPC_ReactNearMiss_01_010	DOR	f	react_near_miss	-	-	-	0	3840	Shrug	1.0	I'm eighty-two, I can't jump like that anymore!
+react_near_miss_any_11	NPC_ReactNearMiss_02	NPC_ReactNearMiss_02_001	DEB	f	react_near_miss	-	-	-	0	4720	Shrug	1.0	HEY! Sidewalk! S-I-D-E-walk!
+react_near_miss_any_09	NPC_ReactNearMiss_02	NPC_ReactNearMiss_02_002	EAR	m	react_near_miss	-	-	-	0	3600	Shrug	1.0	Whoa, whoa! Slow down, there's people about!
+react_near_miss_any_27	NPC_ReactNearMiss_02	NPC_ReactNearMiss_02_003	OFF	m	react_near_miss	-	-	-	0	3920	Shrug	1.0	Hey! Off the sidewalk! What are ya, a shopping cart?
+react_near_miss_any_15	NPC_ReactNearMiss_02	NPC_ReactNearMiss_02_004	THI	f	react_near_miss	-	-	-	0	3340	Shrug	1.0	Oh! Goodness! Not on the pavement!
+react_near_miss_any_23	NPC_ReactNearMiss_02	NPC_ReactNearMiss_02_005	WRM	f	react_near_miss	-	-	-	0	3760	Shrug	1.0	Oh! Please slow down, there are children about!
+react_near_miss_any_18	NPC_ReactNearMiss_02	NPC_ReactNearMiss_02_006	DEN	m	react_near_miss	-	-	-	0	4160	Shrug	1.0	Sorry! Wait, why am I sorry? You're on the pavement!
+react_near_miss_any_22	NPC_ReactNearMiss_02	NPC_ReactNearMiss_02_007	HYP	m	react_near_miss	-	-	-	0	3680	Shrug	1.0	Hey, buddy! The road's over there! Big grey thing!
+react_near_miss_any_04	NPC_ReactNearMiss_02	NPC_ReactNearMiss_02_008	TED	m	react_near_miss	-	-	-	0	3200	Shrug	1.0	That was close. That was very close.
+react_near_miss_any_20	NPC_ReactNearMiss_02	NPC_ReactNearMiss_02_009	WEN	m	react_near_miss	-	-	-	0	3200	Shrug	1.0	Whoa! Watch the bucket! Watch the bucket!
+react_near_miss_any_17	NPC_ReactNearMiss_03	NPC_ReactNearMiss_03_001	DEN	m	react_near_miss	-	-	-	0	4880	Shrug	1.0	Whoa! Okay. Okay. I'm fine. I think I'm fine.
+react_near_miss_any_21	NPC_ReactNearMiss_03	NPC_ReactNearMiss_03_002	HYP	m	react_near_miss	-	-	-	0	4400	Shrug	1.0	Whoa! Easy! The merchandise! Mind the merchandise!
+react_near_miss_any_07	NPC_ReactNearMiss_03	NPC_ReactNearMiss_03_003	STA	f	react_near_miss	-	-	-	0	2480	Shrug	1.0	Do you mind? This is a footpath.
+react_near_miss_any_25	NPC_ReactNearMiss_03	NPC_ReactNearMiss_03_004	TRL	m	react_near_miss	-	-	-	0	2640	Shrug	1.0	I say! Have a care, sir!
+react_near_miss_any_14	NPC_ReactNearMiss_03	NPC_ReactNearMiss_03_005	BEN	m	react_near_miss	-	-	-	0	2870	Shrug	1.0	Yikes! Nearly dropped my baguettes!
+react_near_miss_any_02	NPC_ReactNearMiss_03	NPC_ReactNearMiss_03_006	DOR	f	react_near_miss	-	-	-	0	2640	Shrug	1.0	The pavement is for FEET, dear!
+react_near_miss_any_06	NPC_ReactNearMiss_03	NPC_ReactNearMiss_03_007	JOJ	m	react_near_miss	-	-	-	0	3680	Shrug	1.0	Hey! I'm walking here! Like, literally walking!
+react_near_miss_any_16	NPC_ReactNearMiss_03	NPC_ReactNearMiss_03_008	THI	f	react_near_miss	-	-	-	0	2230	Shrug	1.0	Eek! Such haste!
+react_near_miss_any_24	NPC_ReactNearMiss_03	NPC_ReactNearMiss_03_009	WRM	f	react_near_miss	-	-	-	0	2960	Shrug	1.0	Gracious! That was far too close.
+react_punch_any_07	NPC_ReactPunch_01	NPC_ReactPunch_01_001	BEN	m	react_punch	-	-	-	0	2520	Shrug	1.0	Whoa, not near the pastries!
+react_punch_any_12	NPC_ReactPunch_01	NPC_ReactPunch_01_002	DEN	m	react_punch	-	-	-	0	2560	Shrug	1.0	I'm just gonna... go over here.
+react_punch_any_05	NPC_ReactPunch_01	NPC_ReactPunch_01_003	EAR	m	react_punch	-	-	-	0	2800	Shrug	1.0	Now, now, boys. Play nice.
+react_punch_any_03	NPC_ReactPunch_01	NPC_ReactPunch_01_004	JOJ	m	react_punch	-	-	-	0	2720	Shrug	1.0	Whoa, whoa! Calm down, everybody!
+react_punch_any_04	NPC_ReactPunch_01	NPC_ReactPunch_01_005	STA	f	react_punch	-	-	-	0	1920	Shrug	1.0	Must we? Really?
+react_punch_any_09	NPC_ReactPunch_01	NPC_ReactPunch_01_006	TRL	m	react_punch	-	-	-	0	2720	Shrug	1.0	Gentlemen! Decorum, please!
+react_punch_any_06	NPC_ReactPunch_02	NPC_ReactPunch_02_001	DEB	f	react_punch	-	-	-	0	2560	Shrug	1.0	Hey! Break it up! Break it up!
+react_punch_any_01	NPC_ReactPunch_02	NPC_ReactPunch_02_002	DOR	f	react_punch	-	-	-	0	2480	Shrug	1.0	Oh, stop that this instant!
+react_punch_any_11	NPC_ReactPunch_02	NPC_ReactPunch_02_003	HYP	m	react_punch	-	-	-	0	2960	Shrug	1.0	Easy, easy! Nobody wants trouble!
+react_punch_any_10	NPC_ReactPunch_02	NPC_ReactPunch_02_004	OFF	m	react_punch	-	-	-	0	1760	Shrug	1.0	Hey! Knock it off!
+react_punch_any_02	NPC_ReactPunch_02	NPC_ReactPunch_02_005	TED	m	react_punch	-	-	-	0	4080	Shrug	1.0	I'm not involved. I'm not involved. Excuse me.
+react_punch_any_08	NPC_ReactPunch_02	NPC_ReactPunch_02_006	WRM	f	react_punch	-	-	-	0	2880	Shrug	1.0	Please, everyone, be nice!
+react_stunt_any_14	NPC_ReactStunt_01	NPC_ReactStunt_01_001	BEN	m	react_stunt	-	-	-	0	2480	point	1.0	Whoa! Did you see the height on that?
+react_stunt_any_10	NPC_ReactStunt_01	NPC_ReactStunt_01_002	EAR	m	react_stunt	-	-	-	0	4870	point	1.0	Yee-haw! Ain't seen a jump like that since the county fair!
+react_stunt_any_08	NPC_ReactStunt_01	NPC_ReactStunt_01_003	STA	f	react_stunt	-	-	-	0	4080	point	1.0	Well. That was unnecessary. And rather impressive.
+react_stunt_any_20	NPC_ReactStunt_01	NPC_ReactStunt_01_004	WEN	m	react_stunt	-	-	-	0	3360	point	1.0	Whoa-ho-ho! Somebody's gonna have to sweep THAT up!
+react_stunt_any_19	NPC_ReactStunt_01	NPC_ReactStunt_01_005	DEN	m	react_stunt	-	-	-	0	3440	point	1.0	Okay, that was cool. That was really cool.
+react_stunt_any_02	NPC_ReactStunt_01	NPC_ReactStunt_01_006	JOJ	m	react_stunt	-	-	-	0	2640	point	1.0	Whoa! Do it again! Do it again!
+react_stunt_any_17	NPC_ReactStunt_01	NPC_ReactStunt_01_007	THI	f	react_stunt	-	-	-	0	3760	point	1.0	Oh! Oh my! The physics of that!
+react_stunt_big_02	NPC_ReactStunt_01	NPC_ReactStunt_01_008	DEB	f	react_stunt	big	-	-	0	3130	Celebration	1.0	Now THAT'S what I call cardio!
+react_stunt_any_03	NPC_ReactStunt_01	NPC_ReactStunt_01_009	JOJ	m	react_stunt	-	-	-	0	2720	point	1.0	Ten out of ten! Twelve out of ten!
+react_stunt_any_27	NPC_ReactStunt_01	NPC_ReactStunt_01_010	JOJ	m	react_stunt	-	-	-	0	2160	point	1.0	That's going straight on my channel!
+react_stunt_any_12	NPC_ReactStunt_02	NPC_ReactStunt_02_001	DEB	f	react_stunt	-	-	-	0	3600	point	1.0	Whoa! Nice air! Now stick the landing!
+react_stunt_any_21	NPC_ReactStunt_02	NPC_ReactStunt_02_002	HYP	m	react_stunt	-	-	-	0	4560	point	1.0	WHOA! Folks, you saw it here first! Incredible!
+react_stunt_any_06	NPC_ReactStunt_02	NPC_ReactStunt_02_003	TED	m	react_stunt	-	-	-	0	4640	point	1.0	Oh no, oh no... oh! He landed it. Okay.
+react_stunt_any_23	NPC_ReactStunt_02	NPC_ReactStunt_02_004	WRM	f	react_stunt	-	-	-	0	3200	point	1.0	Oh! Goodness! Please be careful!
+react_stunt_any_05	NPC_ReactStunt_02	NPC_ReactStunt_02_005	DOR	f	react_stunt	-	-	-	0	3980	point	1.0	My heart! Somebody hold my handbag!
+react_stunt_any_29	NPC_ReactStunt_02	NPC_ReactStunt_02_006	OFF	m	react_stunt	-	-	-	0	2720	point	1.0	Show-off. Nice one, though.
+react_stunt_any_26	NPC_ReactStunt_02	NPC_ReactStunt_02_007	TRL	m	react_stunt	-	-	-	0	2480	point	1.0	I say! What a leap!
+react_stunt_big_04	NPC_ReactStunt_02	NPC_ReactStunt_02_008	DOR	f	react_stunt	big	-	-	0	3680	Celebration	1.0	Good heavens! He went right over the clouds!
+react_stunt_big_05	NPC_ReactStunt_02	NPC_ReactStunt_02_009	THI	f	react_stunt	big	-	-	0	4800	Celebration	1.0	That will be in the history books! Well, my history books!
+react_stunt_big_01	NPC_ReactStunt_02	NPC_ReactStunt_02_010	JOJ	m	react_stunt	big	-	-	0	3280	Celebration	1.0	NO WAY! That's the biggest jump EVER!
+react_stunt_any_18	NPC_ReactStunt_03	NPC_ReactStunt_03_001	DEN	m	react_stunt	-	-	-	0	2480	point	1.0	Huh. I didn't know cars could do that.
+react_stunt_any_01	NPC_ReactStunt_03	NPC_ReactStunt_03_002	JOJ	m	react_stunt	-	-	-	0	3510	point	1.0	Did you see that?! That was SO sick!
+react_stunt_any_16	NPC_ReactStunt_03	NPC_ReactStunt_03_003	THI	f	react_stunt	-	-	-	0	4400	point	1.0	Goodness gracious! Airborne! Quite airborne!
+react_stunt_any_15	NPC_ReactStunt_03	NPC_ReactStunt_03_004	BEN	m	react_stunt	-	-	-	0	2640	point	1.0	Ha! That's how I flip pancakes!
+react_stunt_any_11	NPC_ReactStunt_03	NPC_ReactStunt_03_005	EAR	m	react_stunt	-	-	-	0	3920	point	1.0	Well, slap my knee! That boy can fly!
+react_stunt_any_09	NPC_ReactStunt_03	NPC_ReactStunt_03_006	STA	f	react_stunt	-	-	-	0	3280	point	1.0	Gosh. I suppose that's one way to get about.
+react_stunt_any_24	NPC_ReactStunt_03	NPC_ReactStunt_03_007	WRM	f	react_stunt	-	-	-	0	3360	point	1.0	Oh, thank heavens, they're fine.
+react_stunt_any_30	NPC_ReactStunt_03	NPC_ReactStunt_03_008	EAR	m	react_stunt	-	-	-	0	3520	point	1.0	Hoo! Nearly lost my hat watchin' that!
+react_stunt_big_06	NPC_ReactStunt_03	NPC_ReactStunt_03_009	TRL	m	react_stunt	big	-	-	0	2480	Celebration	1.0	Bravo! Bravissimo!
+react_stunt_any_04	NPC_ReactStunt_04	NPC_ReactStunt_04_001	DOR	f	react_stunt	-	-	-	0	3120	point	1.0	Oh my stars! Was that allowed?
+react_stunt_any_28	NPC_ReactStunt_04	NPC_ReactStunt_04_002	OFF	m	react_stunt	-	-	-	0	4240	point	1.0	Hey! Okay, that was pretty good. Don't tell nobody I said that.
+react_stunt_any_25	NPC_ReactStunt_04	NPC_ReactStunt_04_003	TRL	m	react_stunt	-	-	-	0	3360	point	1.0	Remarkable. Utterly remarkable.
+react_stunt_any_13	NPC_ReactStunt_04	NPC_ReactStunt_04_004	DEB	f	react_stunt	-	-	-	0	3820	point	1.0	That's the most exercise that car's ever had!
+react_stunt_any_22	NPC_ReactStunt_04	NPC_ReactStunt_04_005	HYP	m	react_stunt	-	-	-	0	3280	point	1.0	That's a highlight reel, baby! Highlight reel!
+react_stunt_any_07	NPC_ReactStunt_04	NPC_ReactStunt_04_006	TED	m	react_stunt	-	-	-	0	3520	point	1.0	I can't watch. Did it work? It worked!
+react_stunt_big_07	NPC_ReactStunt_04	NPC_ReactStunt_04_007	BEN	m	react_stunt	big	-	-	0	3040	Celebration	1.0	I'm gonna tell my kids about this one!
+react_stunt_big_03	NPC_ReactStunt_04	NPC_ReactStunt_04_008	HYP	m	react_stunt	big	-	-	0	3200	Celebration	1.0	Somebody call the record books! Call 'em now!
+react_stunt_big_08	NPC_ReactStunt_04	NPC_ReactStunt_04_009	EAR	m	react_stunt	big	-	-	0	3600	Celebration	1.0	Sixty years and I ain't never seen the like!
+react_superbuild_any_09	NPC_ReactSuperbuild_01	NPC_ReactSuperbuild_01_001	BEN	m	react_superbuild	-	-	-	0	2940	Cheer_Clap	1.0	He's like a master builder!
+react_superbuild_any_03	NPC_ReactSuperbuild_01	NPC_ReactSuperbuild_01_002	DOR	f	react_superbuild	-	-	-	0	3590	Cheer_Clap	1.0	Oh, how lovely! Look what he made!
+react_superbuild_any_01	NPC_ReactSuperbuild_01	NPC_ReactSuperbuild_01_003	JOJ	m	react_superbuild	-	-	-	0	2560	Cheer_Clap	1.0	Whoa! He built that out of nothing!
+react_superbuild_any_05	NPC_ReactSuperbuild_01	NPC_ReactSuperbuild_01_004	TED	m	react_superbuild	-	-	-	0	3910	Cheer_Clap	1.0	That was... actually amazing. Wow.
+react_superbuild_any_12	NPC_ReactSuperbuild_01	NPC_ReactSuperbuild_01_005	WEN	m	react_superbuild	-	-	-	0	3360	Cheer_Clap	1.0	Hey, nice build! And no mess left over!
+react_superbuild_any_21	NPC_ReactSuperbuild_01	NPC_ReactSuperbuild_01_006	DEB	f	react_superbuild	-	-	-	0	2800	Cheer_Clap	1.0	Woo! Round of applause, everybody!
+react_superbuild_any_20	NPC_ReactSuperbuild_01	NPC_ReactSuperbuild_01_007	HYP	m	react_superbuild	-	-	-	0	1920	Cheer_Clap	1.0	I'll sell tickets to the next one!
+react_superbuild_any_19	NPC_ReactSuperbuild_01	NPC_ReactSuperbuild_01_008	THI	f	react_superbuild	-	-	-	0	3280	Cheer_Clap	1.0	One for the archives! One for the archives!
+react_superbuild_any_08	NPC_ReactSuperbuild_02	NPC_ReactSuperbuild_02_001	DEB	f	react_superbuild	-	-	-	0	2560	Cheer_Clap	1.0	Now that's teamwork! Woo!
+react_superbuild_any_07	NPC_ReactSuperbuild_02	NPC_ReactSuperbuild_02_002	EAR	m	react_superbuild	-	-	-	0	4320	Cheer_Clap	1.0	Well, I'll be. Built it quicker than I build a fence!
+react_superbuild_any_16	NPC_ReactSuperbuild_02	NPC_ReactSuperbuild_02_003	OFF	m	react_superbuild	-	-	-	0	2880	Cheer_Clap	1.0	Huh. Never knew a cop could build like that.
+react_superbuild_any_10	NPC_ReactSuperbuild_02	NPC_ReactSuperbuild_02_004	THI	f	react_superbuild	-	-	-	0	4880	Cheer_Clap	1.0	Marvellous! Simply marvellous! Every brick in place!
+react_superbuild_any_14	NPC_ReactSuperbuild_02	NPC_ReactSuperbuild_02_005	WRM	f	react_superbuild	-	-	-	0	3360	Cheer_Clap	1.0	Oh, that's beautiful! Well done!
+react_superbuild_any_04	NPC_ReactSuperbuild_02	NPC_ReactSuperbuild_02_006	DOR	f	react_superbuild	-	-	-	0	2560	Cheer_Clap	1.0	Bravo, dear! Bravo!
+react_superbuild_any_02	NPC_ReactSuperbuild_02	NPC_ReactSuperbuild_02_007	JOJ	m	react_superbuild	-	-	-	0	2560	Cheer_Clap	1.0	Super build! That was AWESOME!
+react_superbuild_any_18	NPC_ReactSuperbuild_02	NPC_ReactSuperbuild_02_008	DOR	f	react_superbuild	-	-	-	0	4600	Cheer_Clap	1.0	My late husband built a birdhouse once. Not like that.
+react_superbuild_any_11	NPC_ReactSuperbuild_03	NPC_ReactSuperbuild_03_001	DEN	m	react_superbuild	-	-	-	0	2560	Cheer_Clap	1.0	Huh. I can't even build a bookshelf.
+react_superbuild_any_13	NPC_ReactSuperbuild_03	NPC_ReactSuperbuild_03_002	HYP	m	react_superbuild	-	-	-	0	3440	Cheer_Clap	1.0	Folks, give it up! Give it up for the builder!
+react_superbuild_any_06	NPC_ReactSuperbuild_03	NPC_ReactSuperbuild_03_003	STA	f	react_superbuild	-	-	-	0	3120	Cheer_Clap	1.0	Oh. Oh, that's rather good, actually.
+react_superbuild_any_15	NPC_ReactSuperbuild_03	NPC_ReactSuperbuild_03_004	TRL	m	react_superbuild	-	-	-	0	2720	Cheer_Clap	1.0	A triumph of the builder's art!
+react_superbuild_any_22	NPC_ReactSuperbuild_03	NPC_ReactSuperbuild_03_005	BEN	m	react_superbuild	-	-	-	0	2080	Cheer_Clap	1.0	Can you build me a new oven next?
+react_superbuild_any_24	NPC_ReactSuperbuild_03	NPC_ReactSuperbuild_03_006	EAR	m	react_superbuild	-	-	-	0	2350	Cheer_Clap	1.0	Reckon he could build me a barn?
+react_superbuild_any_23	NPC_ReactSuperbuild_03	NPC_ReactSuperbuild_03_007	STA	f	react_superbuild	-	-	-	0	2960	Cheer_Clap	1.0	Well. That's going in my postcard home.
+react_superbuild_any_17	NPC_ReactSuperbuild_03	NPC_ReactSuperbuild_03_008	JOJ	m	react_superbuild	-	-	-	0	2400	Cheer_Clap	1.0	How many bricks was that? A million?
+react_vehicle_train_06	NPC_ReactVehicle_01	NPC_ReactVehicle_01_001	BEN	m	react_vehicle	train	-	-	0	4120	point	1.0	Choo choo! Sorry, had to.
+react_vehicle_train_01	NPC_ReactVehicle_01	NPC_ReactVehicle_01_002	JOJ	m	react_vehicle	train	-	-	0	3680	point	1.0	Whoa! He's driving the train! The actual train!
+react_vehicle_bike_04	NPC_ReactVehicle_01	NPC_ReactVehicle_01_003	WRM	f	react_vehicle	bike	-	-	0	2960	point	1.0	Oh, motorbikes are so loud!
+react_vehicle_police_03	NPC_ReactVehicle_01	NPC_ReactVehicle_01_004	HYP	m	react_vehicle	police	-	-	0	2800	Wave	1.0	Hey, officer! Wanna upgrade those wheels?
+react_vehicle_boat_01	NPC_ReactVehicle_01	NPC_ReactVehicle_01_005	BEN	m	react_vehicle	boat	harbour	-	0	2560	point	1.0	Nice boat! Bring me back a fish!
+react_vehicle_dino_01	NPC_ReactVehicle_01	NPC_ReactVehicle_01_006	JOJ	m	react_vehicle	dino	-	-	0	3920	point	1.0	Is he riding a dinosaur?! Best city ever!
+react_vehicle_bike_03	NPC_ReactVehicle_01	NPC_ReactVehicle_01_007	EAR	m	react_vehicle	bike	-	-	0	5360	point	1.0	Back when I was young, I had a bike like that. Well, a horse.
+react_vehicle_heli_02	NPC_ReactVehicle_01	NPC_ReactVehicle_01_008	JOJ	m	react_vehicle	heli	-	-	0	2550	point	1.0	Helicopter! Do a loop! Do a loop!
+react_vehicle_plane_03	NPC_ReactVehicle_01	NPC_ReactVehicle_01_009	DOR	f	react_vehicle	plane	-	-	0	2800	point	1.0	Ooh, I can see the pilot waving!
+react_vehicle_dino_06	NPC_ReactVehicle_02	NPC_ReactVehicle_02_001	DEB	f	react_vehicle	dino	-	-	0	2000	point	1.0	Hey! Leash that thing!
+react_vehicle_skyrail_03	NPC_ReactVehicle_02	NPC_ReactVehicle_02_002	STA	f	react_vehicle	skyrail	-	-	0	4790	point	1.0	The sky rail. Very futuristic. Very wobbly-looking.
+react_vehicle_dino_07	NPC_ReactVehicle_02	NPC_ReactVehicle_02_003	BEN	m	react_vehicle	dino	-	-	0	2870	point	1.0	Does it eat bread? I've got a lot of bread.
+react_vehicle_skyrail_01	NPC_ReactVehicle_02	NPC_ReactVehicle_02_004	JOJ	m	react_vehicle	skyrail	-	-	0	2720	point	1.0	Look! Up on the sky rail! Wave!
+react_vehicle_bike_02	NPC_ReactVehicle_02	NPC_ReactVehicle_02_005	DEB	f	react_vehicle	bike	-	-	0	1920	point	1.0	Helmet on, I hope!
+react_vehicle_heli_05	NPC_ReactVehicle_02	NPC_ReactVehicle_02_006	STA	f	react_vehicle	heli	-	-	0	2000	point	1.0	Must they land on the high street?
+react_vehicle_pteranodon_01	NPC_ReactVehicle_02	NPC_ReactVehicle_02_007	JOJ	m	react_vehicle	pteranodon	-	-	0	2880	point	1.0	He's flying a pterodactyl! FLYING!
+react_vehicle_odd_02	NPC_ReactVehicle_02	NPC_ReactVehicle_02_008	STA	f	react_vehicle	odd	-	-	0	3600	point	1.0	I don't know what that is, but it's certainly a choice.
+react_vehicle_bike_01	NPC_ReactVehicle_02	NPC_ReactVehicle_02_009	JOJ	m	react_vehicle	bike	-	-	0	1680	point	1.0	Wheelie! Do a wheelie!
+react_vehicle_skyrail_02	NPC_ReactVehicle_03	NPC_ReactVehicle_03_001	DEN	m	react_vehicle	skyrail	-	-	0	3040	point	1.0	I've never been on the sky rail. It looks high.
+react_vehicle_dino_04	NPC_ReactVehicle_03	NPC_ReactVehicle_03_002	TED	m	react_vehicle	dino	-	-	0	3590	point	1.0	Is that... is that legal? That can't be legal.
+react_vehicle_heli_04	NPC_ReactVehicle_03	NPC_ReactVehicle_03_003	DEB	f	react_vehicle	heli	-	-	0	2640	point	1.0	Hey! You're blowing my leaves around!
+react_vehicle_dino_09	NPC_ReactVehicle_03	NPC_ReactVehicle_03_004	STA	f	react_vehicle	dino	-	-	0	4080	point	1.0	Ah. A dinosaur. Of course. Why not.
+react_vehicle_police_04	NPC_ReactVehicle_03	NPC_ReactVehicle_03_005	DEN	m	react_vehicle	police	-	-	0	4160	Wave	1.0	Police car. Okay. I didn't do anything. Did I?
+react_vehicle_plane_02	NPC_ReactVehicle_03	NPC_ReactVehicle_03_006	TED	m	react_vehicle	plane	-	-	0	2320	point	1.0	Is that plane supposed to be that low?
+react_vehicle_boat_02	NPC_ReactVehicle_03	NPC_ReactVehicle_03_007	STA	f	react_vehicle	boat	harbour	-	0	3760	point	1.0	Ah, messing about in boats. Splendid.
+react_vehicle_odd_05	NPC_ReactVehicle_03	NPC_ReactVehicle_03_008	THI	f	react_vehicle	odd	-	-	0	2460	point	1.0	What a peculiar contraption!
+react_vehicle_boat_04	NPC_ReactVehicle_03	NPC_ReactVehicle_03_009	JOJ	m	react_vehicle	boat	harbour	-	0	2400	point	1.0	Speedboat! Make a big splash!
+react_vehicle_train_03	NPC_ReactVehicle_04	NPC_ReactVehicle_04_001	DOR	f	react_vehicle	train	-	-	0	4150	point	1.0	Oh, a steam train! Just like when I was a girl!
+react_vehicle_train_04	NPC_ReactVehicle_04	NPC_ReactVehicle_04_002	THI	f	react_vehicle	train	-	-	0	4320	point	1.0	A steam locomotive! What a glorious machine!
+react_vehicle_dino_10	NPC_ReactVehicle_04	NPC_ReactVehicle_04_003	DEN	m	react_vehicle	dino	-	-	0	4160	point	1.0	Okay. A dinosaur. Sure. That's just a normal Tuesday.
+react_vehicle_heli_01	NPC_ReactVehicle_04	NPC_ReactVehicle_04_004	TED	m	react_vehicle	heli	-	-	0	4150	point	1.0	That helicopter's very low. Very, very low.
+react_vehicle_dino_05	NPC_ReactVehicle_04	NPC_ReactVehicle_04_005	DOR	f	react_vehicle	dino	-	-	0	4480	point	1.0	Oh, my! Does it bite? It looks like it bites!
+react_vehicle_dino_03	NPC_ReactVehicle_04	NPC_ReactVehicle_04_006	THI	f	react_vehicle	dino	-	-	0	5350	point	1.0	A living dinosaur! Oh, my heart! Oh, my research!
+react_vehicle_pteranodon_02	NPC_ReactVehicle_04	NPC_ReactVehicle_04_007	THI	f	react_vehicle	pteranodon	-	-	0	5200	point	1.0	Pteranodon, dear, not pterodactyl! But yes! Flying!
+react_vehicle_police_02	NPC_ReactVehicle_04	NPC_ReactVehicle_04_008	DOR	f	react_vehicle	police	-	-	0	4080	Wave	1.0	Oh, here come the police. I feel safer already.
+react_vehicle_plane_01	NPC_ReactVehicle_04	NPC_ReactVehicle_04_009	JOJ	m	react_vehicle	plane	-	-	0	2720	point	1.0	Look! A plane! So low!
+react_vehicle_train_02	NPC_ReactVehicle_05	NPC_ReactVehicle_05_001	EAR	m	react_vehicle	train	-	-	0	4000	point	1.0	Now there's a fine old engine. Puff puff!
+react_vehicle_train_05	NPC_ReactVehicle_05	NPC_ReactVehicle_05_002	TRL	m	react_vehicle	train	-	-	0	3420	point	1.0	All aboard! Ha ha! Marvellous!
+react_vehicle_skyrail_04	NPC_ReactVehicle_05	NPC_ReactVehicle_05_003	DOR	f	react_vehicle	skyrail	-	-	0	3920	point	1.0	Ooh, they're so high up! I'd get dizzy.
+react_vehicle_skyrail_06	NPC_ReactVehicle_05	NPC_ReactVehicle_05_004	THI	f	react_vehicle	skyrail	-	-	0	2320	point	1.0	Engineering in the clouds!
+react_vehicle_pteranodon_03	NPC_ReactVehicle_05	NPC_ReactVehicle_05_005	EAR	m	react_vehicle	pteranodon	-	-	0	2670	point	1.0	Biggest bird I ever did see.
+react_vehicle_odd_01	NPC_ReactVehicle_05	NPC_ReactVehicle_05_006	DEN	m	react_vehicle	odd	-	-	0	2000	point	1.0	What on earth is he driving?
+react_vehicle_heli_03	NPC_ReactVehicle_05	NPC_ReactVehicle_05_007	DOR	f	react_vehicle	heli	-	-	0	2960	point	1.0	Oh, my hair! My hair!
+react_vehicle_odd_06	NPC_ReactVehicle_05	NPC_ReactVehicle_05_008	EAR	m	react_vehicle	odd	-	-	0	3430	point	1.0	Is that a tractor? That ain't no tractor.
+react_vehicle_odd_03	NPC_ReactVehicle_05	NPC_ReactVehicle_05_009	JOJ	m	react_vehicle	odd	-	-	0	3520	point	1.0	That is the weirdest car ever and I love it!
+react_vehicle_dino_08	NPC_ReactVehicle_06	NPC_ReactVehicle_06_001	HYP	m	react_vehicle	dino	-	-	0	3280	point	1.0	Dino rides! Five studs! Who's in?
+react_vehicle_skyrail_05	NPC_ReactVehicle_06	NPC_ReactVehicle_06_002	WEN	m	react_vehicle	skyrail	-	-	0	3520	point	1.0	Somebody's gotta clean those windows up there. Not me!
+react_vehicle_dino_02	NPC_ReactVehicle_06	NPC_ReactVehicle_06_003	EAR	m	react_vehicle	dino	-	-	0	4800	point	1.0	Now I've seen everything. A cowboy on a dinosaur!
+react_vehicle_plane_04	NPC_ReactVehicle_06	NPC_ReactVehicle_06_004	TRL	m	react_vehicle	plane	-	-	0	2960	point	1.0	Bandits at twelve o'clock! Ha ha!
+react_vehicle_odd_04	NPC_ReactVehicle_06	NPC_ReactVehicle_06_005	HYP	m	react_vehicle	odd	-	-	0	2480	point	1.0	Whatever that is, I want one!
+react_vehicle_pteranodon_04	NPC_ReactVehicle_06	NPC_ReactVehicle_06_006	DOR	f	react_vehicle	pteranodon	-	-	0	2560	point	1.0	Oh! Mind the washing lines!
+react_vehicle_boat_03	NPC_ReactVehicle_06	NPC_ReactVehicle_06_007	EAR	m	react_vehicle	boat	harbour	-	0	1920	point	1.0	Don't tip her over now!
+react_vehicle_police_01	NPC_ReactVehicle_06	NPC_ReactVehicle_06_008	JOJ	m	react_vehicle	police	-	-	0	2560	Wave	1.0	Nice police car! Put the siren on!
+st_bread_1	NPC_Smalltalk_01	NPC_Smalltalk_01_001	DOR	f	smalltalk	-	-	st_bread	0	2530	Talk	1.0	Did you try the new bakery on the corner?
+st_bread_2	NPC_Smalltalk_01	NPC_Smalltalk_01_002	BEN	m	smalltalk	-	-	st_bread	1	4000	Talk2	1.0	Try it? I run it! Come by tomorrow.
+st_bread_3	NPC_Smalltalk_01	NPC_Smalltalk_01_003	DOR	f	smalltalk	-	-	st_bread	2	3280	Talk3	1.0	Oh! Then save me a jam doughnut, dear.
+st_diet_1	NPC_Smalltalk_01	NPC_Smalltalk_01_004	DEB	f	smalltalk	-	-	st_diet	0	1410	Talk	1.0	I've given up sugar.
+st_diet_2	NPC_Smalltalk_01	NPC_Smalltalk_01_005	BEN	m	smalltalk	-	-	st_diet	1	1040	Talk2	1.0	Since when?
+st_diet_3	NPC_Smalltalk_01	NPC_Smalltalk_01_006	DEB	f	smalltalk	-	-	st_diet	2	2880	Shrug	1.0	Since about... ten minutes ago.
+st_stars_1	NPC_Smalltalk_01	NPC_Smalltalk_01_007	STA	f	smalltalk	-	night	st_stars	0	2800	point	1.0	You can see Saturn tonight, if you look.
+st_stars_2	NPC_Smalltalk_01	NPC_Smalltalk_01_008	DEN	m	smalltalk	-	night	st_stars	1	1120	Ponder	1.0	Which one is it?
+st_stars_3	NPC_Smalltalk_01	NPC_Smalltalk_01_009	STA	f	smalltalk	-	night	st_stars	2	1840	Talk2	1.0	The one that's not a plane.
+st_late_1	NPC_Smalltalk_02	NPC_Smalltalk_02_001	TED	m	smalltalk	-	morning	st_late	0	2880	Talk	1.0	Sorry I'm late. The bus went the wrong way.
+st_late_2	NPC_Smalltalk_02	NPC_Smalltalk_02_002	DEB	f	smalltalk	-	morning	st_late	1	2430	Talk_Angry	1.0	Buses don't go the wrong way, Ted.
+st_late_3	NPC_Smalltalk_02	NPC_Smalltalk_02_003	TED	m	smalltalk	-	morning	st_late	2	2080	Shrug	1.0	This one did. I was on it.
+st_knitting_1	NPC_Smalltalk_02	NPC_Smalltalk_02_004	DOR	f	smalltalk	-	-	st_knitting	0	2620	Talk	1.0	I'm knitting a scarf for my grandson.
+st_knitting_2	NPC_Smalltalk_02	NPC_Smalltalk_02_005	TRL	m	smalltalk	-	-	st_knitting	1	3040	Talk2	1.0	How very kind. How long is it?
+st_knitting_3	NPC_Smalltalk_02	NPC_Smalltalk_02_006	DOR	f	smalltalk	-	-	st_knitting	2	4140	Shrug	1.0	About forty feet so far. I can't find the end.
+st_promotion_1	NPC_Smalltalk_02	NPC_Smalltalk_02_007	TED	m	smalltalk	-	-	st_promotion	0	1520	Talk	1.0	I got a promotion!
+st_promotion_2	NPC_Smalltalk_02	NPC_Smalltalk_02_008	DEB	f	smalltalk	-	-	st_promotion	1	2720	Talk2	1.0	Congratulations! What's the new job?
+st_promotion_3	NPC_Smalltalk_02	NPC_Smalltalk_02_009	TED	m	smalltalk	-	-	st_promotion	2	2240	Shrug	1.0	Same job. Bigger chair.
+st_cat_1	NPC_Smalltalk_03	NPC_Smalltalk_03_001	WRM	f	smalltalk	-	-	st_cat	0	1760	Talk	1.0	Has your cat come home yet?
+st_cat_2	NPC_Smalltalk_03	NPC_Smalltalk_03_002	DEN	m	smalltalk	-	-	st_cat	1	3360	Shrug	1.0	She came back with a fish. I don't own a fish.
+st_cat_3	NPC_Smalltalk_03	NPC_Smalltalk_03_003	WRM	f	smalltalk	-	-	st_cat	2	2720	Talk2	1.0	Well, you do now.
+st_chase_news_1	NPC_Smalltalk_03	NPC_Smalltalk_03_004	TED	m	smalltalk	-	-	st_chase_news	0	2320	Talk	1.0	Did you see Chase McCain on the news?
+st_chase_news_2	NPC_Smalltalk_03	NPC_Smalltalk_03_005	DOR	f	smalltalk	-	-	st_chase_news	1	4080	Talk2	1.0	Such a nice young man. Always so polite.
+st_lost_keys_1	NPC_Smalltalk_03	NPC_Smalltalk_03_006	TED	m	smalltalk	-	-	st_lost_keys	0	1440	Ponder	1.0	Have you seen my keys?
+st_lost_keys_2	NPC_Smalltalk_03	NPC_Smalltalk_03_007	WRM	f	smalltalk	-	-	st_lost_keys	1	2040	point	1.0	They're in your hand, Ted.
+st_lost_keys_3	NPC_Smalltalk_03	NPC_Smalltalk_03_008	TED	m	smalltalk	-	-	st_lost_keys	2	1760	Shrug	1.0	Oh. So they are.
+st_cheese_1	NPC_Smalltalk_03	NPC_Smalltalk_03_009	EAR	m	smalltalk	-	-	st_cheese	0	4640	Talk	1.0	Brought my own cheese to the city. Can't trust city cheese.
+st_cheese_2	NPC_Smalltalk_03	NPC_Smalltalk_03_010	BEN	m	smalltalk	-	-	st_cheese	1	1680	Talk2	1.0	What's wrong with city cheese?
+st_cheese_3	NPC_Smalltalk_03	NPC_Smalltalk_03_011	EAR	m	smalltalk	-	-	st_cheese	2	1500	Shrug	1.0	Too shiny.
+st_holiday_1	NPC_Smalltalk_04	NPC_Smalltalk_04_001	STA	f	smalltalk	-	-	st_holiday	0	2160	Talk	1.0	Going anywhere nice for the holidays?
+st_holiday_2	NPC_Smalltalk_04	NPC_Smalltalk_04_002	EAR	m	smalltalk	-	-	st_holiday	1	4480	Talk2	1.0	Thought I might visit the big city. Oh wait. I'm here.
+st_birthday_1	NPC_Smalltalk_04	NPC_Smalltalk_04_003	BEN	m	smalltalk	-	-	st_birthday	0	3520	Talk	1.0	It's my daughter's birthday. Seven layers of cake!
+st_birthday_2	NPC_Smalltalk_04	NPC_Smalltalk_04_004	WRM	f	smalltalk	-	-	st_birthday	1	2230	Talk2	1.0	Seven? How old is she?
+st_birthday_3	NPC_Smalltalk_04	NPC_Smalltalk_04_005	BEN	m	smalltalk	-	-	st_birthday	2	2400	Shrug	1.0	Six. I got carried away.
+st_band_1	NPC_Smalltalk_04	NPC_Smalltalk_04_006	JOJ	m	smalltalk	-	evening	st_band	0	1360	Talk	1.0	I'm starting a band!
+st_band_2	NPC_Smalltalk_04	NPC_Smalltalk_04_007	WEN	m	smalltalk	-	evening	st_band	1	880	Talk2	1.0	What do you play?
+st_band_3	NPC_Smalltalk_04	NPC_Smalltalk_04_008	JOJ	m	smalltalk	-	evening	st_band	2	2880	Talk3	1.0	Nothing yet. But the name is awesome.
+st_selfie_1	NPC_Smalltalk_04	NPC_Smalltalk_04_009	JOJ	m	smalltalk	-	-	st_selfie	0	1520	Talk	1.0	Can you take a selfie of me?
+st_selfie_2	NPC_Smalltalk_04	NPC_Smalltalk_04_010	DOR	f	smalltalk	-	-	st_selfie	1	3020	Ponder	1.0	Isn't a selfie one you take yourself, dear?
+st_selfie_3	NPC_Smalltalk_04	NPC_Smalltalk_04_011	JOJ	m	smalltalk	-	-	st_selfie	2	1600	Shrug	1.0	Huh. Good point.
+st_gym_1	NPC_Smalltalk_05	NPC_Smalltalk_05_001	DEB	f	smalltalk	-	-	st_gym	0	2160	Talk	1.0	You should come running with me sometime!
+st_gym_2	NPC_Smalltalk_05	NPC_Smalltalk_05_002	DEN	m	smalltalk	-	-	st_gym	1	2880	Shrug	1.0	I run every day. Late, mostly.
+st_gym_3	NPC_Smalltalk_05	NPC_Smalltalk_05_003	DEB	f	smalltalk	-	-	st_gym	2	1920	Talk_Angry	1.0	That doesn't count, Dennis!
+st_double_1	NPC_Smalltalk_05	NPC_Smalltalk_05_004	DEN	m	smalltalk	-	-	st_double	0	3110	Talk	1.0	I met a man who looked exactly like me yesterday.
+st_double_2	NPC_Smalltalk_05	NPC_Smalltalk_05_005	WRM	f	smalltalk	-	-	st_double	1	2080	Talk2	1.0	Really? What was his name?
+st_double_3	NPC_Smalltalk_05	NPC_Smalltalk_05_006	DEN	m	smalltalk	-	-	st_double	2	2160	Shrug	1.0	Dennis. Weird, right?
+st_kids_1	NPC_Smalltalk_05	NPC_Smalltalk_05_007	WRM	f	smalltalk	-	-	st_kids	0	2630	Talk	1.0	My kids want a dinosaur for Christmas.
+st_kids_2	NPC_Smalltalk_05	NPC_Smalltalk_05_008	THI	f	smalltalk	-	-	st_kids	1	1560	Talk2	1.0	A model, I hope?
+st_kids_3	NPC_Smalltalk_05	NPC_Smalltalk_05_009	WRM	f	smalltalk	-	-	st_kids	2	3120	Shrug	1.0	They were very specific. A real one.
+st_garden_1	NPC_Smalltalk_06	NPC_Smalltalk_06_001	DOR	f	smalltalk	-	-	st_garden	0	3360	Talk	1.0	My tomatoes are as big as footballs this year.
+st_garden_2	NPC_Smalltalk_06	NPC_Smalltalk_06_002	EAR	m	smalltalk	-	-	st_garden	1	3520	Talk2	1.0	Footballs? Mine are the size of tractors.
+st_garden_3	NPC_Smalltalk_06	NPC_Smalltalk_06_003	DOR	f	smalltalk	-	-	st_garden	2	2800	Talk3	1.0	Oh, you old fibber.
+st_noise_1	NPC_Smalltalk_06	NPC_Smalltalk_06_004	WEN	m	smalltalk	-	night	st_noise	0	1740	Talk	1.0	You hear that noise last night?
+st_noise_2	NPC_Smalltalk_06	NPC_Smalltalk_06_005	BEN	m	smalltalk	-	night	st_noise	1	3040	Shrug	1.0	That was me. I dropped forty trays.
+st_noise_3	NPC_Smalltalk_06	NPC_Smalltalk_06_006	WEN	m	smalltalk	-	night	st_noise	2	2350	Talk2	1.0	I thought it was thunder!
+st_quiz_1	NPC_Smalltalk_06	NPC_Smalltalk_06_007	THI	f	smalltalk	-	evening	st_quiz	0	1520	Talk	1.0	Coming to quiz night?
+st_quiz_2	NPC_Smalltalk_06	NPC_Smalltalk_06_008	DEN	m	smalltalk	-	evening	st_quiz	1	2160	Talk2	1.0	Only if there's a round about toast.
+st_sleep_1	NPC_Smalltalk_06	NPC_Smalltalk_06_009	WEN	m	smalltalk	-	morning	st_sleep	0	1650	Talk	1.0	Just finished my night shift.
+st_sleep_2	NPC_Smalltalk_06	NPC_Smalltalk_06_010	TED	m	smalltalk	-	morning	st_sleep	1	1760	Talk2	1.0	Just started my day shift.
+st_sleep_3	NPC_Smalltalk_06	NPC_Smalltalk_06_011	WEN	m	smalltalk	-	morning	st_sleep	2	1840	Talk3	1.0	Ha! Swap you!
+st_shoes_1	NPC_Smalltalk_07	NPC_Smalltalk_07_001	WRM	f	smalltalk	-	-	st_shoes	0	1520	Talk	1.0	Are those new shoes?
+st_shoes_2	NPC_Smalltalk_07	NPC_Smalltalk_07_002	TED	m	smalltalk	-	-	st_shoes	1	3600	Talk2	1.0	Yes! Well, new to me. They were my dad's.
+st_museum_1	NPC_Smalltalk_07	NPC_Smalltalk_07_003	THI	f	smalltalk	-	midday	st_museum	0	3680	Talk	1.0	Have you been to the museum? The new fossil wing!
+st_museum_2	NPC_Smalltalk_07	NPC_Smalltalk_07_004	JOJ	m	smalltalk	-	midday	st_museum	1	2160	Talk2	1.0	Is that the one with the giant skeleton?
+st_museum_3	NPC_Smalltalk_07	NPC_Smalltalk_07_005	THI	f	smalltalk	-	midday	st_museum	2	3200	Talk3	1.0	The very one! I named it Gerald.
+st_recipe_1	NPC_Smalltalk_07	NPC_Smalltalk_07_006	WRM	f	smalltalk	-	-	st_recipe	0	2720	Talk	1.0	What's your secret for fluffy pancakes?
+st_recipe_2	NPC_Smalltalk_07	NPC_Smalltalk_07_007	BEN	m	smalltalk	-	-	st_recipe	1	2960	Talk2	1.0	Happy thoughts. And a lot of butter.
+st_marathon_1	NPC_Smalltalk_07	NPC_Smalltalk_07_008	DEB	f	smalltalk	-	morning	st_marathon	0	2160	Talk	1.0	Ran a marathon yesterday!
+st_marathon_2	NPC_Smalltalk_07	NPC_Smalltalk_07_009	DOR	f	smalltalk	-	morning	st_marathon	1	2480	Talk2	1.0	Oh, my! The whole thing?
+st_marathon_3	NPC_Smalltalk_07	NPC_Smalltalk_07_010	DEB	f	smalltalk	-	morning	st_marathon	2	3120	Shrug	1.0	Well, I watched it. Very fast.
+st_radio_1	NPC_Smalltalk_08	NPC_Smalltalk_08_001	JOJ	m	smalltalk	-	-	st_radio	0	2320	Talk	1.0	Did you hear Kiki on the radio this morning?
+st_radio_2	NPC_Smalltalk_08	NPC_Smalltalk_08_002	WEN	m	smalltalk	-	-	st_radio	1	3430	Talk2	1.0	The one with the dancing cat? Couldn't stop laughing.
+st_parking_1	NPC_Smalltalk_08	NPC_Smalltalk_08_003	STA	f	smalltalk	-	-	st_parking	0	3200	Ponder	1.0	I parked here an hour ago. Where's my car?
+st_parking_2	NPC_Smalltalk_08	NPC_Smalltalk_08_004	OFF	m	smalltalk	-	-	st_parking	1	3680	CopTalk	1.0	Blue one? It's over there, ma'am. Same place you left it.
+st_pigeons_1	NPC_Smalltalk_08	NPC_Smalltalk_08_005	DOR	f	smalltalk	-	-	st_pigeons	0	2350	Talk	1.0	The pigeons know me by name now.
+st_pigeons_2	NPC_Smalltalk_08	NPC_Smalltalk_08_006	STA	f	smalltalk	-	-	st_pigeons	1	1420	Talk2	1.0	What do they call you?
+st_pigeons_3	NPC_Smalltalk_08	NPC_Smalltalk_08_007	DOR	f	smalltalk	-	-	st_pigeons	2	2060	Shrug	1.0	Mostly just coo.
+st_umbrella_1	NPC_Smalltalk_08	NPC_Smalltalk_08_008	DEN	m	smalltalk	-	rain	st_umbrella	0	1600	Talk	1.0	Can I share your umbrella?
+st_umbrella_2	NPC_Smalltalk_08	NPC_Smalltalk_08_009	TRL	m	smalltalk	-	rain	st_umbrella	1	3280	Talk2	1.0	Certainly. It's large enough for a small family.
+st_brickfoot_1	NPC_Smalltalk_09	NPC_Smalltalk_09_001	DEN	m	smalltalk	-	-	st_brickfoot	0	1680	Talk	1.0	Do you believe in Brickfoot?
+st_brickfoot_2	NPC_Smalltalk_09	NPC_Smalltalk_09_002	STA	f	smalltalk	-	-	st_brickfoot	1	3030	Talk2	1.0	I believe Lyle Loudly needs more sleep.
+st_brickfoot_3	NPC_Smalltalk_09	NPC_Smalltalk_09_003	DEN	m	smalltalk	-	-	st_brickfoot	2	1520	Ponder	1.0	That's not a no.
+st_hat_1	NPC_Smalltalk_09	NPC_Smalltalk_09_004	THI	f	smalltalk	-	-	st_hat	0	2400	Talk	1.0	What a magnificent hat!
+st_hat_2	NPC_Smalltalk_09	NPC_Smalltalk_09_005	TRL	m	smalltalk	-	-	st_hat	1	5200	Talk2	1.0	Thank you. It belonged to my grandfather. And his grandfather.
+st_hat_3	NPC_Smalltalk_09	NPC_Smalltalk_09_006	THI	f	smalltalk	-	-	st_hat	2	2160	Talk3	1.0	It's very well preserved!
+st_cones_1	NPC_Smalltalk_09	NPC_Smalltalk_09_007	WEN	m	smalltalk	-	-	st_cones	0	2480	Talk	1.0	They put up new traffic cones on my street.
+st_cones_2	NPC_Smalltalk_09	NPC_Smalltalk_09_008	HYP	m	smalltalk	-	-	st_cones	1	2230	Talk2	1.0	I can get you cones. Wholesale.
+st_cones_3	NPC_Smalltalk_09	NPC_Smalltalk_09_009	WEN	m	smalltalk	-	-	st_cones	2	2000	Shrug	1.0	Why would I want more cones?
+st_traffic_1	NPC_Smalltalk_10	NPC_Smalltalk_10_001	TED	m	smalltalk	-	-	st_traffic	0	2400	Talk	1.0	Traffic was terrible on the bridge.
+st_traffic_2	NPC_Smalltalk_10	NPC_Smalltalk_10_002	HYP	m	smalltalk	-	-	st_traffic	1	4000	Talk2	1.0	Traffic? Walk! Like me! Fit as a fiddle!
+st_traffic_3	NPC_Smalltalk_10	NPC_Smalltalk_10_003	TED	m	smalltalk	-	-	st_traffic	2	2080	Shrug	1.0	You sell hot dogs from a cart.
+st_sandwich_1	NPC_Smalltalk_10	NPC_Smalltalk_10_004	JOJ	m	smalltalk	-	midday	st_sandwich	0	1280	Talk	1.0	What's in your sandwich?
+st_sandwich_2	NPC_Smalltalk_10	NPC_Smalltalk_10_005	EAR	m	smalltalk	-	midday	st_sandwich	1	4400	Talk2	1.0	Cheese. And more cheese. And a pickle for luck.
+st_weather_guess_1	NPC_Smalltalk_10	NPC_Smalltalk_10_006	EAR	m	smalltalk	-	dry	st_weather_guess	0	2800	Talk	1.0	My knee says rain by Thursday.
+st_weather_guess_2	NPC_Smalltalk_10	NPC_Smalltalk_10_007	STA	f	smalltalk	-	dry	st_weather_guess	1	2960	Talk2	1.0	My phone says sunshine all week.
+st_weather_guess_3	NPC_Smalltalk_10	NPC_Smalltalk_10_008	EAR	m	smalltalk	-	dry	st_weather_guess	2	2160	Shrug	1.0	My knee's never been wrong.
+st_compliment_1	NPC_Smalltalk_10	NPC_Smalltalk_10_009	TRL	m	smalltalk	-	-	st_compliment	0	2760	Talk	1.0	You have a very pleasant voice, madam.
+st_compliment_2	NPC_Smalltalk_10	NPC_Smalltalk_10_010	DEB	f	smalltalk	-	-	st_compliment	1	2710	Talk2	1.0	THANK YOU! People say I'm loud!
+time_remark_morning_03	NPC_TimeRemark_01	NPC_TimeRemark_01_001	BEN	m	time_remark	morning	morning	-	0	2880	CheckTime	1.0	Morning rush! Get your rolls while they're warm!
+time_remark_morning_02	NPC_TimeRemark_01	NPC_TimeRemark_01_002	DOR	f	time_remark	morning	morning	-	0	4220	CheckTime	1.0	Up early for the market. Best tomatoes go first.
+time_remark_morning_07	NPC_TimeRemark_01	NPC_TimeRemark_01_003	JOJ	m	time_remark	morning	morning	-	0	3760	CheckTime	1.0	Too early. Way too early. Why am I awake?
+time_remark_morning_01	NPC_TimeRemark_01	NPC_TimeRemark_01_004	TED	m	time_remark	morning	morning	-	0	3840	CheckTime	1.0	Seven forty-five. I can make it. I can make it.
+time_remark_morning_05	NPC_TimeRemark_01	NPC_TimeRemark_01_005	WRM	f	time_remark	morning	morning	-	0	1590	CheckTime	1.0	Time to open up the shop.
+time_remark_evening_04	NPC_TimeRemark_01	NPC_TimeRemark_01_006	DEN	m	time_remark	evening	evening	-	0	3120	CheckTime	1.0	Dinner. What's for dinner? Probably toast.
+time_remark_evening_08	NPC_TimeRemark_01	NPC_TimeRemark_01_007	STA	f	time_remark	evening	evening	-	0	3590	CheckTime	1.0	Off to the observatory soon. Clear night, hopefully.
+time_remark_night_01	NPC_TimeRemark_01	NPC_TimeRemark_01_008	WEN	m	time_remark	night	night	-	0	4080	-	1.0	Quiet streets, shiny floors. Just how I like it.
+time_remark_night_03	NPC_TimeRemark_01	NPC_TimeRemark_01_009	DEN	m	time_remark	night	night	-	0	4000	-	1.0	It's very dark. I'm fine. I'm totally fine.
+time_remark_night_06	NPC_TimeRemark_01	NPC_TimeRemark_01_010	TED	m	time_remark	night	night	-	0	4059	-	1.0	Is it late? It feels late. It's very late.
+time_remark_morning_04	NPC_TimeRemark_02	NPC_TimeRemark_02_001	DEB	f	time_remark	morning	morning	-	0	4640	CheckTime	1.0	Ah, morning air! Smell that? That's motivation!
+time_remark_morning_08	NPC_TimeRemark_02	NPC_TimeRemark_02_002	EAR	m	time_remark	morning	morning	-	0	2880	CheckTime	1.0	Half the day's gone already, city folk.
+time_remark_night_10	NPC_TimeRemark_02	NPC_TimeRemark_02_003	OFF	m	time_remark	night	night	-	0	2880	-	1.0	Quiet night. I like quiet nights.
+time_remark_evening_07	NPC_TimeRemark_02	NPC_TimeRemark_02_004	TRL	m	time_remark	evening	evening	-	0	2960	CheckTime	1.0	The golden hour. Splendid.
+time_remark_evening_06	NPC_TimeRemark_02	NPC_TimeRemark_02_005	BEN	m	time_remark	evening	evening	-	0	2080	CheckTime	1.0	Time to start the bread for tomorrow!
+time_remark_evening_02	NPC_TimeRemark_02	NPC_TimeRemark_02_006	DOR	f	time_remark	evening	evening	-	0	4000	CheckTime	1.0	Ooh, look at that sunset. Isn't it pretty?
+time_remark_evening_01	NPC_TimeRemark_02	NPC_TimeRemark_02_007	TED	m	time_remark	evening	evening	-	0	2320	CheckTime	1.0	Home time! Finally!
+time_remark_evening_05	NPC_TimeRemark_02	NPC_TimeRemark_02_008	WRM	f	time_remark	evening	evening	-	0	3030	CheckTime	1.0	Just a few more customers and I can close.
+time_remark_night_05	NPC_TimeRemark_02	NPC_TimeRemark_02_009	JOJ	m	time_remark	night	night	-	0	2880	-	1.0	Night skate! Best time, no traffic!
+time_remark_morning_06	NPC_TimeRemark_03	NPC_TimeRemark_03_001	DEN	m	time_remark	morning	morning	-	0	3360	CheckTime	1.0	Coffee. I need coffee. Where's the coffee?
+time_remark_night_09	NPC_TimeRemark_03	NPC_TimeRemark_03_002	HYP	m	time_remark	night	night	-	0	3040	-	1.0	Late-night snacks! Get 'em before I eat 'em!
+time_remark_morning_10	NPC_TimeRemark_03	NPC_TimeRemark_03_003	STA	f	time_remark	morning	morning	-	0	3040	CheckTime	1.0	Nothing like a morning stroll before the crowds.
+time_remark_morning_09	NPC_TimeRemark_03	NPC_TimeRemark_03_004	WEN	m	time_remark	morning	morning	-	0	2720	CheckTime	1.0	Shift's over! Bedtime for Wendell!
+time_remark_night_07	NPC_TimeRemark_03	NPC_TimeRemark_03_005	DEB	f	time_remark	night	night	-	0	3280	-	1.0	Night walk! Gotta hit ten thousand steps!
+time_remark_evening_03	NPC_TimeRemark_03	NPC_TimeRemark_03_006	JOJ	m	time_remark	evening	evening	-	0	1680	CheckTime	1.0	Who's going to the plaza tonight?
+time_remark_night_08	NPC_TimeRemark_03	NPC_TimeRemark_03_007	TRL	m	time_remark	night	night	-	0	3520	-	1.0	The city at night. Rather lovely, isn't it?
+time_remark_night_02	NPC_TimeRemark_03	NPC_TimeRemark_03_008	BEN	m	time_remark	night	night	-	0	2880	-	1.0	Night shift! The dough waits for no one!
+time_remark_night_04	NPC_TimeRemark_03	NPC_TimeRemark_03_009	STA	f	time_remark	night	night	-	0	3520	-	1.0	Look at those stars. You can see Orion tonight.
+tourist_any_03	NPC_Tourist_01	NPC_Tourist_01_001	DEN	m	tourist	-	landmark	-	0	3280	TakePhoto	1.0	Can you take our picture? Just press the... yeah.
+tourist_any_10	NPC_Tourist_01	NPC_Tourist_01_002	EAR	m	tourist	-	landmark	-	0	3760	TakePhoto	1.0	Back home, our tallest building's the grain silo.
+tourist_any_01	NPC_Tourist_01	NPC_Tourist_01_003	STA	f	tourist	-	landmark	-	0	4560	TakePhoto	1.0	Stand there. No, there. Lovely. Say cheese.
+tourist_any_05	NPC_Tourist_01	NPC_Tourist_01_004	THI	f	tourist	-	landmark	-	0	4800	TakePhoto	1.0	Look at the craftsmanship! Every brick a little story!
+tourist_any_11	NPC_Tourist_01	NPC_Tourist_01_005	WRM	f	tourist	-	landmark	-	0	2240	TakePhoto	1.0	The kids will love this picture!
+tourist_any_16	NPC_Tourist_01	NPC_Tourist_01_006	DOR	f	tourist	-	landmark	-	0	3120	TakePhoto	1.0	Ooh, a postcard view, isn't it?
+tourist_any_02	NPC_Tourist_01	NPC_Tourist_01_007	STA	f	tourist	-	landmark	-	0	4560	TakePhoto	1.0	One more. Your eyes were closed. They're always closed.
+tourist_any_14	NPC_Tourist_01	NPC_Tourist_01_008	DEN	m	tourist	-	landmark	-	0	3840	TakePhoto	1.0	It's bigger in real life. Or smaller. One of those.
+tourist_any_08	NPC_Tourist_02	NPC_Tourist_02_001	DOR	f	tourist	-	landmark	-	0	2800	TakePhoto	1.0	Take one of me with the statue, dear!
+tourist_any_09	NPC_Tourist_02	NPC_Tourist_02_002	JOJ	m	tourist	-	landmark	-	0	2480	TakePhoto	1.0	Selfie time! Everybody squeeze in!
+tourist_any_12	NPC_Tourist_02	NPC_Tourist_02_003	TED	m	tourist	-	landmark	-	0	3600	TakePhoto	1.0	I've lived here ten years and never actually looked at it.
+tourist_any_07	NPC_Tourist_02	NPC_Tourist_02_004	TRL	m	tourist	-	landmark	-	0	3920	TakePhoto	1.0	Magnificent. I simply must have a picture.
+tourist_any_04	NPC_Tourist_02	NPC_Tourist_02_005	DEN	m	tourist	-	landmark	-	0	4880	TakePhoto	1.0	Okay, smile! Wait, the lens cap. Okay, smile!
+tourist_any_15	NPC_Tourist_02	NPC_Tourist_02_006	JOJ	m	tourist	-	landmark	-	0	1840	TakePhoto	1.0	That's going on my wall!
+tourist_any_06	NPC_Tourist_02	NPC_Tourist_02_007	THI	f	tourist	-	landmark	-	0	3520	TakePhoto	1.0	Oh, I must get a photograph for the department!
+tourist_any_13	NPC_Tourist_02	NPC_Tourist_02_008	STA	f	tourist	-	landmark	-	0	3520	TakePhoto	1.0	According to the guidebook, this is the bit we're meant to like.
+vendor_any_07	NPC_Vendor_01	NPC_Vendor_01_001	BEN	m	vendor	-	-	-	0	3680	point	1.0	Fresh bread! Still warm! Smell that!
+vendor_any_08	NPC_Vendor_01	NPC_Vendor_01_002	BEN	m	vendor	-	-	-	0	3120	point	1.0	Cinnamon rolls! Get 'em before the seagulls do!
+vendor_any_09	NPC_Vendor_01	NPC_Vendor_01_003	BEN	m	vendor	-	-	-	0	3120	point	1.0	Bagels, buns and baguettes! Come and get 'em!
+vendor_any_10	NPC_Vendor_01	NPC_Vendor_01_004	BEN	m	vendor	-	-	-	0	3920	point	1.0	Free samples! Just one each! I'm watching you!
+vendor_any_12	NPC_Vendor_01	NPC_Vendor_01_005	BEN	m	vendor	-	-	-	0	4320	point	1.0	Soup of the day! It's tomato. It's always tomato.
+vendor_any_15	NPC_Vendor_01	NPC_Vendor_01_006	BEN	m	vendor	-	-	-	0	4000	point	1.0	Hot pies! Careful, they're hot. That's the point.
+vendor_any_11	NPC_Vendor_01	NPC_Vendor_01_007	HYP	m	vendor	-	-	-	0	3200	point	1.0	Ice cream! Get your ice cream before it melts!
+vendor_any_14	NPC_Vendor_01	NPC_Vendor_01_008	HYP	m	vendor	-	-	-	0	4000	point	1.0	Sunglasses! Look cool, feel cool, be cool!
+vendor_any_01	NPC_Vendor_02	NPC_Vendor_02_001	HYP	m	vendor	-	-	-	0	4800	point	1.0	Hot dogs! Get your hot dogs here! Hot, and also dogs!
+vendor_any_02	NPC_Vendor_02	NPC_Vendor_02_002	HYP	m	vendor	-	-	-	0	4960	point	1.0	Fresh lemonade! Squeezed this morning! By me! With my hands!
+vendor_any_03	NPC_Vendor_02	NPC_Vendor_02_003	HYP	m	vendor	-	-	-	0	4240	point	1.0	Step right up! Best snacks in LEGO City! Says me!
+vendor_any_04	NPC_Vendor_02	NPC_Vendor_02_004	HYP	m	vendor	-	-	-	0	4160	point	1.0	Balloons! Get your balloons! Every colour! Mostly red!
+vendor_any_05	NPC_Vendor_02	NPC_Vendor_02_005	HYP	m	vendor	-	-	-	0	4640	point	1.0	Two for one! Two for one! One for one is also available!
+vendor_any_06	NPC_Vendor_02	NPC_Vendor_02_006	HYP	m	vendor	-	-	-	0	2960	point	1.0	Pretzels! Twisty and delicious!
+vendor_any_13	NPC_Vendor_02	NPC_Vendor_02_007	HYP	m	vendor	-	-	-	0	3440	point	1.0	Postcards! Send your granny a picture of the city!
+vendor_any_16	NPC_Vendor_02	NPC_Vendor_02_008	HYP	m	vendor	-	-	-	0	5200	point	1.0	Maps! Get your maps! Never get lost again! Unless you do!
+weather_rain_any_07	NPC_WeatherRain_01	NPC_WeatherRain_01_001	BEN	m	weather_rain	-	rain	-	0	3600	-	1.0	Soup weather! Soup and a nice warm roll!
+weather_rain_any_09	NPC_WeatherRain_01	NPC_WeatherRain_01_002	DEN	m	weather_rain	-	rain	-	0	3840	-	1.0	Forgot my umbrella. Again. Every time.
+weather_rain_any_05	NPC_WeatherRain_01	NPC_WeatherRain_01_003	EAR	m	weather_rain	-	rain	-	0	4720	-	1.0	Rain on the fields, rain on my hat. Can't complain.
+weather_rain_any_03	NPC_WeatherRain_01	NPC_WeatherRain_01_004	JOJ	m	weather_rain	-	rain	-	0	3920	-	1.0	Puddle jump! Okay, that was a deep one.
+weather_rain_any_02	NPC_WeatherRain_01	NPC_WeatherRain_01_005	TED	m	weather_rain	-	rain	-	0	4160	-	1.0	Of course it rains. Of course it does. Today.
+weather_rain_any_13	NPC_WeatherRain_01	NPC_WeatherRain_01_006	TRL	m	weather_rain	-	rain	-	0	3200	-	1.0	Bracing! Positively bracing!
+weather_rain_any_12	NPC_WeatherRain_01	NPC_WeatherRain_01_007	WRM	f	weather_rain	-	rain	-	0	2880	-	1.0	Hurry, hurry, before we're soaked through!
+weather_rain_any_16	NPC_WeatherRain_01	NPC_WeatherRain_01_008	DEN	m	weather_rain	-	rain	-	0	2800	-	1.0	I'm just gonna run. Okay. Running.
+weather_rain_any_18	NPC_WeatherRain_01	NPC_WeatherRain_01_009	JOJ	m	weather_rain	-	rain	-	0	4160	-	1.0	Rain day! Best day! No, wait, worst day.
+weather_rain_any_06	NPC_WeatherRain_02	NPC_WeatherRain_02_001	DEB	f	weather_rain	-	rain	-	0	4160	-	1.0	Rain's no excuse! Keep moving! Keep moving!
+weather_rain_any_01	NPC_WeatherRain_02	NPC_WeatherRain_02_002	DOR	f	weather_rain	-	rain	-	0	3920	-	1.0	Oh, my perm! My lovely perm!
+weather_rain_any_11	NPC_WeatherRain_02	NPC_WeatherRain_02_003	HYP	m	weather_rain	-	rain	-	0	4800	-	1.0	Umbrellas! Who needs an umbrella? I don't have any. But who needs one?
+weather_rain_any_04	NPC_WeatherRain_02	NPC_WeatherRain_02_004	STA	f	weather_rain	-	rain	-	0	3440	-	1.0	Ah, proper weather. Feels like home.
+weather_rain_any_08	NPC_WeatherRain_02	NPC_WeatherRain_02_005	THI	f	weather_rain	-	rain	-	0	3510	-	1.0	Oh, my notes! My notes are getting soggy!
+weather_rain_any_10	NPC_WeatherRain_02	NPC_WeatherRain_02_006	WEN	m	weather_rain	-	rain	-	0	2320	-	1.0	Wet floor! Wet everything!
+weather_rain_any_17	NPC_WeatherRain_02	NPC_WeatherRain_02_007	DEB	f	weather_rain	-	rain	-	0	2320	-	1.0	A little rain never hurt anybody!
+weather_rain_any_14	NPC_WeatherRain_02	NPC_WeatherRain_02_008	DOR	f	weather_rain	-	rain	-	0	2880	-	1.0	I knew I should have brought my rain bonnet.
+weather_rain_any_15	NPC_WeatherRain_02	NPC_WeatherRain_02_009	TED	m	weather_rain	-	rain	-	0	3200	-	1.0	My socks are wet. Why are my socks wet?
+weather_sun_any_06	NPC_WeatherSun_01	NPC_WeatherSun_01_001	BEN	m	weather_sun	-	dry+midday	-	0	3200	Fan	1.0	Ice cream weather! Not that I sell ice cream.
+weather_sun_any_07	NPC_WeatherSun_01	NPC_WeatherSun_01_002	DEN	m	weather_sun	-	dry+midday	-	0	4160	Fan	1.0	Wow, bright. Very bright. Should've brought my hat.
+weather_sun_any_01	NPC_WeatherSun_01	NPC_WeatherSun_01_003	DOR	f	weather_sun	-	dry+midday	-	0	2790	Fan	1.0	Ooh, it's a warm one today.
+weather_sun_any_05	NPC_WeatherSun_01	NPC_WeatherSun_01_004	EAR	m	weather_sun	-	dry+midday	-	0	2880	Fan	1.0	Hot enough to fry an egg on the road!
+weather_sun_any_10	NPC_WeatherSun_01	NPC_WeatherSun_01_005	HYP	m	weather_sun	-	dry+midday	-	0	4080	Fan	1.0	Cold drinks! Ice cold! Well, cool-ish!
+weather_sun_any_03	NPC_WeatherSun_01	NPC_WeatherSun_01_006	JOJ	m	weather_sun	-	dry+midday	-	0	2240	Fan	1.0	Beach day! Who's coming to the beach?
+weather_sun_any_04	NPC_WeatherSun_01	NPC_WeatherSun_01_007	STA	f	weather_sun	-	dry+midday	-	0	4000	Fan	1.0	Gosh, actual sunshine. Better make the most of it.
+weather_sun_any_02	NPC_WeatherSun_01	NPC_WeatherSun_01_008	TED	m	weather_sun	-	dry+midday	-	0	2960	Fan	1.0	Sunscreen. I forgot the sunscreen.
+weather_sun_any_09	NPC_WeatherSun_01	NPC_WeatherSun_01_009	TRL	m	weather_sun	-	dry+midday	-	0	3360	Fan	1.0	Glorious! Simply glorious!
+weather_sun_any_08	NPC_WeatherSun_01	NPC_WeatherSun_01_010	WRM	f	weather_sun	-	dry+midday	-	0	2520	Fan	1.0	What a beautiful day for a walk.
+wt_rain1_1	NPC_WeatherTalk_01	NPC_WeatherTalk_01_001	DEN	m	weather_talk	rain	rain	wt_rain1	0	2720	Talk	1.0	Is it raining or am I just sweating?
+wt_rain1_2	NPC_WeatherTalk_01	NPC_WeatherTalk_01_002	WRM	f	weather_talk	rain	rain	wt_rain1	1	1730	Talk2	1.0	It's raining, dear.
+wt_rain1_3	NPC_WeatherTalk_01	NPC_WeatherTalk_01_003	DEN	m	weather_talk	rain	rain	wt_rain1	2	3350	Shrug	1.0	Oh good. Wait, no, not good.
+wt_sun1_1	NPC_WeatherTalk_01	NPC_WeatherTalk_01_004	DOR	f	weather_talk	sun	dry+midday	wt_sun1	0	2050	Talk	1.0	Isn't it a lovely day?
+wt_sun1_2	NPC_WeatherTalk_01	NPC_WeatherTalk_01_005	DEB	f	weather_talk	sun	dry+midday	wt_sun1	1	1760	Talk2	1.0	Perfect running weather!
+wt_sun1_3	NPC_WeatherTalk_01	NPC_WeatherTalk_01_006	DOR	f	weather_talk	sun	dry+midday	wt_sun1	2	2700	Talk3	1.0	Everything's running weather to you, Deb.
+wt_night1_1	NPC_WeatherTalk_01	NPC_WeatherTalk_01_007	STA	f	weather_talk	night	night	wt_night1	0	2070	Talk	1.0	Lovely clear night.
+wt_night1_2	NPC_WeatherTalk_01	NPC_WeatherTalk_01_008	WEN	m	weather_talk	night	night	wt_night1	1	2080	Talk2	1.0	Perfect for mopping by moonlight.
+wt_rain2_1	NPC_WeatherTalk_02	NPC_WeatherTalk_02_001	TED	m	weather_talk	rain	rain	wt_rain2	0	2000	Talk	1.0	I left my umbrella at home.
+wt_rain2_2	NPC_WeatherTalk_02	NPC_WeatherTalk_02_002	STA	f	weather_talk	rain	rain	wt_rain2	1	2960	Talk2	1.0	I left mine at home too. In England.
+wt_rain3_1	NPC_WeatherTalk_02	NPC_WeatherTalk_02_003	EAR	m	weather_talk	rain	rain	wt_rain3	0	1920	Talk	1.0	Good rain for the crops.
+wt_rain3_2	NPC_WeatherTalk_02	NPC_WeatherTalk_02_004	HYP	m	weather_talk	rain	rain	wt_rain3	1	2000	Talk2	1.0	Bad rain for business!
+wt_sun2_1	NPC_WeatherTalk_02	NPC_WeatherTalk_02_005	BEN	m	weather_talk	sun	dry+midday	wt_sun2	0	2000	Fan	1.0	Too hot for baking today.
+wt_sun2_2	NPC_WeatherTalk_02	NPC_WeatherTalk_02_006	WEN	m	weather_talk	sun	dry+midday	wt_sun2	1	2080	Fan	1.0	Too hot for mopping, too!
+window_shop_any_09	NPC_WindowShop_01	NPC_WindowShop_01_001	BEN	m	window_shop	-	-	-	0	3520	LookAtObject	1.0	Ooh, a new mixing bowl. A big one.
+window_shop_any_06	NPC_WindowShop_01	NPC_WindowShop_01_002	DEN	m	window_shop	-	-	-	0	3280	LookAtObject	1.0	I'm just looking. I'm always just looking.
+window_shop_any_11	NPC_WindowShop_01	NPC_WindowShop_01_003	EAR	m	window_shop	-	-	-	0	2000	LookAtObject	1.0	City prices. Hmph.
+window_shop_any_05	NPC_WindowShop_01	NPC_WindowShop_01_004	STA	f	window_shop	-	-	-	0	3650	LookAtObject	1.0	Hmm. Overpriced. Rather nice, though.
+window_shop_any_07	NPC_WindowShop_01	NPC_WindowShop_01_005	THI	f	window_shop	-	-	-	0	4320	LookAtObject	1.0	Oh, an antique shop! I could stay here all day!
+window_shop_any_12	NPC_WindowShop_01	NPC_WindowShop_01_006	WEN	m	window_shop	-	-	-	0	3840	LookAtObject	1.0	Ooh, a fancy mop. Look at the swivel on that.
+window_shop_any_10	NPC_WindowShop_02	NPC_WindowShop_02_001	DEB	f	window_shop	-	-	-	0	2960	LookAtObject	1.0	Running shoes! Fresh running shoes!
+window_shop_any_02	NPC_WindowShop_02	NPC_WindowShop_02_002	DOR	f	window_shop	-	-	-	0	4640	LookAtObject	1.0	Isn't that a lovely hat? My sister would never wear it.
+window_shop_any_04	NPC_WindowShop_02	NPC_WindowShop_02_003	JOJ	m	window_shop	-	-	-	0	4080	LookAtObject	1.0	New skateboard. Need it. Want it. Can't afford it.
+window_shop_any_03	NPC_WindowShop_02	NPC_WindowShop_02_004	TED	m	window_shop	-	-	-	0	3240	LookAtObject	1.0	That's a nice tie. I have seven of that tie.
+window_shop_any_08	NPC_WindowShop_02	NPC_WindowShop_02_005	TRL	m	window_shop	-	-	-	0	3100	LookAtObject	1.0	Hmm. Rather fine tailoring, that.
+window_shop_any_01	NPC_WindowShop_02	NPC_WindowShop_02_006	WRM	f	window_shop	-	-	-	0	4800	LookAtObject	1.0	Ooh, look at those shoes. No. No, I mustn't.
+workers_any_03	NPC_Workers_01	NPC_Workers_01_001	DEB	f	workers	-	-	-	0	2560	CopTalk	1.0	Hard hats on! Even on break!
+workers_any_05	NPC_Workers_01	NPC_Workers_01_002	DEB	f	workers	-	-	-	0	3440	CopTalk	1.0	Who moved my cone? Somebody moved my cone!
+workers_any_07	NPC_Workers_01	NPC_Workers_01_003	DEB	f	workers	-	-	-	0	4400	CopTalk	1.0	Okay, team! Back to it! These bricks won't stack themselves!
+workers_any_09	NPC_Workers_01	NPC_Workers_01_004	DEB	f	workers	-	-	-	0	2160	CopTalk	1.0	Nobody touch the wet cement!
+workers_any_11	NPC_Workers_01	NPC_Workers_01_005	DEB	f	workers	-	-	-	0	2560	CopTalk	1.0	Measure twice, build once!
+workers_any_10	NPC_Workers_01	NPC_Workers_01_006	WEN	m	workers	-	-	-	0	3920	CopTalk	1.0	I've dug six holes today. Six! Personal record.
+workers_any_01	NPC_Workers_02	NPC_Workers_02_001	WEN	m	workers	-	-	-	0	2530	CopTalk	1.0	Break time! Who brought the sandwiches?
+workers_any_02	NPC_Workers_02	NPC_Workers_02_002	WEN	m	workers	-	-	-	0	4640	CopTalk	1.0	This road won't fix itself. Well, it might, if we wait.
+workers_any_04	NPC_Workers_02	NPC_Workers_02_003	WEN	m	workers	-	-	-	0	3670	CopTalk	1.0	I told the boss. I said, that's a big hole.
+workers_any_06	NPC_Workers_02	NPC_Workers_02_004	WEN	m	workers	-	-	-	0	2640	CopTalk	1.0	Twenty more minutes and I'm a free man!
+workers_any_08	NPC_Workers_02	NPC_Workers_02_005	WEN	m	workers	-	-	-	0	4320	CopTalk	1.0	Best part of the job? Lunch. Second best? Also lunch.
+workers_any_12	NPC_Workers_02	NPC_Workers_02_006	WEN	m	workers	-	-	-	0	3440	CopTalk	1.0	My back says no. My boss says yes.
+workout_any_06	NPC_Workout_01	NPC_Workout_01_001	BEN	m	workout	-	-	-	0	3840	Star_Jumps	1.0	I think I pulled something. My dignity, mostly.
+workout_any_01	NPC_Workout_01	NPC_Workout_01_002	DEB	f	workout	-	-	-	0	3200	Star_Jumps	1.0	And jump! And jump! And jump!
+workout_any_05	NPC_Workout_01	NPC_Workout_01_003	DEN	m	workout	-	-	-	0	3440	Star_Jumps	1.0	Can we... take a break? A tiny break?
+workout_any_10	NPC_Workout_01	NPC_Workout_01_004	JOJ	m	workout	-	-	-	0	5120	Star_Jumps	1.0	This is easy! Okay, now it's hard. Now it's very hard.
+workout_any_08	NPC_Workout_01	NPC_Workout_01_005	TED	m	workout	-	-	-	0	3760	Star_Jumps	1.0	How many was that? I lost count. Is that allowed?
+workout_any_07	NPC_Workout_01	NPC_Workout_01_006	WRM	f	workout	-	-	-	0	2960	Star_Jumps	1.0	Ooh, I'm going to feel this tomorrow.
+workout_any_02	NPC_Workout_01	NPC_Workout_01_007	DEB	f	workout	-	-	-	0	4240	Star_Jumps	1.0	Down for ten! Nine... eight... no stopping!
+workout_any_03	NPC_Workout_01	NPC_Workout_01_008	DEB	f	workout	-	-	-	0	3840	Star_Jumps	1.0	Feel the burn! That's your muscles saying thank you!
+workout_any_04	NPC_Workout_01	NPC_Workout_01_009	DEB	f	workout	-	-	-	0	4160	Star_Jumps	1.0	Big smiles, everybody! Sweat is just happy water!
+workout_any_09	NPC_Workout_01	NPC_Workout_01_010	DEB	f	workout	-	-	-	0	3920	Star_Jumps	1.0	Great work! Same time tomorrow! No excuses!
