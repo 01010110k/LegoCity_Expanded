@@ -1,4 +1,4 @@
-# Credits and licences - LegoCity Expanded 0.1.1
+# Credits and licences - LegoCity Expanded 0.1.2
 
 ## The mod
 - Code, world building, settings and tools: Victor Knai. MIT licence (`LICENSE`) for the mod's own code.

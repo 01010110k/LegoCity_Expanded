@@ -1,8 +1,8 @@
 # LegoCity Expanded {VERSION}
 
-A fixes update: a co-op crash, floors you could fall through (the Fresco to Port Atlas train bridge, the sky rail, the Fresco Quay footbridge), car theft now counts for the police, a tidier west docks, and rarer sharks. The changelog has the list.
+**This fixes the co-op crashes.** Two-player used to crash after a minute or two (and single player now and then in busy places) because the mod's new areas filled a table inside the game that tracks every loaded piece of the map. This version doubles that table. Traffic on the new roads also has drivers now. The changelog has the details.
 
-**Already have 0.1.0?** Download this version and run its `Setup.exe` over your install. It keeps your earlier settings as `LCUMod\lcudrive.ini.old`.
+**Already have 0.1.0 or 0.1.1?** Download this version and run its `Setup.exe` over your install. It keeps your earlier settings as `LCUMod\lcudrive.ini.old`.
 
 LegoCity Expanded is a free fan-made mod for **LEGO City Undercover** (Steam, PC): a new driving model, police chases, a living city with day and night, weather and a radio, and new places to explore - Port Atlas, Woods West, the Wilds, Herring Cove, Saltwind Downs, castles, and something hidden.
 

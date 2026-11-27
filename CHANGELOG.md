@@ -1,8 +1,16 @@
 # Changelog
 
+## 0.1.2
+
+The co-op crash fix. If you have an earlier version, run the new `Setup.exe` over it.
+- Crashes after a minute or two of two-player, and now and then in busy places alone: fixed at the root. The game keeps a table of every loaded piece of the map with room for 2,048, and the mod's new areas had nearly filled it. The table now holds 4,096. (0.1.1 only caught some of the crashes this caused.)
+- Traffic on the new roads now has drivers. The game only seated them inside the original city.
+- The mod's log says at start whether the bigger table is in use, and how full it gets.
+- If the game ever fails to start after this update, put an empty file named `lcu_stock_level_table.txt` in the game folder to switch the bigger table off, and please report it.
+
 ## 0.1.1
 
-Fixes and small changes. If you have 0.1.0, run the new `Setup.exe` over it.
+Fixes and small changes.
 - Co-op: fixed a crash that could happen a minute or so into a split-screen session, when part of the map unloaded.
 - Falling through floors: fixed on the train bridge from Fresco to Port Atlas, the sky rail, the Fresco Quay footbridge and steps, and some hills in Saltwind Downs and the Wilds.
 - Police: pulling a driver out of a car now gets you noticed, and a police car more so. Not when you wear a police uniform. Empty parked cars don't count.

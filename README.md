@@ -1,6 +1,6 @@
 # LegoCity Expanded
 
-A free, fan-made mod for **LEGO City Undercover** (Steam, PC) that adds a new driving model, a living city, new places to explore, a radio, weather and day and night, and a lot more. Version 0.1.1.
+A free, fan-made mod for **LEGO City Undercover** (Steam, PC) that adds a new driving model, a living city, new places to explore, a radio, weather and day and night, and a lot more. Version 0.1.2.
 
 **Install in short:** download `Setup.exe` and the `.lcupak` files from the [Releases page](https://github.com/01010110k/LegoCity_Expanded/releases) into one folder, close the game, run `Setup.exe`, press **Install**. It finds your Steam copy, backs up your saves and builds the mod from your own game files (about 15 minutes the first time). Details below.
 

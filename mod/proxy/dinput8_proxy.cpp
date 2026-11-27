@@ -14,6 +14,7 @@
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
 #include <unknwn.h>   // LEAN_AND_MEAN strips COM, but the dinput8 exports speak REFIID/LPUNKNOWN
+#include "levelslots.h"   // the engine's level table: 0x800 -> 0x1000 slots, before any game code runs (Notes 74)
 
 static HMODULE g_real = nullptr;
 
@@ -121,6 +122,15 @@ BOOL WINAPI DllMain(HINSTANCE inst, DWORD reason, LPVOID)
     if (reason == DLL_PROCESS_ATTACH)
     {
         DisableThreadLibraryCalls(inst);
+        {
+            // dinput8 is a static import of the game: this runs before the exe's entry point, the only moment the
+            // level table can be resized. The result goes to lcudrive.dll (and its log) through the environment.
+            const int r = lslots::Apply(inst);
+            char v[8] = { 0 }; int k = 0, a = r < 0 ? -r : r;
+            if (r < 0) v[k++] = '-';
+            v[k++] = static_cast<char>('0' + a % 10);
+            SetEnvironmentVariableA("LCU_LEVEL_SLOTS", v);
+        }
         LoadRealDinput8();
         if (!g_real) return FALSE;   // no real dinput8 means no input; fail the load loudly
         HANDLE t = CreateThread(nullptr, 0, LoadPayload, nullptr, 0, nullptr);

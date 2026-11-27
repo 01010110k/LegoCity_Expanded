@@ -60,6 +60,10 @@ static LONG s_said[3] = { 0, 0, 0 };
 static bool s_inst[3] = { false, false, false };
 static bool s_cellInst = false;
 alignas(16) static uint8_t g_zeroHolder[0x400] = {};                // read-only stand-in: every field 0
+// [slots2] the level table's size as the loader left it (proxy\levelslots.h): 0x800 slots stock, 0x1000 enlarged
+static uint32_t g_idMax = 0x7FF;                                    // the last valid level id
+static int      g_slotCap = 0x800;
+static void**   g_twin = nullptr;                                   // the twin array {level, object} per slot
 
 // ---- pure code emitters (also used by test\crashguard_test.cpp) ----------------------------------------------------
 
@@ -158,11 +162,124 @@ static void* __fastcall Holder(uint8_t* table, uint32_t id)
 {
     const uint16_t i = static_cast<uint16_t>(id);
     void* h = nullptr;
-    if (table && i <= 0x7FF) h = *reinterpret_cast<void* const volatile*>(table + 0x18 + 8 * static_cast<size_t>(i));
+    if (table && i <= g_idMax) h = *reinterpret_cast<void* const volatile*>(table + 0x18 + 8 * static_cast<size_t>(i));
     if (h) return h;
     InterlockedIncrement(&g_holder);
     return g_zeroHolder;
 }
+
+// ---- [slots 2026-11-26] the level table is full -------------------------------------------------------------------
+// ROOT CAUSE of the "object whose level is gone" family (dumps 20132 and 34852, co-op): the level-holder table
+// (*0x141C402D8, holders at +0x18 + 8*i) and its static twin 0x141C402F0 (16 B per slot: holder, object) have
+// 0x800 slots. The level constructor 0x1405108xx takes one with 0x140511650(table, level) (linear search for a
+// free slot, `cmp ebx, 0x800`) and keeps the result in level+0x78 - which is -1 when every slot is taken. Both dumps:
+// 2,048 of 2,048 used (an earlier single-player dump: 1,106). A level with index -1 gives its objects id 0xFFFF
+// (-> the null holder lookups above), and when its load completes, 0x140514736 indexes the twin with -1:
+// slot[-1] is the table lock's name pointer, taken for an object and released -> AV at 0x140514761.
+//   * SlotStub: at 0x140514736 (`movsx rbx, word [rdi+0x78]`), a negative index skips the store and resumes at
+//     0x140514786 (drop the local reference, unlock, carry on). Clobbers rax (dead there).
+//   * Hook_LevelSlot: the constructor's call at 0x140510A76, logged when it fails - with what fills the table
+//     (names by prefix, names held more than once) the first time, so the cause of the overflow can be fixed.
+static const uintptr_t SITE_SLOTIDX  = 0x514736;   // movsx rbx, word ptr [rdi+0x78] ; shl rbx, 4 ; lea rax, [twin]  [P]
+static const uintptr_t SITE_SLOTSKIP = 0x514786;   // mov rcx, [rsp+0x58] ; test rcx, rcx ; je ; release ...          [P]
+static const uintptr_t FN_SLOTALLOC  = 0x511650, SITE_SLOTALLOC = 0x510A76, RVA_TWIN = 0x1C402F0;
+static const uint8_t kSlotIdx[12]  = { 0x48, 0x0F, 0xBF, 0x5F, 0x78, 0x48, 0xC1, 0xE3, 0x04, 0x48, 0x8D, 0x05 };
+static const uint8_t kSlotSkip[8]  = { 0x48, 0x8B, 0x4C, 0x24, 0x58, 0x48, 0x85, 0xC9 };
+static volatile LONG g_slotSkip = 0, g_noSlot = 0;
+static uintptr_t s_base = 0;
+
+inline int EmitSlotStub(uint8_t* p, uint64_t resume, volatile LONG* counter)
+{
+    Asm a(p);
+    a.b({ 0x48, 0x0F, 0xBF, 0x5F, 0x78 });                // movsx rbx, word ptr [rdi+0x78]
+    a.b({ 0x48, 0x85, 0xDB });                            // test rbx, rbx
+    const int js = a.jcc(0x78);                           // js bad
+    a.b({ 0xC3 });                                        // ret -> shl rbx, 4 ...
+    a.bind(js);
+    a.b({ 0x48, 0xB8 }); a.q(reinterpret_cast<uint64_t>(counter));
+    a.b({ 0xF0, 0xFF, 0x00 });                            // lock inc dword ptr [rax]
+    a.b({ 0x48, 0xB8 }); a.q(resume);                     // mov rax, resume
+    a.b({ 0x48, 0x89, 0x04, 0x24 });                      // mov [rsp], rax
+    a.b({ 0xC3 });                                        // ret -> the skip
+    return a.n;
+}
+
+static const char* LevelName(void* level)
+{
+    __try
+    {
+        void** vt = *reinterpret_cast<void***>(level);
+        typedef const char* (__fastcall* NameFn)(void*);
+        const char* s = reinterpret_cast<NameFn>(vt[0x88 / 8])(level);
+        return (s && s[0]) ? s : nullptr;
+    }
+    __except (EXCEPTION_EXECUTE_HANDLER) { return nullptr; }
+}
+
+// What fills the table: used slots, names by prefix (up to the last '_'), and how many names are held twice or more.
+static void LogSlotCensus(const char* why)
+{
+    struct E { char k[40]; int n; };
+    static E pre[96]; static uint32_t seen[4096]; int np = 0, used = 0, named = 0, dup = 0, ns = 0;
+    __try
+    {
+        void** twin = g_twin;
+        for (int i = 0; twin && i < g_slotCap; ++i)
+        {
+            void* lv = twin[2 * i];
+            if (!lv) continue;
+            ++used;
+            const char* s = LevelName(lv);
+            if (!s) continue;
+            ++named;
+            uint32_t h = 2166136261u; int len = 0, cut = 0;
+            for (const char* q = s; *q && len < 200; ++q, ++len) { h = (h ^ static_cast<uint8_t>(*q | 0x20)) * 16777619u; if (*q == '_') cut = len; }
+            bool had = false;
+            for (int j = 0; j < ns && !had; ++j) had = seen[j] == h;
+            if (had) ++dup; else if (ns < 4096) seen[ns++] = h;
+            char k[40]; int kl = cut > 0 ? cut : len; if (kl > 39) kl = 39;
+            std::memcpy(k, s, kl); k[kl] = 0;
+            int j = 0;
+            for (; j < np; ++j) if (!_stricmp(pre[j].k, k)) { ++pre[j].n; break; }
+            if (j == np && np < 96) { std::memcpy(pre[np].k, k, 40); pre[np].n = 1; ++np; }
+        }
+    }
+    __except (EXCEPTION_EXECUTE_HANDLER) {}
+    Log("!!! level table (%s): %d of %d slots used, %d named, %d distinct names, %d repeats of a name already held\n",
+        why, used, g_slotCap, named, ns, dup);
+    for (int r = 0; r < 14; ++r)                                         // the 14 biggest prefixes
+    {
+        int best = -1;
+        for (int j = 0; j < np; ++j) if (pre[j].n > 0 && (best < 0 || pre[j].n > pre[best].n)) best = j;
+        if (best < 0) break;
+        Log("    level table: %4d x %s_*\n", pre[best].n, pre[best].k);
+        pre[best].n = -pre[best].n;
+    }
+}
+
+typedef uint64_t(__fastcall* SlotAllocFn)(void* table, void* level);
+static uint64_t __fastcall Hook_LevelSlot(void* table, void* level)
+{
+    const uint64_t r = reinterpret_cast<SlotAllocFn>(s_base + FN_SLOTALLOC)(table, level);
+    static volatile LONG s_calls = 0, s_mark = 0;
+    const LONG c = InterlockedIncrement(&s_calls);
+    if (static_cast<int16_t>(r) < 0)
+    {
+        const LONG n = InterlockedIncrement(&g_noSlot);
+        if (n <= 12) { const char* s = LevelName(level); Log("!!! level table FULL (%d slots): no slot for %.80s (%ld so far)\n", g_slotCap, s ? s : "?", n); }
+        if (n == 1) LogSlotCensus("full");
+    }
+    else if ((c & 31) == 0)                                              // a census each time 200 more slots are in use
+    {
+        int used = 0;
+        __try { void** twin = g_twin; for (int i = 0; twin && i < g_slotCap; ++i) if (twin[2 * i]) ++used; }
+        __except (EXCEPTION_EXECUTE_HANDLER) {}
+        const LONG step = used / 200;
+        if (step > s_mark && used >= 1200) { InterlockedExchange(&s_mark, step); LogSlotCensus("growing"); }
+    }
+    return r;
+}
+static CallPatch g_slotAlloc = { "level slot", SITE_SLOTALLOC, FN_SLOTALLOC, nullptr, 0, false };
 
 // ---- installation ---------------------------------------------------------------------------------------------------
 
@@ -259,6 +376,36 @@ static void Init(uintptr_t base, bool on)
         Log("  guard holder2: %d of %d more lookups guarded\n", n, (int)(sizeof(g_holderMore) / sizeof(g_holderMore[0])));
     }
 
+    // 1c. [slots] the level table is full: skip the store at index -1, and log the failed allocations
+    s_base = base;
+    g_twin = reinterpret_cast<void**>(base + RVA_TWIN);
+    __try                                                              // [slots2] what did the loader do?
+    {
+        const uint32_t lim = *reinterpret_cast<const uint32_t*>(base + 0x512DC1);        // 0x140512DC0 mov eax, <last id>
+        const uint8_t* lea = reinterpret_cast<const uint8_t*>(base + 0x5116C2);            // lea rcx, [twin]
+        int32_t rel; std::memcpy(&rel, lea + 3, 4);
+        g_twin = reinterpret_cast<void**>(const_cast<uint8_t*>(lea) + 7 + rel);
+        if (lim == 0xFFF) { g_idMax = 0xFFF; g_slotCap = 0x1000; }
+        char why[16] = "?"; GetEnvironmentVariableA("LCU_LEVEL_SLOTS", why, sizeof why);
+        Log("level table: %d slots (%s; loader result %s: 1 = enlarged, -1 = switched off by lcu_stock_level_table.txt, "
+            "-2 = not the expected game code or too late, -3 = no memory near the game, -4 = write failed), twin at %p\n",
+            g_slotCap, g_slotCap == 0x1000 ? "ENLARGED" : "stock - co-op and busy areas can still fill it", why, (void*)g_twin);
+    }
+    __except (EXCEPTION_EXECUTE_HANDLER) { g_twin = reinterpret_cast<void**>(base + RVA_TWIN); }
+    if (Same(base + SITE_SLOTIDX, kSlotIdx, 12) && Same(base + SITE_SLOTSKIP, kSlotSkip, 8))
+    {
+        uint8_t* st = Stub(base, 48);
+        uint8_t code[5] = { 0, 0, 0, 0, 0 };
+        if (st && (EmitSlotStub(st, base + SITE_SLOTSKIP, &g_slotSkip), FlushInstructionCache(GetCurrentProcess(), st, 48), true) &&
+            CallAt(base + SITE_SLOTIDX, st, code) &&
+            Write(reinterpret_cast<uint8_t*>(base + SITE_SLOTIDX), code, 5, false))
+            Log("  guard slots   ok: level index -1 skips the table store at rva 0x%llX -> stub %p\n", (unsigned long long)SITE_SLOTIDX, (void*)st);
+        else Log("  guard slots   REFUSED: no stub memory / out of range\n");
+    }
+    else Log("  guard slots   REFUSED: the bytes at rva 0x%llX are not the expected ones\n", (unsigned long long)SITE_SLOTIDX);
+    g_slotAlloc.replacement = reinterpret_cast<void*>(&Hook_LevelSlot);
+    if (!ApplyPatch(base, g_slotAlloc)) Log("  level slot log NOT installed\n");
+
     // 2. level-or
     if (Same(base + SITE_LEVELOR, kLevelOr, 6) && Same(base + SITE_LEVELOR - 14, kLevelCtx, 14))
     {
@@ -323,6 +470,12 @@ static void Tick(double t)
         "a message for an object whose level is gone (stock: crash at 0x4B9768)",
         "a level flag for an unloaded level (stock: crash at 0x511F54)",
         "a corrupt pool free list dropped, fresh memory used (stock: crash at 0x660BB2 / 0x2E70F0)" };
+    static LONG s_skipSaid = 0;
+    if (g_slotSkip != s_skipSaid)
+    {
+        s_skipSaid = g_slotSkip;
+        Log("!!! crashguard at %.1f s: a level without a table slot finished loading (stock: crash at 0x514761) - %ld so far this session\n", t, s_skipSaid);
+    }
     for (int i = 0; i < 3; ++i)
         if (now[i] != s_said[i] && t >= s_next[i])
         {

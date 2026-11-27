@@ -3062,6 +3062,31 @@ static DWORD WINAPI Main(LPVOID)
     }
     cc::Init(g_base, g_cfgBuf[0]);
     cg::Init(g_base, GetPrivateProfileIntA("general", "crash_guards", 1, g_iniPath) != 0);   // [crashguard]
+    // [drivers1 2026-11-26] Traffic cars on the mod's roads had nobody at the wheel. A traffic car's driver is a
+    // krawlie from the zone "CityWideDriverZone" (CityKrawlieManager vt[29] 0x1400AEB60) - but only when the car's x / z
+    // lie inside that zone's box (zone+0x28 -> +0x40 / +0x48 min, +0x50 / +0x58 max), i.e. inside the stock city;
+    // otherwise the base class looks for a krawlie zone at the car, and the new areas have none. The first of the four
+    // `jb` (0x1400AEBB0: 72 3A) becomes `jmp +0x22` to the spawn at 0x1400AEBD4: the driver zone serves every road.
+    // [general] drivers_everywhere = 0 keeps the game's own check.
+    if (GetPrivateProfileIntA("general", "drivers_everywhere", 1, g_iniPath) != 0)
+    {
+        static const uint8_t kDrvChk[41] = {
+            0x41, 0x0F, 0x2F, 0x48, 0x40, 0x72, 0x3A, 0xF3, 0x41, 0x0F, 0x10, 0x40, 0x50, 0x0F, 0x2F, 0xC1, 0x72, 0x2F, 0xF3, 0x0F, 0x10,
+            0x48, 0x08, 0x41, 0x0F, 0x2F, 0x48, 0x48, 0x72, 0x23, 0xF3, 0x41, 0x0F, 0x10, 0x40, 0x58, 0x0F, 0x2F, 0xC1, 0x72, 0x18 };
+        uint8_t* site = reinterpret_cast<uint8_t*>(g_base + 0xAEBB0);
+        bool same = false;
+        __try { same = std::memcmp(reinterpret_cast<const void*>(g_base + 0xAEBAB), kDrvChk, sizeof kDrvChk) == 0; }
+        __except (EXCEPTION_EXECUTE_HANDLER) {}
+        DWORD old = 0;
+        if (same && VirtualProtect(site, 2, PAGE_EXECUTE_READWRITE, &old))
+        {
+            *reinterpret_cast<volatile uint16_t*>(site) = 0x22EB;                 // jmp short 0x1400AEBD4 (one 2-byte store)
+            VirtualProtect(site, 2, old, &old);
+            FlushInstructionCache(GetCurrentProcess(), site, 2);
+            Log("traffic drivers: the city-wide driver zone now serves every road (rva 0xAEBB0)\n");
+        }
+        else Log("traffic drivers: NOT patched (%s) - cars outside the stock city have no driver\n", same ? "no write access" : "unexpected code");
+    }
     g_jetPatch.replacement = reinterpret_cast<void*>(&Hook_Jetpack);
     if (!ApplyPatch(g_base, g_jetPatch)) Log("jetpack patch NOT installed: the game's own jetpack.\n");
     pt::g_origSweep = reinterpret_cast<pt::SweepFn>(g_base + pt::FN_SWEEP);

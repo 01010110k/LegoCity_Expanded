@@ -354,7 +354,7 @@ def make_repo(out_root, version, docs_vals, report):
     for f in sorted(os.listdir(src)):
         if f.endswith((".h", ".cpp")) or f == "build.bat":
             shutil.copyfile(os.path.join(src, f), os.path.join(mod, f))
-    for f in ["dinput8_proxy.cpp", "dinput8.def", "build_proxy.bat"]:
+    for f in ["dinput8_proxy.cpp", "dinput8.def", "build_proxy.bat", "levelslots.h", "levelslots_table.h"]:
         t = open(os.path.join(src, "proxy", f), encoding="utf-8").read()
         # the developer build's fallback path is the author's own folder: a neutral one in the public copy
         t = re.sub(r'L"C:\\\\Users\\\\[^\\"]+\\\\LCU-Modding\\\\Drive\\\\lcudrive\.dll"', r'L"C:\\\\LCU-Modding\\\\Drive\\\\lcudrive.dll"', t)
